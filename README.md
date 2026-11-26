@@ -138,6 +138,54 @@ contribution, competition, discussion, restaurant, announcement), not shortcuts.
 sequential, so this is many heads over time, not at once. The far glance needs no swarm: it
 is one head whose sweep sometimes reaches across the map.
 
+## Fields (`fields.py`): temperature, loop aversion, goal-tagged aversion
+
+The plain hidden walker steps only to something warmer: temperature zero. `fields.py` tries
+three ways off a hill that is not the target, on the same pairs with the same seeds:
+perception (the far glance: 6 random words' warmth at each new anchor), behaviour
+(temperature: when nothing is warmer it heats up and may step to the warmest word it read
+even if colder, accepted with exp(dw/T); an uphill step cools it) and memory (2000 plain
+trainers sought 20 goals; each failure left its last word as a trap tagged with its goal; a
+later walker reads the warmth of each old goal under its own goal, one call each, and avoids
+the traps of old goals warmer than a 20th-neighbour cosine). Loops get a hard reflex (never
+step back onto a stood-on word) or a learned trace (a recent move x→y is refused, a single
+return allowed). Two controls: hot (always step to the warmest word read, colder or not) and
+blind (step to a random word read).
+
+```
+python fields.py --bank ../SweepSol/bank.json
+```
+
+Sol's Qwen map, horizon 20, 150 beats, 300 fresh pairs per set (`runs/fields_qwen_h20`):
+
+| arrived | seen goals | near goals (new) | new goals | searches / warmth calls (seen) |
+|---|---|---|---|---|
+| plain | 49% | 55% | 55% | 500 / 54 |
+| far glance | 59% | 71% | 68% | 409 / 79 |
+| temperature | 95% | 100% | 98% | 200 / 132 |
+| temperature + reflex | 96% | 99% | 98% | 198 / 135 |
+| temperature + learned loops | 95% | 100% | 98% | 200 / 132 |
+| hot (control) | 91% | 99% | 97% | 242 / 172 |
+| blind (control) | 5% | 8% | 5% | 877 / 575 |
+| aversion | 58% | 55% | 55% | 423 / 75 |
+| aversion + glance | 69% | 71% | 68% | 327 / 99 |
+| temperature + learned + glance | 97% | 100% | 98% | 155 / 173 |
+
+- Temperature does nearly all of it: against the plain walker 138/0, 133/0, 130/0 (pairs
+  only one reached), with 2 to 5 downhill steps per journey and about 2.5 times fewer map
+  searches, though more warmth calls. Hot does about as well; blind almost never arrives. So
+  the warmth landscape is good almost everywhere; its hills are shallow, and the plain walker
+  failed because it would never step down.
+- Loops had nothing to do: with temperature a walker revisits a word 0.1 to 0.7 times per
+  journey, because the coverage trace (inhibition of return) is already an inborn reflex.
+  The learned loop trace changed no outcome. On this map no runaway loops formed.
+- Aversion works only for goals it was learned on: seen goals 49% to 58% (29/0, p 4e-9), and
+  it adds to the glance (59% to 69%, 30/0). For new goals near the old ones it was in force
+  (12 trap words per walker) and did nothing (2/3); for unrelated goals it hardly applied
+  and did no harm. What a walker learned chasing rewrite did not help a walker chasing a
+  neighbour of rewrite. The traps were also the plain walker's hills, which a warm walker
+  crosses anyway.
+
 ## Not in v1
 
 - the ECG loop as the clock (beats are fixed-length here);
