@@ -94,6 +94,50 @@ anchor's N nearest words, so a pursuit has to find stepping stones. On Sol's Qwe
 At horizon 20 knowing the direction got stuck on a local hill, while the hidden walker, which
 hops look-planes when a side stays cold, arrived.
 
+## Swarm (`swarm.py`)
+
+Many hidden-target walkers on the same frozen map, one after another, as in an ant colony:
+each arrived walker lays its anchor path (loops cut) down as a trail, trails evaporate a
+little after every walker, and a later walker reads the 6 strongest trails out of each
+anchor it stands on (one read each; a trail may lead past the horizon). Then fresh pairs,
+each walked six ways with the same seed: no trails, the swarm's trails, the same trail graph
+with its words shuffled, the same number of random edges, 6 random swarm-visited words at
+every anchor, and 6 random words of the whole map at every anchor.
+
+```
+python swarm.py --bank ../SweepSol/bank.json                 # 2000 walkers, random pairs
+python swarm.py --bank ../SweepSol/bank.json --targets 20    # 20 fixed "food" words
+```
+
+Sol's Qwen map, horizon 20, 2000 walkers, 300 fresh pairs per set (`runs/swarm_qwen_*`):
+
+| arrived | none | roads | shuffled | random edges | swarm-word jumps | any-word jumps |
+|---|---|---|---|---|---|---|
+| random pairs: fresh pairs | 43% | 47% | 56% | 53% | 66% | 60% |
+| random pairs: fresh words | 47% | 49% | 56% | 53% | 63% | 60% |
+| 20 food words: fresh pairs | 51% | 52% | 59% | 52% | 65% | 64% |
+| 20 food words: fresh words | 50% | 50% | 56% | 55% | 67% | 65% |
+| 20 food words: new starts, same food | 47% | 47% | 54% | 51% | 62% | 59% |
+
+The swarm's roads did not help: paired against no trails, 22/11, 15/8, 12/11, 8/8, 8/8
+(pairs only one of them reached), and they cost more reads. About 90% of the trail edges
+lie inside the horizon (median edge cosine 0.53 against 0.47 for a 20th neighbour), so a
+road mostly shows the walker what it would have seen anyway: said–stated,
+longitude–latitude, judge–jury, email–emails.
+
+What helped was looking far. Jumps to random words of the whole map beat no trails in every
+set (70/19, 68/27, 64/26, 70/26, 58/22; sign test p < 1e-4 each). The shuffled graph beat the
+real one in every set (p from 0.0009 to 0.015): same places, edges made long. Jumps to
+swarm-visited words were ahead of jumps to any word in all five sets, but not clearly
+(52/35, 44/37, 46/42, 51/45, 42/34). The failures were walkers stuck on a warmth hill
+inside their horizon; one warmer read from far away lets them leave it.
+
+So on this map many heads give a census of where paths pass (`doors.txt`: with 20 food
+words stated, frequency, longitude, relationship, sql, Excel, court, null; with random pairs
+contribution, competition, discussion, restaurant, announcement), not shortcuts. Walkers are
+sequential, so this is many heads over time, not at once. The far glance needs no swarm: it
+is one head whose sweep sometimes reaches across the map.
+
 ## Not in v1
 
 - the ECG loop as the clock (beats are fixed-length here);

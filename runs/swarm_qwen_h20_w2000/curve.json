@@ -1,0 +1,112 @@
+[
+ {
+  "n": 200,
+  "arrived": 92,
+  "rate": 0.46,
+  "median_reads_arrived": 78.0,
+  "mean_cost": 524.67,
+  "mean_moves_arrived": 6.076086956521739,
+  "road_commits": 4,
+  "upto": 200,
+  "edges": 548
+ },
+ {
+  "n": 200,
+  "arrived": 103,
+  "rate": 0.515,
+  "median_reads_arrived": 82.0,
+  "mean_cost": 480.8,
+  "mean_moves_arrived": 6.077669902912621,
+  "road_commits": 12,
+  "upto": 400,
+  "edges": 1158
+ },
+ {
+  "n": 200,
+  "arrived": 98,
+  "rate": 0.49,
+  "median_reads_arrived": 75.0,
+  "mean_cost": 498.29,
+  "mean_moves_arrived": 5.540816326530612,
+  "road_commits": 19,
+  "upto": 600,
+  "edges": 1661
+ },
+ {
+  "n": 200,
+  "arrived": 108,
+  "rate": 0.54,
+  "median_reads_arrived": 77.0,
+  "mean_cost": 459.75,
+  "mean_moves_arrived": 5.694444444444445,
+  "road_commits": 35,
+  "upto": 800,
+  "edges": 2221
+ },
+ {
+  "n": 200,
+  "arrived": 101,
+  "rate": 0.505,
+  "median_reads_arrived": 78.0,
+  "mean_cost": 488.42,
+  "mean_moves_arrived": 5.465346534653466,
+  "road_commits": 47,
+  "upto": 1000,
+  "edges": 2694
+ },
+ {
+  "n": 200,
+  "arrived": 90,
+  "rate": 0.45,
+  "median_reads_arrived": 84.0,
+  "mean_cost": 538.74,
+  "mean_moves_arrived": 5.977777777777778,
+  "road_commits": 52,
+  "upto": 1200,
+  "edges": 3153
+ },
+ {
+  "n": 200,
+  "arrived": 98,
+  "rate": 0.49,
+  "median_reads_arrived": 82.5,
+  "mean_cost": 504.51,
+  "mean_moves_arrived": 5.704081632653061,
+  "road_commits": 48,
+  "upto": 1400,
+  "edges": 3628
+ },
+ {
+  "n": 200,
+  "arrived": 95,
+  "rate": 0.475,
+  "median_reads_arrived": 85.0,
+  "mean_cost": 518.37,
+  "mean_moves_arrived": 5.905263157894737,
+  "road_commits": 44,
+  "upto": 1600,
+  "edges": 4117
+ },
+ {
+  "n": 200,
+  "arrived": 99,
+  "rate": 0.495,
+  "median_reads_arrived": 82.0,
+  "mean_cost": 500.32,
+  "mean_moves_arrived": 5.555555555555555,
+  "road_commits": 59,
+  "upto": 1800,
+  "edges": 4570
+ },
+ {
+  "n": 200,
+  "arrived": 114,
+  "rate": 0.57,
+  "median_reads_arrived": 87.0,
+  "mean_cost": 442.285,
+  "mean_moves_arrived": 5.745614035087719,
+  "road_commits": 69,
+  "upto": 2000,
+  "edges": 5082
+ }
+]

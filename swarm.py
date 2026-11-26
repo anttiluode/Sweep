@@ -9,7 +9,7 @@ down as a trail: +1 on each edge, both ways. Trails evaporate a little after eve
 A later walker standing on a word also reads the k strongest trails out of it, once on
 arrival, at the cost of one read each. A trail can lead past the horizon.
 
-Then fresh pairs, each run four ways with the same seed:
+Then fresh pairs, each run six ways with the same seed:
   none      no trails
   roads     the trails the swarm laid
   relabel   the same trail graph with its words shuffled (same shape, wrong places)
@@ -322,7 +322,7 @@ def main():
           f"{tunnels} edges ({tunnels / max(len(trained), 1):.0%}) join words outside each other's "
           f"{a.horizon}-word horizon (tunnels); median edge cosine "
           f"{np.median(cosines):.3f} (map: 20th-neighbour cosine {bank.coh_ref:.3f}).", "",
-          "## Fresh pairs, same seed, four ways", "",
+          "## Fresh pairs, same seed, six ways", "",
           "Cost counts every read, trail reads included; a walker that never arrives costs the "
           "whole budget.", ""]
     for sname, d in results.items():
