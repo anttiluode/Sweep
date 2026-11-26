@@ -186,6 +186,37 @@ Sol's Qwen map, horizon 20, 150 beats, 300 fresh pairs per set (`runs/fields_qwe
   neighbour of rewrite. The traps were also the plain walker's hills, which a warm walker
   crosses anyway.
 
+## Map before reader (`develop.py`)
+
+Theory's `access.py` found the map before the reader in Pythia-410m: by step 1000 the word
+states sort held-out words into their families (0.78) and sit next to their own category
+word (0.69), while the model's own yes/no answers are at 0.08; at the end the outside
+reader is at 0.97 and the model's answers at 0.39. `fields.py` found the same shape with a
+walker on Qwen: the map is navigable (98–100% with temperature), the plain walker, which
+never steps down, gets about 50%. In both, what was missing was not knowledge in the map
+but flexibility in the reader. Gopnik ([2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7293160))
+describes childhood as the high-temperature phase of a simulated annealing: broad search
+first, narrowing later.
+
+`develop.py` asks the developmental version: is the map walkable before the model can
+answer from it? It builds a bank at each Pythia checkpoint (`bank.py --revision stepN`, same
+words and frame) and sends the same 300 pairs through plain, temp, hot and blind walkers.
+
+Arrival alone is not meaning. A calibration here: on a random cloud with the Qwen bank's
+shape, the temperature walker still arrives 85% of the time (plain 38%, blind 5%). So each
+path found on a young map is also scored in the final map, as the mean final-map cosine
+between consecutive anchors. On that random cloud it is 0.004; on a half-random mix 0.33; on
+the Qwen map itself 0.55. (Random word pairs: 0.003.)
+
+```
+python develop.py --model EleutherAI/pythia-410m --steps 0,512,1000,2000,4000,16000,143000
+```
+
+Prediction, written before the run: at step 1000 the temperature walker arrives and its
+paths already make sense to the grown model (final-map step cosine well above random),
+while Pythia's own answers are at 0.08. At step 0 it may arrive too, with step cosine near
+random. Not yet run: it needs the checkpoints (about 0.9 GB each) and a GPU for the banks.
+
 ## Not in v1
 
 - the ECG loop as the clock (beats are fixed-length here);

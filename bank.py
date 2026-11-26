@@ -102,19 +102,31 @@ def main():
     ap.add_argument("--extra", default="", help="comma-separated words to include (multi-token allowed: last token)")
     ap.add_argument("--batch", type=int, default=32)
     ap.add_argument("--dtype", default="float32", choices=["float32", "float16", "bfloat16"])
+    ap.add_argument("--revision", default=None, help="a training checkpoint, e.g. step1000 for Pythia")
     ap.add_argument("--out", default=None)
     a = ap.parse_args()
+    load_and_build(a.model, a.device, a.n, a.extra, a.batch, a.dtype, a.revision, a.out)
+
+
+def load_and_build(model_name, device, n=8000, extra="", batch=32, dtype="float32", revision=None, out=None,
+                   log=print):
 
     from transformers import AutoModelForCausalLM, AutoTokenizer
-    tok = AutoTokenizer.from_pretrained(a.model)
-    dt = getattr(torch, a.dtype)
+    kw = {"revision": revision} if revision else {}
+    tok = AutoTokenizer.from_pretrained(model_name, **kw)
+    dt = getattr(torch, dtype)
     try:
-        model = AutoModelForCausalLM.from_pretrained(a.model, dtype=dt)
+        model = AutoModelForCausalLM.from_pretrained(model_name, dtype=dt, **kw)
     except TypeError:
-        model = AutoModelForCausalLM.from_pretrained(a.model, torch_dtype=dt)
-    model = model.to(a.device).eval()
-    build(model, tok, a.model, a.device, a.n, EXTRA + [w.strip() for w in a.extra.split(",") if w.strip()],
-          a.batch, a.out)
+        model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=dt, **kw)
+    model = model.to(device).eval()
+    name = model_name + (f"@{revision}" if revision else "")
+    path = build(model, tok, name, device, n, EXTRA + [w.strip() for w in extra.split(",") if w.strip()],
+                 batch, out, log)
+    del model
+    if device.startswith("cuda"):
+        torch.cuda.empty_cache()
+    return path
 
 
 def build(model, tok, name, device, n, extra, batch, out=None, log=print):
