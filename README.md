@@ -215,7 +215,36 @@ python develop.py --model EleutherAI/pythia-410m --steps 0,512,1000,2000,4000,16
 Prediction, written before the run: at step 1000 the temperature walker arrives and its
 paths already make sense to the grown model (final-map step cosine well above random),
 while Pythia's own answers are at 0.08. At step 0 it may arrive too, with step cosine near
-random. Not yet run: it needs the checkpoints (about 0.9 GB each) and a GPU for the banks.
+random.
+
+Run on Nov 26 (Antti's machine, `runs/develop_pythia-410m_h20`), layer 12, 300 pairs.
+Pythia's own family answers are from Theory's `access.py`:
+
+| step | plain | temp | blind | final-map step cosine | moves | shares a waypoint with the final route | Pythia's own answers |
+|---|---|---|---|---|---|---|---|
+| 0 | 31% | 93% | 9% | 0.003 | 16.0 | 2% | 0.19 |
+| 512 | 28% | 74% | 6% | 0.270 | 14.8 | 12% | 0.08 |
+| 1000 | 40% | 91% | 5% | 0.369 | 12.7 | 26% | 0.08 |
+| 2000 | 53% | 96% | 10% | 0.418 | 10.5 | 40% | 0.19 |
+| 4000 | 54% | 98% | 6% | 0.441 | 9.8 | 46% | 0.58 |
+| 16000 | 58% | 98% | 9% | 0.464 | 10.0 | 53% | 0.42 |
+| 143000 | 54% | 98% | 7% | 0.484 | 10.5 | 100% | 0.39 |
+
+- The prediction holds. The untrained network's map is walkable (93%) and its paths mean
+  nothing to the grown model (0.003; random pairs 0.000). At step 1000 the walker arrives
+  91% of the time along steps already 76% as related as the grown model's own (0.369 of
+  0.484), while Pythia answers 0.08.
+- Step 512 is harder to walk than step 0 (74%, 384 searches against 270). The first
+  structure is a sink: Spain, Afghanistan, Russia, Syria, Africa and Italy are the most
+  frequent waypoints (42, 38, 38, 36, 30, 26 of the temp paths' intermediate words), and the
+  place names stay frequent waypoints at every later step (US states at the end).
+- The plain walker never catches up: from step 2000 on it stays at 53–58% while temp is at
+  96–98%. Temperature rescued 119 to 188 pairs per checkpoint and lost at most one.
+- Young walkers arrive by their own routes. The share of pairs whose route shares any
+  intermediate word with the final model's route grows from 2% to 53% at step 16000.
+- Example, golf to worried: step 1000 goes hunting, fought, wounded, arrested, fired,
+  attacked, killed, burned, ...; step 4000 goes hunting, fighting, struggling, confused,
+  surprised, scared, worried.
 
 ## Not in v1
 
