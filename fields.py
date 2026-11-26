@@ -148,7 +148,11 @@ CONDS = {
     "temp+learned+glance": {"temp": 0.01, "loops": "learned", "glance": 6},
 }
 
-G = {}      # filled in the parent before the pool forks
+G = {}      # filled in every worker by init (Windows starts workers fresh)
+
+
+def init(bank_path, layer, horizon, beats, traps):
+    G.update(bank=Bank.load(bank_path, layer), horizon=horizon, beats=beats, traps=traps)
 
 
 def walk(s, g, cfg, seed):
@@ -201,7 +205,7 @@ def main():
 
     # ---- trainers: plain walkers to the goals; failures leave goal-tagged warnings
     train = make_pairs(B, pool, a.trainers, rng, targets=goals)
-    with Pool(a.procs) as P:
+    with Pool(a.procs, init, (a.bank, a.layer, a.horizon, a.beats, {})) as P:
         chunks = [("train", "none", train[i::a.procs]) for i in range(a.procs)]
         rows = [r for _, _, rr in P.map(job, chunks) for r in rr]
     traps = {}
@@ -220,7 +224,7 @@ def main():
             "near": make_pairs(B, pool, a.test, rng, banned_words=banned, targets=near),
             "new": make_pairs(B, pool, a.test, rng, banned_words=banned)}
     jobs = [(s, c, p) for s, p in sets.items() for c in CONDS]
-    with Pool(a.procs) as P:
+    with Pool(a.procs, init, (a.bank, a.layer, a.horizon, a.beats, traps)) as P:
         res = {}
         for s, c, rr in P.imap_unordered(job, jobs):
             res.setdefault(s, {})[c] = rr

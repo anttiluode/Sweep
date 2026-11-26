@@ -46,7 +46,12 @@ CONDS = {
     "hot": {"temp": 10.0, "tmax": 10.0, "heat": 1.0, "cool": 1.0, "loops": "reflex"},
     "blind": {"blind": True, "loops": "reflex"},
 }
-G = {}
+G = {}      # filled in every worker by init (Windows starts workers fresh)
+
+
+def init(files, labels, layer, horizon, beats):
+    banks = {lab: Bank.load(f, layer) for lab, f in zip(labels, files)}
+    G.update(banks=banks, final=banks[labels[-1]], horizon=horizon, beats=beats)
 
 
 def job(args):
@@ -116,7 +121,7 @@ def main():
 
     jobs = [(lab, c, pairs) for lab in labels for c in CONDS]
     res = {}
-    with Pool(a.procs) as P:
+    with Pool(a.procs, init, ([str(f) for f in files], labels, a.layer, a.horizon, a.beats)) as P:
         for lab, c, rows in P.imap_unordered(job, jobs):
             res.setdefault(lab, {})[c] = rows
             print(f"  {lab:12s} {c:6s} arrived {np.mean([r['arrived'] for r in rows]):.0%}  "
