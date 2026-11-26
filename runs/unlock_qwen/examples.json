@@ -1,0 +1,360 @@
+{
+ "bird+shadow": {
+  "top16": [
+   "bean"
+  ],
+  "top64": [
+   "star",
+   "island",
+   "bone",
+   "arrow",
+   "child",
+   "alien"
+  ],
+  "full": [
+   "star",
+   "island",
+   "bone",
+   "arrow"
+  ]
+ },
+ "bird+winter": {
+  "top16": [
+   "moon",
+   "forest",
+   "river",
+   "mountain",
+   "sun",
+   "garden",
+   "grass",
+   "lake",
+   "island",
+   "hair",
+   "water",
+   "farm",
+   "star"
+  ],
+  "top64": [
+   "river",
+   "mountain",
+   "star",
+   "sky",
+   "forest",
+   "moon",
+   "island"
+  ],
+  "full": [
+   "sky",
+   "star",
+   "forest",
+   "river",
+   "rain",
+   "beach",
+   "mountain",
+   "city"
+  ]
+ },
+ "shadow+winter": {
+  "top16": [
+   "moon",
+   "mountain",
+   "storm",
+   "air",
+   "sun",
+   "wind",
+   "grass",
+   "river",
+   "death"
+  ],
+  "top64": [
+   "moon",
+   "storm",
+   "star",
+   "day",
+   "stars",
+   "island"
+  ],
+  "full": [
+   "storm",
+   "mountain",
+   "ocean",
+   "sun",
+   "moon",
+   "forest",
+   "star",
+   "day",
+   "stars",
+   "death",
+   "river"
+  ]
+ },
+ "sun+low": {
+  "top16": [
+   "blue",
+   "top",
+   "eight",
+   "date",
+   "east",
+   "far",
+   "hip",
+   "five",
+   "night"
+  ],
+  "top64": [
+   "well",
+   "sol",
+   "light",
+   "top",
+   "hot",
+   "out",
+   "south"
+  ],
+  "full": [
+   "light",
+   "sol",
+   "top",
+   "well",
+   "south"
+  ]
+ },
+ "shadow+sun": {
+  "top16": [
+   "head"
+  ],
+  "top64": [
+   "island",
+   "eye"
+  ],
+  "full": [
+   "light"
+  ]
+ },
+ "bird+shadow+winter": {
+  "top16": [
+   "moon",
+   "mountain",
+   "sun",
+   "grass",
+   "lake",
+   "star",
+   "river"
+  ],
+  "top64": [
+   "star",
+   "moon",
+   "island",
+   "river",
+   "storm",
+   "stars",
+   "child"
+  ],
+  "full": [
+   "star",
+   "mountain",
+   "storm",
+   "sun",
+   "moon",
+   "island",
+   "forest",
+   "river",
+   "ocean",
+   "wing"
+  ]
+ },
+ "bird+shadow+evening": {
+  "top16": [
+   "mountain",
+   "moon",
+   "earth",
+   "ocean",
+   "sky",
+   "sun",
+   "head",
+   "grass",
+   "wall",
+   "river",
+   "forest"
+  ],
+  "top64": [
+   "moon",
+   "island",
+   "snow",
+   "storm",
+   "river",
+   "beach",
+   "eye",
+   "ocean",
+   "star"
+  ],
+  "full": [
+   "moon",
+   "storm",
+   "island",
+   "beach",
+   "star",
+   "eye",
+   "mountain",
+   "forest",
+   "river"
+  ]
+ },
+ "bird+love": {
+  "top16": [
+   "hair",
+   "heart",
+   "brain",
+   "money",
+   "eye",
+   "god",
+   "blood",
+   "nose",
+   "face",
+   "mouth",
+   "milk",
+   "boy",
+   "child",
+   "sky"
+  ],
+  "top64": [
+   "god",
+   "heart",
+   "moon",
+   "brain",
+   "boy",
+   "hair",
+   "wind",
+   "eye",
+   "blood",
+   "voice",
+   "friend",
+   "fruit",
+   "God"
+  ],
+  "full": [
+   "wind",
+   "moon",
+   "heart",
+   "god",
+   "voice",
+   "cloud",
+   "eye",
+   "sky",
+   "girl",
+   "hair",
+   "fire"
+  ]
+ },
+ "shadow+memory": {
+  "top16": [
+   "letter",
+   "voice",
+   "atom",
+   "reflection",
+   "image",
+   "flavor"
+  ],
+  "top64": [
+   "voice",
+   "thoughts",
+   "thought",
+   "eye"
+  ],
+  "full": [
+   "heart",
+   "voice",
+   "signature",
+   "thought",
+   "thoughts"
+  ]
+ },
+ "corner+light": {
+  "top16": [
+   "path",
+   "circle",
+   "cloud",
+   "height",
+   "cross",
+   "mountain",
+   "arm",
+   "hour",
+   "field"
+  ],
+  "top64": [
+   "line",
+   "mountain",
+   "finger",
+   "road",
+   "floor",
+   "wall",
+   "window",
+   "grid",
+   "foot",
+   "wheel",
+   "star",
+   "gear"
+  ],
+  "full": [
+   "line",
+   "window",
+   "finger",
+   "mountain",
+   "direction",
+   "head",
+   "road",
+   "foot",
+   "tower",
+   "height",
+   "layer"
+  ]
+ },
+ "oak+guitar": {
+  "top16": [
+   "bread",
+   "lettuce",
+   "iron",
+   "sword",
+   "mouse"
+  ],
+  "top64": [
+   "diamond",
+   "carrot",
+   "bread"
+  ],
+  "full": [
+   "diamond",
+   "cabinet",
+   "desk",
+   "poker"
+  ]
+ },
+ "fire+water": {
+  "top16": [],
+  "top64": [],
+  "full": [
+   "power"
+  ]
+ },
+ "winter+home": {
+  "top16": [
+   "river",
+   "holiday",
+   "space",
+   "year"
+  ],
+  "top64": [
+   "forest",
+   "sky",
+   "world",
+   "day",
+   "city",
+   "moon",
+   "mountain"
+  ],
+  "full": [
+   "forest",
+   "outdoor",
+   "sky",
+   "outside"
+  ]
+ }
+}

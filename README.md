@@ -246,6 +246,45 @@ Pythia's own family answers are from Theory's `access.py`:
   attacked, killed, burned, ...; step 4000 goes hunting, fighting, struggling, confused,
   surprised, scared, worried.
 
+## Unlock (`unlock.py`): do two cues open what neither opens alone?
+
+From Antti's bird: an object Katrina bought, and a shadow it casts only when the sun is this
+low; neither opens anything on an ordinary day, together they open a whole package. On the
+frozen map: the conjunction of cues a and b is the unit vector of a + b; the words it
+unlocks are its 20 nearest that are in neither cue's 20 nearest. Sol's Qwen bank, 6000 pairs
+binned by how related the two cues are (`runs/unlock_qwen`):
+
+| cue cosine | unlocked of 20 | depth behind the single cues (median rank) | relation to both (min cosine) | package (mean pairwise cosine) |
+|---|---|---|---|---|
+| −0.34 to −0.07 | 10.4 | 80 | 0.14 | 0.29 |
+| −0.07 to +0.01 | 9.8 | 66 | 0.20 | 0.31 |
+| +0.01 to +0.11 | 8.9 | 52 | 0.25 | 0.33 |
+| +0.11 to +0.34 | 7.0 | 38 | 0.31 | 0.36 |
+| +0.34 to +0.45 | 3.5 | 27 | 0.38 | 0.36 |
+| +0.45 to +0.86 | 2.4 | 25 | 0.43 | 0.40 |
+| control: a cue + a random direction | 10.0 | 56 | | 0.31 |
+
+A single cue's own 20 nearest have package 0.36. No sink: the 20 most frequent unlocked
+words are 1.4% of all of them.
+
+- Unrelated cues unlock the most and the deepest, but no better than adding a random
+  direction: their package (0.29) is below the noise control (0.31). That is arithmetic,
+  not a key.
+- Closely related cues unlock little, just past the horizon, but what they open is tighter
+  than either cue's own neighbourhood (0.40 against 0.36).
+- Between them, at cue cosine about 0.1 to 0.35, a pair opens 7 new words from about rank
+  38 behind each cue, related to both, as coherent as a single cue's neighbourhood. The
+  cues of the story sit there: bird–shadow 0.32, bird–winter 0.29, shadow–winter 0.19.
+- What they open on this map is generic: bird + winter gives sky, star, forest, river,
+  rain, beach, mountain, city; shadow + winter gives storm, mountain, ocean, sun, moon,
+  forest, star, day, stars, death, river; bird + shadow + winter gives star, mountain,
+  storm, sun, moon, island, forest, river, ocean, wing. The model's map holds the scene, not
+  the person. The tag that makes a package someone's own is not in the frozen weights.
+- Grain changes the package. bird + love: at the 16 coarsest PCs hair, heart, brain, money,
+  eye, god, blood (depth 90); in the full space wind, moon, heart, god, voice, cloud, eye,
+  sky, girl (depth 68). shadow + memory: at 16 PCs letter, voice, atom, reflection, image;
+  in full heart, voice, signature, thought, thoughts.
+
 ## Not in v1
 
 - the ECG loop as the clock (beats are fixed-length here);
