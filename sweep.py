@@ -106,8 +106,9 @@ class Sweep:
     def __init__(self, bank, start, mode="forage", target=None, switch=None, switch_at=None,
                  width=0.6, ticks=6, vmax=0.35, reach=1.0, grain=2, regulate=True,
                  coverage=True, cover_decay=0.04, cover_w=0.15, alternate=True,
-                 dwell_min=2, dwell_max=6, eta=0.25, momentum=0.5, horizon=0, seed=0):
+                 dwell_min=2, dwell_max=6, eta=0.25, momentum=0.5, horizon=0, roads=None, seed=0):
         self.B = bank
+        self.roads = roads          # callable anchor -> word indices (swarm.py); read on arrival
         self.a = self._idx(start)
         self.mode = mode
         self.g = self._idx(target) if target is not None else None
@@ -137,6 +138,7 @@ class Sweep:
         self.log, self.anchors = [], [self.a]
         self.reads_total = 0
         self.found_at = None
+        self.road_cands, self.road_reads, self._road_at = [], 0, None
 
     def _idx(self, w):
         if w not in self.B.index:
@@ -212,6 +214,15 @@ class Sweep:
             if self.g is not None and r == self.g and self.found_at is None:
                 self.found_at = self.reads_total
         self.c *= (1.0 - self.decay)
+        road = []
+        if self.roads is not None and self._road_at != self.a:   # trails out of this place, read once
+            self._road_at = self.a
+            road = [int(r) for r in self.roads(self.a) if int(r) != self.a]
+            for r in road:
+                self.reads_total += 1
+                self.road_reads += 1
+                if self.g is not None and r == self.g and self.found_at is None:
+                    self.found_at = self.reads_total
         uniq = list(dict.fromkeys(reads))
         rec = {"beat": self.beat, "side": "L" if self.side > 0 else "R", "theta": round(self.theta, 3),
                "axis": round(self.b, 3), "grain": grain[0], "anchor": self.B.words[self.a],
@@ -226,6 +237,11 @@ class Sweep:
             rec["anchor_warmth"] = round(self.warmth(self.a), 3)
             self.warm_side[self.side] = max(w)
             self.cands.extend(zip(uniq, w))
+            if road:
+                rw = [self.warmth(r) for r in road]
+                self.road_cands = list(zip(road, rw))
+                rec["road"] = [self.B.words[r] for r in road]
+                rec["warmth"] = round(max(rec["warmth"], max(rw)), 3)
         else:
             self.cands.extend(zip(uniq, [c * n for c, n in zip(coh, nov)]))
         self.dwell += 1
@@ -242,11 +258,12 @@ class Sweep:
 
     def _decide(self, rec):
         """Commit: the anchor moves only here."""
-        if self.dwell < self.dwell_min or not self.cands:
+        pool = self.cands + self.road_cands
+        if self.dwell < self.dwell_min or not pool:
             return False
-        best, val = max(self.cands, key=lambda kv: kv[1])
+        best, val = max(pool, key=lambda kv: kv[1])
         if self.g is not None:
-            if self.g in [i for i, _ in self.cands]:
+            if self.g in [i for i, _ in pool]:
                 best, val = self.g, 1.0
             go = val > self.warmth(self.a) + 1e-9
             if not go:
@@ -272,7 +289,7 @@ class Sweep:
         if self.mode == "hidden":
             self.b = 0.0
             self.warm_side = {1: None, -1: None}
-        self.dwell, self.stall, self.cands = 0, 0, []
+        self.dwell, self.stall, self.cands, self.road_cands = 0, 0, [], []
         self.anchors.append(self.a)
         rec["commit"] = self.B.words[self.a]
         return True
