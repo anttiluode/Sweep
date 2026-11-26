@@ -14,7 +14,10 @@ Then fresh pairs, each run four ways with the same seed:
   roads     the trails the swarm laid
   relabel   the same trail graph with its words shuffled (same shape, wrong places)
   random    the same number of edges between random words, same weights
-The last two are what roads must beat: more reads per anchor, and a graph of that size.
+  hub_jumps at every anchor, k trail words drawn afresh (where the swarm went, no edges)
+  any_jumps at every anchor, k words of the whole map drawn afresh
+The controls are what roads must beat: more reads per anchor, a graph of that size, or
+just jumping somewhere.
 
 The door census is the words that most often lie inside arrived paths.
 
@@ -80,6 +83,19 @@ class Trails:
             t.w[i][j] = t.w[i].get(j, 0.0) + v
             t.w[j][i] = t.w[j].get(i, 0.0) + v
         return t
+
+
+class Jumps:
+    """k words drawn afresh at every anchor from a fixed list (no edges, no learned structure)."""
+    def __init__(self, words, k, seed=0):
+        self.words, self.k = np.asarray(words), k
+        self.rng = np.random.default_rng(seed)
+        self._cache = {}
+
+    def __call__(self, a):
+        if a not in self._cache:
+            self._cache[a] = [int(x) for x in self.rng.choice(self.words, self.k, replace=False)]
+        return self._cache[a]
 
 
 def loop_erase(path):
@@ -224,7 +240,8 @@ def main():
     rand = Trails.from_edges([(int(rng.integers(n_words)), int(rng.integers(n_words)), v)
                               for _, _, v in trained], k)
     frozen = Trails.from_edges(trained, k)
-    conds = {"none": None, "roads": frozen, "relabel": relabel, "random": rand}
+    conds = {"none": None, "roads": frozen, "relabel": relabel, "random": rand,
+             "hub_jumps": "hubs", "any_jumps": "any"}
 
     # ---- fresh pairs
     used_pairs = set(train_pairs)
@@ -240,8 +257,15 @@ def main():
     for sname, pairs in sets.items():
         results[sname] = {}
         for cname, roads in conds.items():
-            results[sname][cname] = [walk(bank, s, g, roads, a.beats, a.horizon, seed=10 ** 7 + n)
-                                     for n, (s, g) in enumerate(pairs)]
+            rows = []
+            for n, (s, g) in enumerate(pairs):
+                r = roads
+                if r == "hubs":                     # every anchor: k fresh trail words, anywhere
+                    r = Jumps(trail_words, k, seed=n)
+                elif r == "any":                    # every anchor: k fresh words of the whole map
+                    r = Jumps(np.arange(n_words), k, seed=n)
+                rows.append(walk(bank, s, g, r, a.beats, a.horizon, seed=10 ** 7 + n))
+            results[sname][cname] = rows
         print(f"  {sname}: " + ", ".join(f"{c} {summarise(results[sname][c], budget)['rate']:.0%}"
                                          for c in conds) + f"  ({time.time() - t0:.0f}s)")
 
@@ -312,7 +336,7 @@ def main():
                      f"{'' if m['mean_moves_arrived'] is None else round(m['mean_moves_arrived'], 1)} | "
                      f"{m['road_commits']} |")
         L.append("")
-        for cname in ("roads", "relabel", "random"):
+        for cname in [c for c in conds if c != "none"]:
             oa, ob, fa, sl, nb = paired(d[cname], d["none"])
             L.append(f"- {cname} vs none: only {cname} arrived {oa}, only none arrived {ob}; "
                      f"both arrived {nb}, {cname} cheaper in {fa}, dearer in {sl}")
