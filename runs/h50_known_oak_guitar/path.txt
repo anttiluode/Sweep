@@ -1,0 +1,4 @@
+b000 L th=+2.10 ax=+1.57 [ b4_32] @oak            saw: Oak onion piano carrot   warm +0.33->+0.71
+b001 R th=+0.97 ax=+1.57 [ b4_32] @oak            saw: Ohio Iowa Oak axe Wood lumber   warm +0.33->+0.43   -> piano
+b002 L th=+2.43 ax=+1.83 [ b4_32] @piano          saw: guitar violin laptop dictionary basketball   warm +0.71->+1.00
+b003 R th=+1.23 ax=+1.83 [ b4_32] @piano          saw: smartphone violin television keyboard guitar knife   warm +0.71->+1.00   -> guitar

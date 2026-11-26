@@ -106,7 +106,7 @@ class Sweep:
     def __init__(self, bank, start, mode="forage", target=None, switch=None, switch_at=None,
                  width=0.6, ticks=6, vmax=0.35, reach=1.0, grain=2, regulate=True,
                  coverage=True, cover_decay=0.04, cover_w=0.15, alternate=True,
-                 dwell_min=2, dwell_max=6, eta=0.25, momentum=0.5, seed=0):
+                 dwell_min=2, dwell_max=6, eta=0.25, momentum=0.5, horizon=0, seed=0):
         self.B = bank
         self.a = self._idx(start)
         self.mode = mode
@@ -120,6 +120,8 @@ class Sweep:
         self.alternate = alternate
         self.dwell_min, self.dwell_max = dwell_min, dwell_max
         self.eta, self.mom = eta, momentum
+        self.horizon = horizon                          # 0: the eye sees the whole map
+        self._near = None
         self.rng = np.random.default_rng(seed)
         n = len(bank.words)
         self.c = np.zeros(n)
@@ -196,6 +198,12 @@ class Sweep:
             score = self.B.E[grain[0]] @ q
             if self.coverage:
                 score = score - self.cw * self.c
+            if self.horizon:                             # the eye reaches only the anchor's surroundings
+                if self._near is None or self._near[0] != self.a:
+                    m = np.full(len(score), -np.inf)
+                    m[self.B.neighbours(self.a, self.horizon)] = 0.0
+                    self._near = (self.a, m)
+                score = score + self._near[1]
             score[self.a] = -np.inf
             r = int(np.argmax(score))
             reads.append(r)
@@ -433,7 +441,7 @@ def main_run(bank, a, log=print):
     g0 = gate0(bank, a.start, a.target, log)
     sw = Sweep(bank, a.start, mode=a.mode, target=a.target, switch=a.switch, switch_at=a.switch_at,
                width=a.width, ticks=a.ticks, grain=a.grain, coverage=not a.no_coverage,
-               alternate=not a.no_alternate, seed=a.seed)
+               alternate=not a.no_alternate, horizon=a.horizon, seed=a.seed)
     sw.run(a.beats)
     refs, extra = {}, {"tag": tag, "gate0": {k: v[1] for k, v in g0.items()}}
     if a.mode == "forage":
@@ -520,6 +528,8 @@ def main():
     ap.add_argument("--grain", type=int, default=2, help="starting grain index, 0 = coarsest")
     ap.add_argument("--no-coverage", action="store_true")
     ap.add_argument("--no-alternate", action="store_true")
+    ap.add_argument("--horizon", type=int, default=0,
+                    help="the eye sees only the anchor's N nearest words (0 = whole map). Try 50.")
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--out", default="runs")
     ap.add_argument("--tag")

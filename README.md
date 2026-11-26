@@ -78,6 +78,22 @@ anchors, revisits, k-means regions touched and mean step cosine. These are for r
 path, not gates. For pursuit it reports when the target was first seen, whether it was
 reached, and an oracle hill-climb that sees all ten neighbours' warmth.
 
+## Horizon
+
+By default the probe reads the nearest word anywhere on the map, so with a known target the
+head simply sees it: oak to guitar in one step. `--horizon N` lets the eye reach only the
+anchor's N nearest words, so a pursuit has to find stepping stones. On Sol's Qwen map:
+
+| horizon | known target | hidden target (warmth only) |
+|---|---|---|
+| whole map | oak, guitar | |
+| 50 | oak, piano, guitar | oak, coal, coin, doll, dress, bike, laptop, piano, guitar |
+| 20 | oak, carrot, fruit (stuck) | oak, coal, coin, pen, knife, guitar |
+| 10 | oak, axe, knife, gun, guitar | oak, axe, knife, gun, guitar |
+
+At horizon 20 knowing the direction got stuck on a local hill, while the hidden walker, which
+hops look-planes when a side stays cold, arrived.
+
 ## Not in v1
 
 - the ECG loop as the clock (beats are fixed-length here);

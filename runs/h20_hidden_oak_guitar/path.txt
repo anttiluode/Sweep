@@ -1,0 +1,10 @@
+b000 L th=+0.60 ax=+0.00 [ b4_32] @oak            saw: Oak onion   warm +0.33->+0.39
+b001 R th=-0.60 ax=+0.00 [ b4_32] @oak            saw: pine maple coal onion corn log   warm +0.33->+0.42   -> coal
+b002 L th=+0.60 ax=+0.00 [ b4_32] @coal           saw: alcohol acid coin gold cloud   warm +0.42->+0.44
+b003 R th=-0.60 ax=+0.00 [ b4_32] @coal           saw: salt alcohol oil flour coins coin   warm +0.42->+0.44   -> coin
+b004 L th=+0.60 ax=+0.00 [ b4_32] @coin           saw: cookie key coins money Money token   warm +0.44->+0.42
+b005 R th=-0.60 ax=+0.00 [ b4_32] @coin           saw: card ring pin pen key lock   warm +0.44->+0.47   -> pen
+b006 L th=+0.60 ax=+0.00 [ b4_32] @pen            saw: Pen comb paper pin   warm +0.47->+0.47
+b007 R th=-0.60 ax=+0.00 [ b4_32] @pen            saw: knife pan bench hat fan desk   warm +0.47->+0.56   -> knife
+b008 L th=+0.60 ax=+0.00 [ b4_32] @knife          saw: hammer guitar gun axe iron stick   warm +0.56->+1.00
+b009 R th=-0.60 ax=+0.00 [ b4_32] @knife          saw: sword hammer brush shield stick   warm +0.56->+0.56   -> guitar

@@ -1,0 +1,8 @@
+b000 L th=+0.60 ax=+0.00 [ b4_32] @oak            saw: Oak pine   warm +0.33->+0.22
+b001 R th=-0.60 ax=+0.00 [ b4_32] @oak            saw: maple wood coal corn log axe   warm +0.33->+0.43   -> axe
+b002 L th=+0.60 ax=+0.00 [ b4_32] @axe            saw: knife hammer brush sword saw arrow   warm +0.43->+0.56
+b003 R th=-0.60 ax=+0.00 [ b4_32] @axe            saw: knife bench brush key hammer saw   warm +0.43->+0.56   -> knife
+b004 L th=+0.60 ax=+0.00 [ b4_32] @knife          saw: gun pen iron oven key   warm +0.56->+0.59
+b005 R th=-0.60 ax=+0.00 [ b4_32] @knife          saw: keyboard pen iron gun   warm +0.56->+0.59   -> gun
+b006 L th=+0.60 ax=+0.00 [ b4_32] @gun            saw: Gun guns weapon   warm +0.59->+0.48
+b007 R th=-0.60 ax=+0.00 [ b4_32] @gun            saw: guitar Gun fan weapon guns   warm +0.59->+1.00   -> guitar

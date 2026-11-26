@@ -1,0 +1,212 @@
+{
+ "log": [
+  {
+   "beat": 0,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "oak",
+   "reads": [
+    "Oak",
+    "onion"
+   ],
+   "coherence": 0.646,
+   "novelty": 1.0,
+   "warmth": 0.389,
+   "anchor_warmth": 0.332
+  },
+  {
+   "beat": 1,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "oak",
+   "reads": [
+    "pine",
+    "maple",
+    "coal",
+    "onion",
+    "corn",
+    "log"
+   ],
+   "coherence": 0.525,
+   "novelty": 0.833,
+   "warmth": 0.416,
+   "anchor_warmth": 0.332,
+   "commit": "coal"
+  },
+  {
+   "beat": 2,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "coal",
+   "reads": [
+    "alcohol",
+    "acid",
+    "coin",
+    "gold",
+    "cloud"
+   ],
+   "coherence": 0.534,
+   "novelty": 1.0,
+   "warmth": 0.443,
+   "anchor_warmth": 0.416
+  },
+  {
+   "beat": 3,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "coal",
+   "reads": [
+    "salt",
+    "alcohol",
+    "oil",
+    "flour",
+    "coins",
+    "coin"
+   ],
+   "coherence": 0.559,
+   "novelty": 0.667,
+   "warmth": 0.443,
+   "anchor_warmth": 0.416,
+   "commit": "coin"
+  },
+  {
+   "beat": 4,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "coin",
+   "reads": [
+    "cookie",
+    "key",
+    "coins",
+    "money",
+    "Money",
+    "token"
+   ],
+   "coherence": 0.616,
+   "novelty": 0.833,
+   "warmth": 0.422,
+   "anchor_warmth": 0.443
+  },
+  {
+   "beat": 5,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "coin",
+   "reads": [
+    "card",
+    "ring",
+    "pin",
+    "pen",
+    "key",
+    "lock"
+   ],
+   "coherence": 0.526,
+   "novelty": 0.833,
+   "warmth": 0.471,
+   "anchor_warmth": 0.443,
+   "commit": "pen"
+  },
+  {
+   "beat": 6,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "pen",
+   "reads": [
+    "Pen",
+    "comb",
+    "paper",
+    "pin"
+   ],
+   "coherence": 0.675,
+   "novelty": 0.75,
+   "warmth": 0.466,
+   "anchor_warmth": 0.471
+  },
+  {
+   "beat": 7,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "pen",
+   "reads": [
+    "knife",
+    "pan",
+    "bench",
+    "hat",
+    "fan",
+    "desk"
+   ],
+   "coherence": 0.579,
+   "novelty": 1.0,
+   "warmth": 0.559,
+   "anchor_warmth": 0.471,
+   "commit": "knife"
+  },
+  {
+   "beat": 8,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "knife",
+   "reads": [
+    "hammer",
+    "guitar",
+    "gun",
+    "axe",
+    "iron",
+    "stick"
+   ],
+   "coherence": 0.611,
+   "novelty": 1.0,
+   "warmth": 1.0,
+   "anchor_warmth": 0.559
+  },
+  {
+   "beat": 9,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "knife",
+   "reads": [
+    "sword",
+    "hammer",
+    "brush",
+    "shield",
+    "stick"
+   ],
+   "coherence": 0.61,
+   "novelty": 0.6,
+   "warmth": 0.555,
+   "anchor_warmth": 0.559,
+   "commit": "guitar"
+  }
+ ],
+ "refs": {},
+ "tag": "h20_hidden_oak_guitar",
+ "gate0": {
+  "sides_alternate": "1.00 of beats switch side",
+  "grain_changes_reads": "16/16 probes read differently across grains; e.g. top8:nude / top16:date / b4_32:pine / top64:maple / full:maple",
+  "coverage_repels": "distinct reads 118 with trace, 1 without",
+  "probe_leaves_heading": "axis +1.57 rad while anchor stays on oak"
+ },
+ "reads to first see target": 50,
+ "reached target as anchor": true,
+ "oracle hill-climb reads (sees all 10 neighbours' warmth)": 40
+}

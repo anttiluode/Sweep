@@ -1,0 +1,18 @@
+b000 L th=+0.60 ax=+0.00 [ b4_32] @oak            saw: Oak Ohio Oregon Iowa   warm +0.33->+0.18
+b001 R th=-0.60 ax=+0.00 [ b4_32] @oak            saw: Iraq onion Oak coal Wood log   warm +0.33->+0.42   -> coal
+b002 L th=+0.60 ax=+0.00 [ b4_32] @coal           saw: alcohol acid lead coin bean cloud   warm +0.42->+0.44
+b003 R th=-0.60 ax=+0.00 [ b4_32] @coal           saw: gold salt fuel bone oil coins   warm +0.42->+0.35   -> coin
+b004 L th=+0.60 ax=+0.00 [ b4_32] @coin           saw: cookie icon coins money Money doll   warm +0.44->+0.49
+b005 R th=-0.60 ax=+0.00 [ b4_32] @coin           saw: key token ring pen pin mirror   warm +0.44->+0.47   -> doll
+b006 L th=+0.60 ax=+0.00 [ b4_32] @doll           saw: dummy toy girl kid monster   warm +0.49->+0.44
+b007 R th=-0.60 ax=+0.00 [ b4_32] @doll           saw: mask dress hat dish shirt tent   warm +0.49->+0.53   -> dress
+b008 L th=+0.60 ax=+0.00 [ b4_32] @dress          saw: desk bench fashion dance   warm +0.53->+0.47
+b009 R th=-0.60 ax=+0.00 [ b4_32] @dress          saw: dish bed desk bench table   warm +0.53->+0.47
+b010 L th=+0.60 ax=+0.00 [ b4_32] @dress          saw: clothes comb picture basket church clock   warm +0.53->+0.45
+b011 R th=-0.85 ax=-0.25 [ b4_32] @dress          saw: clothing brush shoes suit bike house   warm +0.53->+0.54   -> bike
+b012 L th=+0.60 ax=+0.00 [ b4_32] @bike           saw: laptop chair cycle knife axe garage   warm +0.54->+0.64
+b013 R th=-0.60 ax=+0.00 [ b4_32] @bike           saw: laptop plane bus train truck phone   warm +0.54->+0.64   -> laptop
+b014 L th=+0.60 ax=+0.00 [ b4_32] @laptop         saw: smartphone basketball keyboard wallet hotel football   warm +0.64->+0.58
+b015 R th=-0.60 ax=+0.00 [ b4_32] @laptop         saw: computer piano television smartphone processor telephone   warm +0.64->+0.71   -> piano
+b016 L th=+0.60 ax=+0.00 [ b4_32] @piano          saw: violin guitar Xbox wine plane   warm +0.71->+1.00
+b017 R th=-0.60 ax=+0.00 [ b4_32] @piano          saw: radio speaker guitar poker newspaper   warm +0.71->+1.00   -> guitar

@@ -1,0 +1,375 @@
+{
+ "log": [
+  {
+   "beat": 0,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "oak",
+   "reads": [
+    "Oak",
+    "Ohio",
+    "Oregon",
+    "Iowa"
+   ],
+   "coherence": 0.509,
+   "novelty": 1.0,
+   "warmth": 0.178,
+   "anchor_warmth": 0.332
+  },
+  {
+   "beat": 1,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "oak",
+   "reads": [
+    "Iraq",
+    "onion",
+    "Oak",
+    "coal",
+    "Wood",
+    "log"
+   ],
+   "coherence": 0.51,
+   "novelty": 0.833,
+   "warmth": 0.416,
+   "anchor_warmth": 0.332,
+   "commit": "coal"
+  },
+  {
+   "beat": 2,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "coal",
+   "reads": [
+    "alcohol",
+    "acid",
+    "lead",
+    "coin",
+    "bean",
+    "cloud"
+   ],
+   "coherence": 0.513,
+   "novelty": 1.0,
+   "warmth": 0.443,
+   "anchor_warmth": 0.416
+  },
+  {
+   "beat": 3,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "coal",
+   "reads": [
+    "gold",
+    "salt",
+    "fuel",
+    "bone",
+    "oil",
+    "coins"
+   ],
+   "coherence": 0.529,
+   "novelty": 1.0,
+   "warmth": 0.354,
+   "anchor_warmth": 0.416,
+   "commit": "coin"
+  },
+  {
+   "beat": 4,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "coin",
+   "reads": [
+    "cookie",
+    "icon",
+    "coins",
+    "money",
+    "Money",
+    "doll"
+   ],
+   "coherence": 0.594,
+   "novelty": 0.833,
+   "warmth": 0.492,
+   "anchor_warmth": 0.443
+  },
+  {
+   "beat": 5,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "coin",
+   "reads": [
+    "key",
+    "token",
+    "ring",
+    "pen",
+    "pin",
+    "mirror"
+   ],
+   "coherence": 0.522,
+   "novelty": 1.0,
+   "warmth": 0.471,
+   "anchor_warmth": 0.443,
+   "commit": "doll"
+  },
+  {
+   "beat": 6,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "doll",
+   "reads": [
+    "dummy",
+    "toy",
+    "girl",
+    "kid",
+    "monster"
+   ],
+   "coherence": 0.553,
+   "novelty": 1.0,
+   "warmth": 0.437,
+   "anchor_warmth": 0.492
+  },
+  {
+   "beat": 7,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "doll",
+   "reads": [
+    "mask",
+    "dress",
+    "hat",
+    "dish",
+    "shirt",
+    "tent"
+   ],
+   "coherence": 0.544,
+   "novelty": 1.0,
+   "warmth": 0.531,
+   "anchor_warmth": 0.492,
+   "commit": "dress"
+  },
+  {
+   "beat": 8,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "dress",
+   "reads": [
+    "desk",
+    "bench",
+    "fashion",
+    "dance"
+   ],
+   "coherence": 0.496,
+   "novelty": 1.0,
+   "warmth": 0.467,
+   "anchor_warmth": 0.531
+  },
+  {
+   "beat": 9,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "dress",
+   "reads": [
+    "dish",
+    "bed",
+    "desk",
+    "bench",
+    "table"
+   ],
+   "coherence": 0.507,
+   "novelty": 0.4,
+   "warmth": 0.467,
+   "anchor_warmth": 0.531
+  },
+  {
+   "beat": 10,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "dress",
+   "reads": [
+    "clothes",
+    "comb",
+    "picture",
+    "basket",
+    "church",
+    "clock"
+   ],
+   "coherence": 0.491,
+   "novelty": 1.0,
+   "warmth": 0.449,
+   "anchor_warmth": 0.531
+  },
+  {
+   "beat": 11,
+   "side": "R",
+   "theta": -0.85,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "dress",
+   "reads": [
+    "clothing",
+    "brush",
+    "shoes",
+    "suit",
+    "bike",
+    "house"
+   ],
+   "coherence": 0.515,
+   "novelty": 1.0,
+   "warmth": 0.539,
+   "anchor_warmth": 0.531,
+   "commit": "bike"
+  },
+  {
+   "beat": 12,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "bike",
+   "reads": [
+    "laptop",
+    "chair",
+    "cycle",
+    "knife",
+    "axe",
+    "garage"
+   ],
+   "coherence": 0.559,
+   "novelty": 1.0,
+   "warmth": 0.639,
+   "anchor_warmth": 0.539
+  },
+  {
+   "beat": 13,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "bike",
+   "reads": [
+    "laptop",
+    "plane",
+    "bus",
+    "train",
+    "truck",
+    "phone"
+   ],
+   "coherence": 0.578,
+   "novelty": 0.833,
+   "warmth": 0.639,
+   "anchor_warmth": 0.539,
+   "commit": "laptop"
+  },
+  {
+   "beat": 14,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "laptop",
+   "reads": [
+    "smartphone",
+    "basketball",
+    "keyboard",
+    "wallet",
+    "hotel",
+    "football"
+   ],
+   "coherence": 0.589,
+   "novelty": 1.0,
+   "warmth": 0.584,
+   "anchor_warmth": 0.639
+  },
+  {
+   "beat": 15,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "laptop",
+   "reads": [
+    "computer",
+    "piano",
+    "television",
+    "smartphone",
+    "processor",
+    "telephone"
+   ],
+   "coherence": 0.59,
+   "novelty": 0.833,
+   "warmth": 0.71,
+   "anchor_warmth": 0.639,
+   "commit": "piano"
+  },
+  {
+   "beat": 16,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "piano",
+   "reads": [
+    "violin",
+    "guitar",
+    "Xbox",
+    "wine",
+    "plane"
+   ],
+   "coherence": 0.591,
+   "novelty": 0.8,
+   "warmth": 1.0,
+   "anchor_warmth": 0.71
+  },
+  {
+   "beat": 17,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "piano",
+   "reads": [
+    "radio",
+    "speaker",
+    "guitar",
+    "poker",
+    "newspaper"
+   ],
+   "coherence": 0.59,
+   "novelty": 0.8,
+   "warmth": 1.0,
+   "anchor_warmth": 0.71,
+   "commit": "guitar"
+  }
+ ],
+ "refs": {},
+ "tag": "h50_hidden_oak_guitar",
+ "gate0": {
+  "sides_alternate": "1.00 of beats switch side",
+  "grain_changes_reads": "16/16 probes read differently across grains; e.g. top8:nude / top16:date / b4_32:pine / top64:maple / full:maple",
+  "coverage_repels": "distinct reads 118 with trace, 1 without",
+  "probe_leaves_heading": "axis +1.57 rad while anchor stays on oak"
+ },
+ "reads to first see target": 98,
+ "reached target as anchor": true,
+ "oracle hill-climb reads (sees all 10 neighbours' warmth)": 40
+}

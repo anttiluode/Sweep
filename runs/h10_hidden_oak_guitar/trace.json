@@ -1,0 +1,168 @@
+{
+ "log": [
+  {
+   "beat": 0,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "oak",
+   "reads": [
+    "Oak",
+    "pine"
+   ],
+   "coherence": 0.722,
+   "novelty": 1.0,
+   "warmth": 0.218,
+   "anchor_warmth": 0.332
+  },
+  {
+   "beat": 1,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "oak",
+   "reads": [
+    "maple",
+    "wood",
+    "coal",
+    "corn",
+    "log",
+    "axe"
+   ],
+   "coherence": 0.52,
+   "novelty": 1.0,
+   "warmth": 0.434,
+   "anchor_warmth": 0.332,
+   "commit": "axe"
+  },
+  {
+   "beat": 2,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "axe",
+   "reads": [
+    "knife",
+    "hammer",
+    "brush",
+    "sword",
+    "saw",
+    "arrow"
+   ],
+   "coherence": 0.614,
+   "novelty": 1.0,
+   "warmth": 0.559,
+   "anchor_warmth": 0.434
+  },
+  {
+   "beat": 3,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "axe",
+   "reads": [
+    "knife",
+    "bench",
+    "brush",
+    "key",
+    "hammer",
+    "saw"
+   ],
+   "coherence": 0.602,
+   "novelty": 0.333,
+   "warmth": 0.559,
+   "anchor_warmth": 0.434,
+   "commit": "knife"
+  },
+  {
+   "beat": 4,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "knife",
+   "reads": [
+    "gun",
+    "pen",
+    "iron",
+    "oven",
+    "key"
+   ],
+   "coherence": 0.625,
+   "novelty": 0.8,
+   "warmth": 0.592,
+   "anchor_warmth": 0.559
+  },
+  {
+   "beat": 5,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "knife",
+   "reads": [
+    "keyboard",
+    "pen",
+    "iron",
+    "gun"
+   ],
+   "coherence": 0.612,
+   "novelty": 0.25,
+   "warmth": 0.592,
+   "anchor_warmth": 0.559,
+   "commit": "gun"
+  },
+  {
+   "beat": 6,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "gun",
+   "reads": [
+    "Gun",
+    "guns",
+    "weapon"
+   ],
+   "coherence": 0.75,
+   "novelty": 1.0,
+   "warmth": 0.479,
+   "anchor_warmth": 0.592
+  },
+  {
+   "beat": 7,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "gun",
+   "reads": [
+    "guitar",
+    "Gun",
+    "fan",
+    "weapon",
+    "guns"
+   ],
+   "coherence": 0.675,
+   "novelty": 0.4,
+   "warmth": 1.0,
+   "anchor_warmth": 0.592,
+   "commit": "guitar"
+  }
+ ],
+ "refs": {},
+ "tag": "h10_hidden_oak_guitar",
+ "gate0": {
+  "sides_alternate": "1.00 of beats switch side",
+  "grain_changes_reads": "16/16 probes read differently across grains; e.g. top8:nude / top16:date / b4_32:pine / top64:maple / full:maple",
+  "coverage_repels": "distinct reads 118 with trace, 1 without",
+  "probe_leaves_heading": "axis +1.57 rad while anchor stays on oak"
+ },
+ "reads to first see target": 43,
+ "reached target as anchor": true,
+ "oracle hill-climb reads (sees all 10 neighbours' warmth)": 40
+}

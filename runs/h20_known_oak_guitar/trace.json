@@ -1,0 +1,6015 @@
+{
+ "log": [
+  {
+   "beat": 0,
+   "side": "L",
+   "theta": 2.1,
+   "axis": 1.575,
+   "grain": "b4_32",
+   "anchor": "oak",
+   "reads": [
+    "Oak",
+    "onion",
+    "axe",
+    "carrot",
+    "maple"
+   ],
+   "coherence": 0.576,
+   "novelty": 1.0,
+   "warmth": 0.435,
+   "anchor_warmth": 0.332
+  },
+  {
+   "beat": 1,
+   "side": "R",
+   "theta": 0.975,
+   "axis": 1.575,
+   "grain": "b4_32",
+   "anchor": "oak",
+   "reads": [
+    "pine",
+    "Oak",
+    "onion",
+    "wood",
+    "axe",
+    "orange"
+   ],
+   "coherence": 0.562,
+   "novelty": 0.5,
+   "warmth": 0.434,
+   "anchor_warmth": 0.332,
+   "commit": "carrot"
+  },
+  {
+   "beat": 2,
+   "side": "L",
+   "theta": 2.545,
+   "axis": 1.945,
+   "grain": "b4_32",
+   "anchor": "carrot",
+   "reads": [
+    "bread",
+    "chocolate",
+    "lettuce",
+    "cabbage",
+    "corn",
+    "chicken"
+   ],
+   "coherence": 0.571,
+   "novelty": 1.0,
+   "warmth": 0.422,
+   "anchor_warmth": 0.435
+  },
+  {
+   "beat": 3,
+   "side": "R",
+   "theta": 1.345,
+   "axis": 1.945,
+   "grain": "b4_32",
+   "anchor": "carrot",
+   "reads": [
+    "butter",
+    "bread",
+    "cookie",
+    "fruit",
+    "lettuce"
+   ],
+   "coherence": 0.518,
+   "novelty": 0.6,
+   "warmth": 0.464,
+   "anchor_warmth": 0.435,
+   "commit": "fruit"
+  },
+  {
+   "beat": 4,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "food",
+    "Food",
+    "liquid",
+    "fish",
+    "rice",
+    "orange"
+   ],
+   "coherence": 0.517,
+   "novelty": 0.833,
+   "warmth": 0.369,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 5,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "foods",
+    "plant",
+    "Food",
+    "fuel",
+    "fish",
+    "food"
+   ],
+   "coherence": 0.541,
+   "novelty": 0.5,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 6,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "liquid",
+    "nut",
+    "flowers",
+    "corn",
+    "tree"
+   ],
+   "coherence": 0.5,
+   "novelty": 0.667,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 7,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "foods",
+    "leaf",
+    "Food",
+    "fuel",
+    "fish"
+   ],
+   "coherence": 0.513,
+   "novelty": 0.333,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 8,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "plants",
+    "egg",
+    "rice",
+    "orange",
+    "corn"
+   ],
+   "coherence": 0.481,
+   "novelty": 0.5,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 9,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "food",
+    "liquid",
+    "foods",
+    "flowers",
+    "fuel"
+   ],
+   "coherence": 0.52,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 10,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "nut",
+    "root",
+    "tree",
+    "rice",
+    "orange"
+   ],
+   "coherence": 0.505,
+   "novelty": 0.167,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 11,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "leaf",
+    "Food",
+    "food",
+    "fish",
+    "plants"
+   ],
+   "coherence": 0.533,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 12,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "liquid",
+    "nut",
+    "egg",
+    "corn",
+    "tree"
+   ],
+   "coherence": 0.489,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 13,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "plant",
+    "foods",
+    "flowers",
+    "Food",
+    "fuel"
+   ],
+   "coherence": 0.525,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 14,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "root",
+    "leaf",
+    "rice",
+    "orange",
+    "corn"
+   ],
+   "coherence": 0.489,
+   "novelty": 0.0,
+   "warmth": 0.369,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 15,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "food",
+    "fish",
+    "liquid",
+    "foods",
+    "fuel"
+   ],
+   "coherence": 0.515,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 16,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "plant",
+    "nut",
+    "egg",
+    "tree",
+    "orange"
+   ],
+   "coherence": 0.508,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 17,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "flowers",
+    "Food",
+    "food",
+    "fish",
+    "foods"
+   ],
+   "coherence": 0.535,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 18,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "liquid",
+    "root",
+    "rice",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.479,
+   "novelty": 0.0,
+   "warmth": 0.369,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 19,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "plants",
+    "Food",
+    "flowers",
+    "fuel",
+    "fish"
+   ],
+   "coherence": 0.506,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 20,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "plant",
+    "nut",
+    "egg",
+    "tree",
+    "rice"
+   ],
+   "coherence": 0.504,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 21,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "food",
+    "liquid",
+    "foods",
+    "Food",
+    "fuel"
+   ],
+   "coherence": 0.533,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 22,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "leaf",
+    "root",
+    "corn",
+    "nut",
+    "orange"
+   ],
+   "coherence": 0.495,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 23,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "plant",
+    "flowers",
+    "fish",
+    "food",
+    "tree"
+   ],
+   "coherence": 0.531,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 24,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "seed",
+    "egg",
+    "rice",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.492,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 25,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "liquid",
+    "foods",
+    "Food",
+    "leaf",
+    "fuel",
+    "fish"
+   ],
+   "coherence": 0.511,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 26,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "plants",
+    "root",
+    "nut",
+    "tree",
+    "rice"
+   ],
+   "coherence": 0.491,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 27,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "food",
+    "flowers",
+    "foods",
+    "Food",
+    "liquid"
+   ],
+   "coherence": 0.534,
+   "novelty": 0.0,
+   "warmth": 0.251,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 28,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "seeds",
+    "egg",
+    "corn",
+    "orange",
+    "rice"
+   ],
+   "coherence": 0.492,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 29,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "leaf",
+    "food",
+    "fish",
+    "fuel",
+    "flowers"
+   ],
+   "coherence": 0.519,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 30,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "plant",
+    "nut",
+    "root",
+    "tree",
+    "corn"
+   ],
+   "coherence": 0.507,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 31,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "liquid",
+    "foods",
+    "Food",
+    "fish",
+    "fuel"
+   ],
+   "coherence": 0.514,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 32,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "produce",
+    "egg",
+    "nut",
+    "orange",
+    "rice"
+   ],
+   "coherence": 0.485,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 33,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "food",
+    "flowers",
+    "Food",
+    "foods",
+    "fish"
+   ],
+   "coherence": 0.531,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 34,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "liquid",
+    "plants",
+    "root",
+    "corn",
+    "tree"
+   ],
+   "coherence": 0.503,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 35,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "seeds",
+    "food",
+    "fuel",
+    "Food",
+    "flowers"
+   ],
+   "coherence": 0.526,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 36,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "leaf",
+    "egg",
+    "nut",
+    "orange",
+    "rice"
+   ],
+   "coherence": 0.495,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 37,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "liquid",
+    "foods",
+    "fish",
+    "plants",
+    "fuel"
+   ],
+   "coherence": 0.509,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 38,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "root",
+    "tree",
+    "corn",
+    "orange",
+    "rice"
+   ],
+   "coherence": 0.496,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 39,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "food",
+    "Food",
+    "foods",
+    "flowers",
+    "fish"
+   ],
+   "coherence": 0.522,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 40,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "liquid",
+    "nut",
+    "egg",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.486,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 41,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "plant",
+    "plants",
+    "food",
+    "fuel",
+    "Food"
+   ],
+   "coherence": 0.543,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 42,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "seeds",
+    "root",
+    "tree",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.495,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 43,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "liquid",
+    "foods",
+    "fish",
+    "flowers",
+    "fuel"
+   ],
+   "coherence": 0.491,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 44,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "plant",
+    "nut",
+    "egg",
+    "orange",
+    "tree"
+   ],
+   "coherence": 0.517,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 45,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "food",
+    "plants",
+    "Food",
+    "foods",
+    "fish"
+   ],
+   "coherence": 0.539,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 46,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "liquid",
+    "root",
+    "nut",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.479,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 47,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "flowers",
+    "food",
+    "Food",
+    "fuel",
+    "plant"
+   ],
+   "coherence": 0.533,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 48,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "seed",
+    "egg",
+    "tree",
+    "orange",
+    "rice"
+   ],
+   "coherence": 0.508,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 49,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "liquid",
+    "foods",
+    "fish",
+    "flowers",
+    "fuel"
+   ],
+   "coherence": 0.49,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 50,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "produce",
+    "nut",
+    "root",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.486,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 51,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "food",
+    "Food",
+    "leaf",
+    "fish",
+    "foods"
+   ],
+   "coherence": 0.55,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 52,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "liquid",
+    "egg",
+    "tree",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.496,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 53,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "seeds",
+    "food",
+    "Food",
+    "flowers",
+    "fuel"
+   ],
+   "coherence": 0.515,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 54,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "plant",
+    "nut",
+    "root",
+    "orange",
+    "tree"
+   ],
+   "coherence": 0.509,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 55,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "leaf",
+    "foods",
+    "fish",
+    "liquid",
+    "fuel"
+   ],
+   "coherence": 0.513,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 56,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "egg",
+    "nut",
+    "rice",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.484,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 57,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "food",
+    "Food",
+    "flowers",
+    "fish",
+    "foods"
+   ],
+   "coherence": 0.522,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 58,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "plant",
+    "root",
+    "tree",
+    "corn",
+    "rice"
+   ],
+   "coherence": 0.502,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 59,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "liquid",
+    "leaf",
+    "Food",
+    "food",
+    "fuel"
+   ],
+   "coherence": 0.537,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 60,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "egg",
+    "nut",
+    "flowers",
+    "orange",
+    "corn"
+   ],
+   "coherence": 0.485,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 61,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "plant",
+    "foods",
+    "fish",
+    "liquid",
+    "Food"
+   ],
+   "coherence": 0.517,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 62,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "seed",
+    "root",
+    "tree",
+    "rice",
+    "orange"
+   ],
+   "coherence": 0.5,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 63,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "food",
+    "plants",
+    "fuel",
+    "fish",
+    "flowers"
+   ],
+   "coherence": 0.518,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 64,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "egg",
+    "nut",
+    "plant",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.501,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 65,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "liquid",
+    "foods",
+    "Food",
+    "food",
+    "fuel",
+    "fish"
+   ],
+   "coherence": 0.524,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 66,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "seed",
+    "root",
+    "tree",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.498,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 67,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "plants",
+    "flowers",
+    "foods",
+    "Food",
+    "liquid"
+   ],
+   "coherence": 0.506,
+   "novelty": 0.0,
+   "warmth": 0.306,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 68,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "nut",
+    "egg",
+    "tree",
+    "rice",
+    "orange"
+   ],
+   "coherence": 0.506,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 69,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "food",
+    "produce",
+    "fuel",
+    "fish",
+    "foods"
+   ],
+   "coherence": 0.516,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 70,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "leaf",
+    "root",
+    "nut",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.506,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 71,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "liquid",
+    "flowers",
+    "Food",
+    "food",
+    "fuel"
+   ],
+   "coherence": 0.515,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 72,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "egg",
+    "produce",
+    "tree",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.503,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 73,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "seed",
+    "fish",
+    "foods",
+    "Food",
+    "flowers"
+   ],
+   "coherence": 0.512,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 74,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "liquid",
+    "nut",
+    "root",
+    "orange",
+    "rice"
+   ],
+   "coherence": 0.491,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 75,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "food",
+    "plant",
+    "fish",
+    "fuel",
+    "foods"
+   ],
+   "coherence": 0.532,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 76,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "produce",
+    "egg",
+    "tree",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.502,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 77,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "liquid",
+    "Food",
+    "food",
+    "flowers",
+    "fish"
+   ],
+   "coherence": 0.516,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 78,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "nut",
+    "root",
+    "plants",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.491,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 79,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "produce",
+    "foods",
+    "fuel",
+    "Food",
+    "tree"
+   ],
+   "coherence": 0.522,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 80,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "liquid",
+    "egg",
+    "nut",
+    "orange",
+    "rice"
+   ],
+   "coherence": 0.496,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 81,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "food",
+    "flowers",
+    "fish",
+    "fuel",
+    "leaf"
+   ],
+   "coherence": 0.516,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 82,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "plants",
+    "root",
+    "egg",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.499,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 83,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "liquid",
+    "foods",
+    "Food",
+    "food",
+    "fish"
+   ],
+   "coherence": 0.536,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 84,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "seeds",
+    "tree",
+    "nut",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.489,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 85,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "flowers",
+    "plant",
+    "Food",
+    "fuel",
+    "foods"
+   ],
+   "coherence": 0.522,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 86,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "liquid",
+    "root",
+    "egg",
+    "tree",
+    "orange"
+   ],
+   "coherence": 0.488,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 87,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "food",
+    "produce",
+    "fish",
+    "flowers",
+    "fuel"
+   ],
+   "coherence": 0.522,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 88,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "leaf",
+    "nut",
+    "rice",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.492,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 89,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "liquid",
+    "Food",
+    "foods",
+    "food",
+    "fish"
+   ],
+   "coherence": 0.54,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 90,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "seed",
+    "root",
+    "tree",
+    "egg",
+    "rice"
+   ],
+   "coherence": 0.498,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 91,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "flowers",
+    "Food",
+    "foods",
+    "fuel",
+    "fish"
+   ],
+   "coherence": 0.502,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 92,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "nut",
+    "liquid",
+    "corn",
+    "orange",
+    "tree"
+   ],
+   "coherence": 0.49,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 93,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "plant",
+    "food",
+    "plants",
+    "Food",
+    "fuel"
+   ],
+   "coherence": 0.543,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 94,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "produce",
+    "root",
+    "egg",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.492,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 95,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "flowers",
+    "foods",
+    "food",
+    "fish",
+    "liquid"
+   ],
+   "coherence": 0.51,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 96,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "nut",
+    "plant",
+    "tree",
+    "orange",
+    "rice"
+   ],
+   "coherence": 0.515,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 97,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "plants",
+    "Food",
+    "foods",
+    "fuel",
+    "flowers"
+   ],
+   "coherence": 0.51,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 98,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "liquid",
+    "root",
+    "nut",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.485,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 99,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "food",
+    "fish",
+    "Food",
+    "egg",
+    "fuel"
+   ],
+   "coherence": 0.519,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 100,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "leaf",
+    "plants",
+    "tree",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.512,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 101,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "liquid",
+    "foods",
+    "food",
+    "fish",
+    "flowers"
+   ],
+   "coherence": 0.524,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 102,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "nut",
+    "root",
+    "egg",
+    "orange",
+    "rice"
+   ],
+   "coherence": 0.484,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 103,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "plant",
+    "Food",
+    "leaf",
+    "fuel",
+    "foods"
+   ],
+   "coherence": 0.523,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 104,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "plants",
+    "liquid",
+    "tree",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.502,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 105,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "food",
+    "flowers",
+    "fish",
+    "Food",
+    "fuel"
+   ],
+   "coherence": 0.52,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 106,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "nut",
+    "root",
+    "egg",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.48,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 107,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "leaf",
+    "foods",
+    "food",
+    "fish",
+    "liquid"
+   ],
+   "coherence": 0.539,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 108,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "plants",
+    "flowers",
+    "tree",
+    "orange",
+    "nut"
+   ],
+   "coherence": 0.504,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 109,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "Food",
+    "plant",
+    "foods",
+    "fuel",
+    "fish"
+   ],
+   "coherence": 0.521,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 110,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "liquid",
+    "egg",
+    "root",
+    "corn",
+    "rice"
+   ],
+   "coherence": 0.476,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 111,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "food",
+    "seed",
+    "Food",
+    "flowers",
+    "tree"
+   ],
+   "coherence": 0.541,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 112,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "produce",
+    "nut",
+    "orange",
+    "corn",
+    "rice"
+   ],
+   "coherence": 0.487,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 113,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "liquid",
+    "foods",
+    "fuel",
+    "fish",
+    "food"
+   ],
+   "coherence": 0.53,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 114,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "leaf",
+    "egg",
+    "root",
+    "orange",
+    "tree"
+   ],
+   "coherence": 0.496,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 115,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "plants",
+    "Food",
+    "flowers",
+    "fuel",
+    "fish"
+   ],
+   "coherence": 0.51,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 116,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "nut",
+    "liquid",
+    "corn",
+    "rice",
+    "orange"
+   ],
+   "coherence": 0.484,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 117,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "foods",
+    "food",
+    "Food",
+    "leaf",
+    "flowers"
+   ],
+   "coherence": 0.544,
+   "novelty": 0.0,
+   "warmth": 0.306,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 118,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "seed",
+    "egg",
+    "root",
+    "tree",
+    "corn"
+   ],
+   "coherence": 0.497,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 119,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "liquid",
+    "foods",
+    "fish",
+    "fuel",
+    "food"
+   ],
+   "coherence": 0.515,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 120,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "nut",
+    "plant",
+    "rice",
+    "orange",
+    "tree"
+   ],
+   "coherence": 0.508,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 121,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "Food",
+    "leaf",
+    "flowers",
+    "fish",
+    "fuel"
+   ],
+   "coherence": 0.517,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 122,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "liquid",
+    "egg",
+    "root",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.479,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 123,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "food",
+    "foods",
+    "Food",
+    "plant",
+    "fish"
+   ],
+   "coherence": 0.543,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 124,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "nut",
+    "flowers",
+    "rice",
+    "tree",
+    "corn"
+   ],
+   "coherence": 0.488,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 125,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "leaf",
+    "food",
+    "foods",
+    "fuel",
+    "Food"
+   ],
+   "coherence": 0.542,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 126,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "liquid",
+    "egg",
+    "nut",
+    "orange",
+    "rice"
+   ],
+   "coherence": 0.482,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 127,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "root",
+    "plants",
+    "plant",
+    "produce",
+    "fish",
+    "fuel"
+   ],
+   "coherence": 0.506,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 128,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "liquid",
+    "flowers",
+    "tree",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.498,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 129,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "food",
+    "foods",
+    "Food",
+    "fish",
+    "seeds"
+   ],
+   "coherence": 0.533,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 130,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "plant",
+    "nut",
+    "egg",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.5,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 131,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "root",
+    "food",
+    "foods",
+    "fuel",
+    "Food"
+   ],
+   "coherence": 0.521,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 132,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "liquid",
+    "flowers",
+    "tree",
+    "orange",
+    "rice"
+   ],
+   "coherence": 0.496,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 133,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "seeds",
+    "plant",
+    "fish",
+    "Food",
+    "fuel"
+   ],
+   "coherence": 0.523,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 134,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "nut",
+    "egg",
+    "root",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.485,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 135,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "liquid",
+    "food",
+    "foods",
+    "flowers",
+    "fish"
+   ],
+   "coherence": 0.513,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 136,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "leaf",
+    "tree",
+    "nut",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.51,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 137,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "plant",
+    "food",
+    "Food",
+    "fuel",
+    "foods"
+   ],
+   "coherence": 0.537,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 138,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "liquid",
+    "egg",
+    "root",
+    "orange",
+    "tree"
+   ],
+   "coherence": 0.488,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 139,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "seed",
+    "flowers",
+    "fish",
+    "Food",
+    "fuel"
+   ],
+   "coherence": 0.51,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 140,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "plant",
+    "nut",
+    "rice",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.509,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 141,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "food",
+    "foods",
+    "liquid",
+    "fish",
+    "flowers"
+   ],
+   "coherence": 0.51,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 142,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "produce",
+    "egg",
+    "root",
+    "tree",
+    "rice"
+   ],
+   "coherence": 0.487,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 143,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "leaf",
+    "Food",
+    "food",
+    "fuel",
+    "foods"
+   ],
+   "coherence": 0.542,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 144,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "liquid",
+    "nut",
+    "corn",
+    "orange",
+    "rice"
+   ],
+   "coherence": 0.499,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 145,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "plants",
+    "flowers",
+    "fish",
+    "Food",
+    "fuel"
+   ],
+   "coherence": 0.497,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 146,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "seed",
+    "egg",
+    "tree",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.502,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 147,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "root",
+    "food",
+    "foods",
+    "liquid",
+    "leaf",
+    "fish"
+   ],
+   "coherence": 0.52,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 148,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "nut",
+    "seeds",
+    "egg",
+    "rice",
+    "tree"
+   ],
+   "coherence": 0.504,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 149,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "plants",
+    "Food",
+    "flowers",
+    "food",
+    "fuel"
+   ],
+   "coherence": 0.518,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 150,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "liquid",
+    "root",
+    "nut",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.496,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 151,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "foods",
+    "plant",
+    "fish",
+    "Food",
+    "flowers"
+   ],
+   "coherence": 0.525,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 152,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "plants",
+    "produce",
+    "egg",
+    "rice",
+    "orange"
+   ],
+   "coherence": 0.484,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 153,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "food",
+    "liquid",
+    "foods",
+    "fuel",
+    "fish"
+   ],
+   "coherence": 0.526,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 154,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "plant",
+    "nut",
+    "tree",
+    "corn",
+    "rice"
+   ],
+   "coherence": 0.513,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 155,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "root",
+    "seeds",
+    "Food",
+    "food",
+    "flowers",
+    "fuel"
+   ],
+   "coherence": 0.512,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 156,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "produce",
+    "plants",
+    "egg",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.499,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 157,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "liquid",
+    "foods",
+    "fish",
+    "Food",
+    "tree",
+    "plant"
+   ],
+   "coherence": 0.523,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 158,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "nut",
+    "root",
+    "flowers",
+    "rice",
+    "orange"
+   ],
+   "coherence": 0.489,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 159,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "food",
+    "liquid",
+    "foods",
+    "fuel",
+    "fish"
+   ],
+   "coherence": 0.513,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 160,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "produce",
+    "plants",
+    "corn",
+    "tree",
+    "egg"
+   ],
+   "coherence": 0.503,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 161,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "Food",
+    "food",
+    "leaf",
+    "fuel",
+    "fish"
+   ],
+   "coherence": 0.546,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 162,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "nut",
+    "liquid",
+    "root",
+    "rice",
+    "orange",
+    "corn"
+   ],
+   "coherence": 0.481,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 163,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "flowers",
+    "foods",
+    "Food",
+    "plants",
+    "tree"
+   ],
+   "coherence": 0.502,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 164,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "produce",
+    "nut",
+    "egg",
+    "rice",
+    "orange"
+   ],
+   "coherence": 0.498,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 165,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "food",
+    "liquid",
+    "foods",
+    "fish",
+    "fuel"
+   ],
+   "coherence": 0.53,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 166,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "flowers",
+    "root",
+    "corn",
+    "tree",
+    "orange"
+   ],
+   "coherence": 0.493,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 167,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "seeds",
+    "Food",
+    "food",
+    "plants",
+    "fish"
+   ],
+   "coherence": 0.534,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 168,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "plant",
+    "nut",
+    "egg",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.5,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 169,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "liquid",
+    "leaf",
+    "foods",
+    "Food",
+    "fuel",
+    "flowers"
+   ],
+   "coherence": 0.504,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 170,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "seeds",
+    "root",
+    "tree",
+    "orange",
+    "rice"
+   ],
+   "coherence": 0.497,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 171,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "food",
+    "plants",
+    "fish",
+    "foods",
+    "fuel"
+   ],
+   "coherence": 0.518,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 172,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "liquid",
+    "nut",
+    "egg",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.501,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 173,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "flowers",
+    "Food",
+    "food",
+    "fish",
+    "fuel"
+   ],
+   "coherence": 0.527,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 174,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "seeds",
+    "root",
+    "tree",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.495,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 175,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "liquid",
+    "foods",
+    "Food",
+    "plants",
+    "plant"
+   ],
+   "coherence": 0.517,
+   "novelty": 0.0,
+   "warmth": 0.251,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 176,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "nut",
+    "leaf",
+    "egg",
+    "flowers",
+    "orange",
+    "tree"
+   ],
+   "coherence": 0.499,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 177,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "food",
+    "fish",
+    "foods",
+    "fuel",
+    "Food"
+   ],
+   "coherence": 0.538,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 178,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "liquid",
+    "root",
+    "nut",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.479,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 179,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "plant",
+    "plants",
+    "food",
+    "flowers",
+    "fish"
+   ],
+   "coherence": 0.527,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 180,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "egg",
+    "liquid",
+    "tree",
+    "orange",
+    "corn"
+   ],
+   "coherence": 0.496,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 181,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "foods",
+    "Food",
+    "fuel",
+    "food",
+    "fish"
+   ],
+   "coherence": 0.538,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 182,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "produce",
+    "nut",
+    "rice",
+    "root",
+    "orange"
+   ],
+   "coherence": 0.484,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 183,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "plants",
+    "flowers",
+    "Food",
+    "foods",
+    "fuel"
+   ],
+   "coherence": 0.514,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 184,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "liquid",
+    "egg",
+    "tree",
+    "corn",
+    "rice"
+   ],
+   "coherence": 0.492,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 185,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "plant",
+    "food",
+    "fish",
+    "flowers",
+    "Food"
+   ],
+   "coherence": 0.547,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 186,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "produce",
+    "nut",
+    "root",
+    "orange",
+    "corn"
+   ],
+   "coherence": 0.486,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 187,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "liquid",
+    "foods",
+    "fuel",
+    "leaf",
+    "fish"
+   ],
+   "coherence": 0.502,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 188,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "egg",
+    "nut",
+    "tree",
+    "rice",
+    "orange"
+   ],
+   "coherence": 0.502,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 189,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "food",
+    "plant",
+    "Food",
+    "flowers",
+    "fuel"
+   ],
+   "coherence": 0.533,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 190,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "plants",
+    "liquid",
+    "root",
+    "corn",
+    "rice"
+   ],
+   "coherence": 0.478,
+   "novelty": 0.0,
+   "warmth": 0.339,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 191,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "foods",
+    "leaf",
+    "food",
+    "fish",
+    "Food"
+   ],
+   "coherence": 0.546,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 192,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "egg",
+    "nut",
+    "tree",
+    "orange",
+    "corn"
+   ],
+   "coherence": 0.507,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 193,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "liquid",
+    "flowers",
+    "foods",
+    "fuel",
+    "fish"
+   ],
+   "coherence": 0.491,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 194,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "plants",
+    "root",
+    "tree",
+    "rice",
+    "orange"
+   ],
+   "coherence": 0.486,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 195,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "food",
+    "leaf",
+    "Food",
+    "foods",
+    "fuel"
+   ],
+   "coherence": 0.542,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 196,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "liquid",
+    "nut",
+    "egg",
+    "corn",
+    "rice"
+   ],
+   "coherence": 0.498,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 197,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "flowers",
+    "food",
+    "fish",
+    "Food",
+    "plants"
+   ],
+   "coherence": 0.521,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 198,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "seed",
+    "root",
+    "tree",
+    "orange",
+    "corn"
+   ],
+   "coherence": 0.499,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 199,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "liquid",
+    "foods",
+    "plant",
+    "fuel",
+    "fish"
+   ],
+   "coherence": 0.517,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 200,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "nut",
+    "egg",
+    "flowers",
+    "rice",
+    "orange"
+   ],
+   "coherence": 0.483,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 201,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "food",
+    "Food",
+    "plants",
+    "foods",
+    "fuel"
+   ],
+   "coherence": 0.522,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 202,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "leaf",
+    "root",
+    "tree",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.508,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 203,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "liquid",
+    "plant",
+    "food",
+    "fish",
+    "Food",
+    "flowers"
+   ],
+   "coherence": 0.533,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 204,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "nut",
+    "egg",
+    "rice",
+    "tree",
+    "corn"
+   ],
+   "coherence": 0.489,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 205,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "plants",
+    "foods",
+    "liquid",
+    "fuel",
+    "fish"
+   ],
+   "coherence": 0.492,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 206,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "leaf",
+    "nut",
+    "root",
+    "rice",
+    "orange"
+   ],
+   "coherence": 0.504,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 207,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "food",
+    "Food",
+    "flowers",
+    "foods",
+    "fuel"
+   ],
+   "coherence": 0.535,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 208,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "egg",
+    "plants",
+    "tree",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.491,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 209,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "liquid",
+    "seed",
+    "fish",
+    "Food",
+    "food"
+   ],
+   "coherence": 0.531,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 210,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "plant",
+    "nut",
+    "root",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.506,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 211,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "flowers",
+    "foods",
+    "liquid",
+    "fish",
+    "fuel"
+   ],
+   "coherence": 0.491,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 212,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "plants",
+    "egg",
+    "tree",
+    "orange",
+    "rice"
+   ],
+   "coherence": 0.5,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 213,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "food",
+    "Food",
+    "leaf",
+    "flowers",
+    "plant"
+   ],
+   "coherence": 0.539,
+   "novelty": 0.0,
+   "warmth": 0.306,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 214,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "nut",
+    "root",
+    "egg",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.486,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 215,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "liquid",
+    "foods",
+    "food",
+    "fish",
+    "fuel",
+    "Food"
+   ],
+   "coherence": 0.524,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 216,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "plants",
+    "nut",
+    "tree",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.502,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 217,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "plant",
+    "leaf",
+    "foods",
+    "flowers",
+    "fish"
+   ],
+   "coherence": 0.514,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 218,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "liquid",
+    "produce",
+    "root",
+    "egg",
+    "orange",
+    "tree"
+   ],
+   "coherence": 0.488,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 219,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "food",
+    "Food",
+    "fuel",
+    "plants",
+    "fish"
+   ],
+   "coherence": 0.535,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 220,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "plant",
+    "nut",
+    "rice",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.499,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 221,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "liquid",
+    "foods",
+    "flowers",
+    "Food",
+    "fuel"
+   ],
+   "coherence": 0.504,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 222,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "food",
+    "root",
+    "egg",
+    "tree",
+    "rice"
+   ],
+   "coherence": 0.508,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 223,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "plants",
+    "plant",
+    "foods",
+    "fish",
+    "Food"
+   ],
+   "coherence": 0.533,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 224,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "liquid",
+    "nut",
+    "corn",
+    "orange",
+    "tree"
+   ],
+   "coherence": 0.49,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 225,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "flowers",
+    "food",
+    "fuel",
+    "fish",
+    "foods"
+   ],
+   "coherence": 0.521,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 226,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "seed",
+    "root",
+    "egg",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.492,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 227,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "plant",
+    "liquid",
+    "Food",
+    "food",
+    "fuel"
+   ],
+   "coherence": 0.534,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 228,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "nut",
+    "flowers",
+    "leaf",
+    "orange",
+    "rice"
+   ],
+   "coherence": 0.49,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 229,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "seed",
+    "foods",
+    "fish",
+    "Food",
+    "tree"
+   ],
+   "coherence": 0.522,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 230,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "liquid",
+    "plant",
+    "root",
+    "nut",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.5,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 231,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "food",
+    "flowers",
+    "fuel",
+    "egg",
+    "fish"
+   ],
+   "coherence": 0.509,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 232,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "leaf",
+    "produce",
+    "tree",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.495,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 233,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "liquid",
+    "foods",
+    "Food",
+    "food",
+    "fuel"
+   ],
+   "coherence": 0.533,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 234,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "plants",
+    "nut",
+    "root",
+    "orange",
+    "egg"
+   ],
+   "coherence": 0.503,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 235,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "flowers",
+    "leaf",
+    "fish",
+    "Food",
+    "foods"
+   ],
+   "coherence": 0.508,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 236,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "liquid",
+    "produce",
+    "tree",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.499,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 237,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "food",
+    "plant",
+    "plants",
+    "fuel",
+    "fish",
+    "flowers"
+   ],
+   "coherence": 0.526,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 238,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "root",
+    "nut",
+    "egg",
+    "orange",
+    "corn",
+    "rice"
+   ],
+   "coherence": 0.481,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 239,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "leaf",
+    "Food",
+    "foods",
+    "food",
+    "fuel"
+   ],
+   "coherence": 0.529,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 240,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "liquid",
+    "produce",
+    "tree",
+    "orange",
+    "corn"
+   ],
+   "coherence": 0.502,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 241,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "plants",
+    "fish",
+    "Food",
+    "flowers",
+    "foods"
+   ],
+   "coherence": 0.518,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 242,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "nut",
+    "liquid",
+    "egg",
+    "root",
+    "rice",
+    "orange"
+   ],
+   "coherence": 0.481,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 243,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "leaf",
+    "food",
+    "fuel",
+    "fish",
+    "tree"
+   ],
+   "coherence": 0.524,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 244,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "produce",
+    "plant",
+    "nut",
+    "corn",
+    "rice"
+   ],
+   "coherence": 0.514,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 245,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "flowers",
+    "Food",
+    "foods",
+    "food",
+    "fuel"
+   ],
+   "coherence": 0.52,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 246,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "liquid",
+    "leaf",
+    "egg",
+    "root",
+    "orange",
+    "tree"
+   ],
+   "coherence": 0.495,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 247,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "seed",
+    "fish",
+    "Food",
+    "foods",
+    "flowers"
+   ],
+   "coherence": 0.512,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 248,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "plant",
+    "nut",
+    "corn",
+    "rice",
+    "orange"
+   ],
+   "coherence": 0.502,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 249,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "liquid",
+    "food",
+    "plants",
+    "fish",
+    "fuel",
+    "Food"
+   ],
+   "coherence": 0.521,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 250,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "leaf",
+    "egg",
+    "root",
+    "tree",
+    "corn"
+   ],
+   "coherence": 0.507,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 251,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "produce",
+    "foods",
+    "food",
+    "flowers",
+    "plant"
+   ],
+   "coherence": 0.526,
+   "novelty": 0.0,
+   "warmth": 0.251,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 252,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "liquid",
+    "nut",
+    "plants",
+    "rice",
+    "orange",
+    "tree"
+   ],
+   "coherence": 0.491,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 253,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "leaf",
+    "Food",
+    "fish",
+    "fuel",
+    "foods"
+   ],
+   "coherence": 0.524,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 254,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "plant",
+    "egg",
+    "root",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.496,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 255,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "liquid",
+    "food",
+    "flowers",
+    "fish",
+    "fuel"
+   ],
+   "coherence": 0.509,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 256,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "nut",
+    "plants",
+    "leaf",
+    "rice",
+    "tree",
+    "corn"
+   ],
+   "coherence": 0.499,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 257,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "Food",
+    "foods",
+    "food",
+    "liquid",
+    "fish"
+   ],
+   "coherence": 0.536,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 258,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "plant",
+    "egg",
+    "nut",
+    "orange",
+    "rice"
+   ],
+   "coherence": 0.5,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 259,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "flowers",
+    "Food",
+    "fuel",
+    "foods",
+    "plants"
+   ],
+   "coherence": 0.5,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 260,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "root",
+    "seed",
+    "leaf",
+    "tree",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.508,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 261,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "liquid",
+    "food",
+    "plant",
+    "fish",
+    "Food",
+    "fuel"
+   ],
+   "coherence": 0.536,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 262,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "produce",
+    "nut",
+    "egg",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.483,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 263,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "root",
+    "flowers",
+    "foods",
+    "food",
+    "fish",
+    "plants"
+   ],
+   "coherence": 0.512,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 264,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "liquid",
+    "leaf",
+    "tree",
+    "orange",
+    "rice"
+   ],
+   "coherence": 0.507,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 265,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "produce",
+    "Food",
+    "flowers",
+    "fuel",
+    "foods"
+   ],
+   "coherence": 0.515,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 266,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "nut",
+    "egg",
+    "root",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.483,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 267,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "food",
+    "liquid",
+    "fish",
+    "Food",
+    "fuel"
+   ],
+   "coherence": 0.532,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 268,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "leaf",
+    "plant",
+    "tree",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.512,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 269,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "flowers",
+    "foods",
+    "food",
+    "fish",
+    "Food"
+   ],
+   "coherence": 0.524,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 270,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "nut",
+    "egg",
+    "root",
+    "orange",
+    "tree"
+   ],
+   "coherence": 0.49,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 271,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "liquid",
+    "seed",
+    "plants",
+    "fuel",
+    "foods",
+    "flowers"
+   ],
+   "coherence": 0.499,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 272,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "plant",
+    "nut",
+    "rice",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.509,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 273,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "food",
+    "liquid",
+    "Food",
+    "fish",
+    "fuel"
+   ],
+   "coherence": 0.522,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 274,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "egg",
+    "root",
+    "tree",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.482,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 275,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "plants",
+    "foods",
+    "food",
+    "flowers",
+    "fish"
+   ],
+   "coherence": 0.526,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 276,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "leaf",
+    "nut",
+    "egg",
+    "orange",
+    "rice"
+   ],
+   "coherence": 0.509,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 277,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "liquid",
+    "Food",
+    "seeds",
+    "fuel",
+    "foods"
+   ],
+   "coherence": 0.499,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 278,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "plants",
+    "root",
+    "tree",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.501,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 279,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "food",
+    "flowers",
+    "Food",
+    "fish",
+    "leaf"
+   ],
+   "coherence": 0.543,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 280,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "liquid",
+    "nut",
+    "produce",
+    "egg",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.483,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 281,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seeds",
+    "seed",
+    "foods",
+    "fuel",
+    "food",
+    "fish"
+   ],
+   "coherence": 0.526,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 282,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "plant",
+    "root",
+    "tree",
+    "orange",
+    "nut"
+   ],
+   "coherence": 0.509,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 283,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "liquid",
+    "Food",
+    "flowers",
+    "fuel",
+    "foods"
+   ],
+   "coherence": 0.504,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 284,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "seeds",
+    "egg",
+    "rice",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.481,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 285,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "food",
+    "Food",
+    "fish",
+    "flowers",
+    "tree"
+   ],
+   "coherence": 0.536,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 286,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "liquid",
+    "plants",
+    "nut",
+    "root",
+    "rice"
+   ],
+   "coherence": 0.499,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 287,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "produce",
+    "foods",
+    "food",
+    "fuel",
+    "fish"
+   ],
+   "coherence": 0.525,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 288,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "seeds",
+    "egg",
+    "corn",
+    "orange",
+    "tree"
+   ],
+   "coherence": 0.5,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 289,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "liquid",
+    "Food",
+    "flowers",
+    "foods",
+    "fuel"
+   ],
+   "coherence": 0.512,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 290,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "leaf",
+    "nut",
+    "root",
+    "rice",
+    "corn"
+   ],
+   "coherence": 0.491,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 291,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "food",
+    "Food",
+    "fish",
+    "liquid",
+    "flowers"
+   ],
+   "coherence": 0.519,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 292,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "seeds",
+    "egg",
+    "tree",
+    "orange",
+    "corn"
+   ],
+   "coherence": 0.5,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 293,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plant",
+    "plants",
+    "foods",
+    "food",
+    "fuel",
+    "fish"
+   ],
+   "coherence": 0.532,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 294,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "leaf",
+    "nut",
+    "root",
+    "rice",
+    "orange",
+    "tree"
+   ],
+   "coherence": 0.497,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 295,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "liquid",
+    "Food",
+    "flowers",
+    "foods",
+    "fuel"
+   ],
+   "coherence": 0.497,
+   "novelty": 0.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 296,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "seeds",
+    "plant",
+    "egg",
+    "corn",
+    "orange"
+   ],
+   "coherence": 0.511,
+   "novelty": 0.0,
+   "warmth": 0.404,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 297,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "plants",
+    "food",
+    "Food",
+    "fish",
+    "leaf",
+    "nut"
+   ],
+   "coherence": 0.534,
+   "novelty": 0.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 298,
+   "side": "L",
+   "theta": 2.704,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "produce",
+    "liquid",
+    "root",
+    "rice",
+    "tree",
+    "corn"
+   ],
+   "coherence": 0.484,
+   "novelty": 0.0,
+   "warmth": 0.425,
+   "anchor_warmth": 0.464
+  },
+  {
+   "beat": 299,
+   "side": "R",
+   "theta": 1.504,
+   "axis": 2.104,
+   "grain": "b4_32",
+   "anchor": "fruit",
+   "reads": [
+    "seed",
+    "plant",
+    "foods",
+    "food",
+    "fish",
+    "fuel"
+   ],
+   "coherence": 0.543,
+   "novelty": 0.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.464
+  }
+ ],
+ "refs": {},
+ "tag": "h20_known_oak_guitar",
+ "gate0": {
+  "sides_alternate": "1.00 of beats switch side",
+  "grain_changes_reads": "16/16 probes read differently across grains; e.g. top8:nude / top16:date / b4_32:pine / top64:maple / full:maple",
+  "coverage_repels": "distinct reads 118 with trace, 1 without",
+  "probe_leaves_heading": "axis +1.57 rad while anchor stays on oak"
+ },
+ "reads to first see target": null,
+ "reached target as anchor": false,
+ "oracle hill-climb reads (sees all 10 neighbours' warmth)": 40
+}
