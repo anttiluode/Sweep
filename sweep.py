@@ -78,6 +78,12 @@ class Bank:
 
     @classmethod
     def load(cls, path, layer=None):
+        if str(path).endswith(".json"):                  # SweepSol's bank.json (PCA coordinates)
+            import json as _json
+            b = _json.loads(Path(path).read_text(encoding="utf-8"))
+            m = b.get("meta", {})
+            return cls(b["words"], np.array(b["vectors"], dtype=np.float64), False,
+                       label=f"{Path(path).name}:{m.get('source', '?')} L{m.get('layer', '?')} {m.get('pcs', '?')} PCs")
         f = np.load(path, allow_pickle=False)
         layer = layer or str(f["default_layer"])
         X = f[layer]

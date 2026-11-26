@@ -82,6 +82,30 @@ reached, and an oracle hill-climb that sees all ten neighbours' warmth.
 - sweeping across layers (the bank already stores three);
 - a page to watch it live and take the knobs by hand.
 
+## First real map (SweepSol's bank, Nov 26)
+
+`sweep.py` also reads SweepSol's `bank.json` (Qwen3-1.7B, layer 14, 8000 words, top 128 PCs,
+82% of the energy). Runs are in `runs/sol_bank_*`.
+
+- From Berlin: London, England, Spain, Asia, American, Muslims, Catholic, Korean, Greek, Egypt,
+  Empire, Kingdom, Domain, domain, region, portion, fraction, integer, boolean, null, Invalid,
+  valid, validate, evaluate, investigate, research, Search, Check, Close, open, ... design,
+  classic, standard, normal, natural, Nature, Environment, atmosphere, then word pieces.
+  100 moves, 101 distinct anchors; the random walk of the 10 nearest made 51 and stayed in 2
+  k-means regions, Sweep touched 31.
+- From oak: Wood, metal, plastic, artificial, automatic, manual, Internal, external, ...
+  bigger, smaller, short, Long, dark, bright, brilliant, fantastic, fantasy, magic, smart,
+  stupid, sad, glad, hope, Love, like, unlike, whereas, although, because, therefore, and, but,
+  pero, untuk, dengan, como, then word pieces.
+- Hidden pursuit oak to sauna (warmth only): oak, onion, marijuana, sauna at beat 22; after
+  the switch to guitar: casino, newsletter, journal, violin, guitar.
+
+Seen so far: steps often go through a second sense (Kingdom to Domain to domain, fraction to
+integer to boolean) or an opposite (automatic/manual, internal/external, dark/bright, sad/glad).
+Every long forage ends in a continent of word pieces (con, ext, Del, mel, vol...), linked by
+one-letter edits; about 1239 of the 8000 tokens are three letters long. The grain regulator did
+not breathe on this map (full grain about 98% of beats).
+
 ## Status
 
 Built Nov 26, 2026. Self-test passes on a toy map with two overlapping trees; `bank.py` was

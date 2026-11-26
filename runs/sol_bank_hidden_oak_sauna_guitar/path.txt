@@ -1,0 +1,130 @@
+b000 L th=+0.60 ax=+0.00 [ b4_32] @oak            saw: Oak Ontario Ohio Aust   warm +0.31->+0.19
+b001 R th=-0.60 ax=+0.00 [ b4_32] @oak            saw: Oregon Illinois onion Corn Rock Log   warm +0.31->+0.36   -> onion
+b002 L th=+0.60 ax=+0.00 [ b4_32] @onion          saw: orange Orange obviously corn flour enorm   warm +0.36->+0.28
+b003 R th=-0.60 ax=+0.00 [ b4_32] @onion          saw: salmon Rose marijuana cream Bowl Pen   warm +0.36->+0.45   -> marijuana
+b004 L th=+0.60 ax=+0.00 [ b4_32] @marijuana      saw: cannabis viagra Hawai necessarily Turkey   warm +0.45->+0.45
+b005 R th=-0.60 ax=+0.00 [ b4_32] @marijuana      saw: Porno porno abortion Porn erotische cigaret   warm +0.45->+0.35
+b006 L th=+0.85 ax=+0.25 [ b4_32] @marijuana      saw: diabetes pregnancy democracy potentially literally naturally   warm +0.45->+0.29
+b007 R th=-0.60 ax=+0.00 [ b4_32] @marijuana      saw: numpy rape fucking prostitutas Porno salope   warm +0.45->+0.30
+b008 L th=+0.35 ax=-0.25 [ b4_32] @marijuana      saw: viagra cannabis Pakistan butter Palestinian gratuit   warm +0.45->+0.45
+b009 R th=-0.35 ax=+0.25 [ b4_32] @marijuana      saw: Bitcoin Palestin Putin cancer sanit bacter   warm +0.45->+0.29
+b010 L th=+1.10 ax=+0.50 [ b4_32] @marijuana      saw: mysqli porn porno sexo sesso personally   warm +0.45->+0.35
+b011 R th=+0.15 ax=+0.75 [ b4_32] @marijuana      saw: lombok Saudi Muslim Navy mari Gay   warm +0.45->+0.26
+b012 L th=+1.60 ax=+1.00 [ b4_32] @marijuana      saw: pickle milk rape porno Porno Porn   warm +0.45->+0.35
+b013 R th=-0.35 ax=+0.25 [ b4_32] @marijuana      saw: bitcoin Islam Firebase suicide cig cigaret   warm +0.45->+0.38
+b014 L th=+0.60 ax=+0.00 [ b4_32] @marijuana      saw: apparently Niger Obama anxiety abortion immigration   warm +0.45->+0.34
+b015 R th=-0.85 ax=-0.25 [ b4_32] @marijuana      saw: cannabis allegedly Turkey tissue Medicine safely   warm +0.45->+0.45
+b016 L th=+0.10 ax=-0.50 [ b4_32] @marijuana      saw: carrot Hawai pregnancy memcpy gratis gay   warm +0.45->+0.36
+b017 R th=-0.85 ax=-0.25 [ b4_32] @marijuana      saw: diabetes beer Brazil compensation marriage emissions   warm +0.45->+0.41
+b018 L th=+0.10 ax=-0.50 [ b4_32] @marijuana      saw: Minnesota Americ viagra erotische prostit ridic   warm +0.45->+0.43
+b019 R th=-0.85 ax=-0.25 [ b4_32] @marijuana      saw: nonatomic democracy Liver cancer Ham legislation   warm +0.45->+0.29
+b020 L th=+0.60 ax=+0.00 [ b4_32] @marijuana      saw: alcohol protein fucking gratuit intim smartphone   warm +0.45->+0.35
+b021 R th=-0.35 ax=+0.25 [ b4_32] @marijuana      saw: matplotlib Muslims pregn pregnant meth seks   warm +0.45->+0.22
+b022 L th=+1.10 ax=+0.50 [ b4_32] @marijuana      saw: incredibly sauna Casino casino bathroom   warm +0.45->+1.00   -> sauna
+b023 R th=-0.60 ax=+0.00 [ b4_32] @sauna          saw: shower cabin bath sca Bath stable   warm +1.00->+0.63
+b024 L th=+0.60 ax=+0.00 [ b4_32] @sauna          saw: Casino restaur tun restaurant cru tournament   warm +1.00->+0.46
+b025 R th=-0.85 ax=-0.25 [ b4_32] @sauna          saw: casino shower Scanner massage surveillance aside   warm +1.00->+0.63
+b026 L th=+0.10 ax=-0.50 [ b4_32] @sauna          saw: bathroom trailer surve Suite Setup Studio   warm +1.00->+0.54
+b027 R th=-1.35 ax=-0.75 [ b4_32] @sauna          saw: sauce unsafe Camera accessible Cache cache   warm +1.00->+0.48
+b028 L th=+0.75 ax=+0.25 [ b4_32] @sauna          saw: Unfortunately warranty ceremony Tournament studio surf   warm +1.00->+0.47
+b029 R th=-0.60 ax=+0.00 [ b4_32] @sauna          saw: scanner Cru lawsuit cas Sale bedroom   warm +1.00->+0.48
+b030 L th=+0.35 ax=-0.25 [ b4_32] @sauna          saw: Casino bom bath testim scre sca   warm +1.00->+0.51
+b031 R th=-0.60 ax=+0.00 [ b4_32] @sauna          saw: oven cabin Beach venue dam stayed   warm +1.00->+0.57
+b032 L th=+0.35 ax=-0.25 [ b4_32] @sauna          saw: surgery Museum stable Bath beach assault   warm +1.00->+0.45
+b033 R th=-1.10 ax=-0.50 [ b4_32] @sauna          saw: casino shower wur navbar garage wir   warm +1.00->+0.63
+b034 L th=-0.15 ax=-0.75 [ b4_32] @sauna          saw: inflater sne sink suite Sur surve   warm +1.00->+0.49
+b035 R th=-1.60 ax=-1.00 [ b4_32] @sauna          saw: bathroom tou newspaper whenever Sony androidx   warm +1.00->+0.54
+b036 L th=+0.35 ax=-0.25 [ b4_32] @sauna          saw: thai sua sty Crusher spons Bus   warm +1.00->+0.31
+b037 R th=-1.10 ax=-0.50 [ b4_32] @sauna          saw: stunning crusher cru tra Studio Tour   warm +1.00->+0.41
+b038 L th=-0.15 ax=-0.75 [ b4_32] @sauna          saw: sauce restaur trav surv Suite audience   warm +1.00->+0.48
+b039 R th=-1.10 ax=-0.50 [ b4_32] @sauna          saw: Syria trailer supplier Tai Bush Bureau   warm +1.00->+0.44
+b040 L th=+0.85 ax=+0.25 [ b4_32] @sauna          saw: pipeline Casino tun esta bei cha   warm +1.00->+0.44
+b041 R th=-0.60 ax=+0.00 [ b4_32] @sauna          saw: salope disap Sar harass Session susp   warm +1.00->+0.27
+b042 L th=+0.85 ax=+0.25 [ b4_32] @sauna          saw: unsafe Browser bedroom cette faire Camera   warm +1.00->+0.48
+b043 R th=-0.10 ax=+0.50 [ b4_32] @sauna          saw: casino shower bath Saf Setup survey   warm +1.00->+0.63
+b044 L th=+0.35 ax=-0.25 [ b4_32] @sauna          saw: surely Scanner shader barrier sur stay   warm +1.00->+0.37
+b045 R th=-1.10 ax=-0.50 [ b4_32] @sauna          saw: bass bathroom casual Xbox campus incontri   warm +1.00->+0.54
+b046 L th=-0.15 ax=-0.75 [ b4_32] @sauna          saw: kann cleanup tournament sca slee studio   warm +1.00->+0.47
+b047 R th=-1.60 ax=-1.00 [ b4_32] @sauna          saw: usuario Casino Samsung Instagram Miami basketball   warm +1.00->+0.44
+b048 L th=+0.50 ax=+0.25 [ b4_32] @sauna          saw: porno surveillance Cru Tournament stable cabin   warm +1.00->+0.55
+b049 R th=-0.10 ax=+0.50 [ b4_32] @sauna          saw: restaurant scanner safely Bath screening Safe   warm +1.00->+0.46
+b050 L th=+1.35 ax=+0.75 [ b4_32] @sauna          saw: Unfortunately ceremony Kitchen Sometimes bench tent   warm +1.00->+0.42
+b051 R th=-0.10 ax=+0.50 [ b4_32] @sauna          saw: soup Museum testim saf surve surf   warm +1.00->+0.46
+b052 L th=+0.35 ax=-0.25 [ b4_32] @sauna          saw: warranty bom Beach Dam Wash scre   warm +1.00->+0.35
+b053 R th=-1.10 ax=-0.50 [ b4_32] @sauna          saw: lawsuit shower votre newsletter surpr Sur   warm +1.00->+0.63
+b054 L th=-0.15 ax=-0.75 [ b4_32] @sauna          saw: oven restaur situ venue presentation stayed   warm +1.00->+0.57
+b055 R th=-1.60 ax=-1.00 [ b4_32] @sauna          saw: casino suddenly surprising newspaper sou Sou   warm +1.00->+0.59
+b056 L th=+0.35 ax=-0.25 [ b4_32] @sauna          saw: viagra bowl camera bath Sale sale   warm +1.00->+0.51
+b057 R th=-1.10 ax=-0.50 [ b4_32] @sauna          saw: bathroom tun barrel cabinet basket Bowl   warm +1.00->+0.54
+b058 L th=-0.15 ax=-0.75 [ b4_32] @sauna          saw: sauce Casino trailer cru Studio Suite   warm +1.00->+0.48
+b059 R th=-1.60 ax=-1.00 [ b4_32] @sauna          saw: Syrian stunning sustainable piano untuk compr   warm +1.00->+0.48
+b060 L th=+0.35 ax=-0.25 [ b4_32] @sauna          saw: sesso canvas sua sca beach advis   warm +1.00->+0.45
+b061 R th=-1.10 ax=-0.50 [ b4_32] @sauna          saw: availability Crusher Console sus studio lua   warm +1.00->+0.47
+b062 L th=-0.15 ax=-0.75 [ b4_32] @sauna          saw: unsafe sne cabin suite Setup cas   warm +1.00->+0.55
+b063 R th=-1.10 ax=-0.50 [ b4_32] @sauna          saw: salope tou usuario sono soup nude   warm +1.00->+0.46
+b064 L th=+0.85 ax=+0.25 [ b4_32] @sauna          saw: surgery shower stable Scanner sink screen   warm +1.00->+0.63
+b065 R th=-0.10 ax=+0.50 [ b4_32] @sauna          saw: inflater transmission assault sle Bath surv   warm +1.00->+0.33
+b066 L th=+1.35 ax=+0.75 [ b4_32] @sauna          saw: casino crusher scanner sanit serializer tablet   warm +1.00->+0.59
+b067 R th=+0.40 ax=+1.00 [ b4_32] @sauna          saw: cannabis bathroom Camera bath sie Screen   warm +1.00->+0.54
+b068 L th=+0.85 ax=+0.25 [ b4_32] @sauna          saw: thai Casino renderer clin sein Render   warm +1.00->+0.44
+b069 R th=-0.60 ax=+0.00 [ b4_32] @sauna          saw: porno tournament reserv vacation pas Avenue   warm +1.00->+0.39
+b070 L th=+0.85 ax=+0.25 [ b4_32] @sauna          saw: usually restaur spons batter treatment shader   warm +1.00->+0.25
+b071 R th=-0.60 ax=+0.00 [ b4_32] @sauna          saw: Unfortunately restaurant Tournament Sar garage dam   warm +1.00->+0.52
+b072 L th=+0.35 ax=-0.25 [ b4_32] @sauna          saw: Atlanta ceremony Cru surve shower trav   warm +1.00->+0.63
+b073 R th=-0.60 ax=+0.00 [ b4_32] @sauna          saw: navbar maintenance Saf sustain setup Studio   warm +1.00->+0.39
+b074 L th=+0.85 ax=+0.25 [ b4_32] @sauna          saw: pipeline surveillance ceiling reven Beach screening   warm +1.00->+0.43
+b075 R th=-0.10 ax=+0.50 [ b4_32] @sauna          saw: disclaimer bedroom sty sca Tour Training   warm +1.00->+0.48
+b076 L th=+0.35 ax=-0.25 [ b4_32] @sauna          saw: sauce swe tra slee Tra Suite   warm +1.00->+0.48
+b077 R th=-1.10 ax=-0.50 [ b4_32] @sauna          saw: casino Casino harass rally campaign announce   warm +1.00->+0.59
+b078 L th=-0.15 ax=-0.75 [ b4_32] @sauna          saw: bom cabin trailer testim Bus Session   warm +1.00->+0.55
+b079 R th=-1.60 ax=-1.00 [ b4_32] @sauna          saw: warranty disap bass salmon announcement Amazon   warm +1.00->+0.43
+b080 L th=+0.50 ax=+0.25 [ b4_32] @sauna          saw: prison tun surf stable cru Cas   warm +1.00->+0.46
+b081 R th=-0.10 ax=+0.50 [ b4_32] @sauna          saw: bathroom lawsuit safely bath Bath stayed   warm +1.00->+0.54
+b082 L th=+0.85 ax=+0.25 [ b4_32] @sauna          saw: unsafe aan Aus auch esta Available   warm +1.00->+0.15
+b083 R th=-0.60 ax=+0.00 [ b4_32] @sauna          saw: viagra oven Museum Visit resort Sur   warm +1.00->+0.57
+b084 L th=+0.35 ax=-0.25 [ b4_32] @sauna          saw: Syria shower Scanner Setup scre sink   warm +1.00->+0.63
+b085 R th=-0.60 ax=+0.00 [ b4_32] @sauna          saw: kann incontri venue Sale audience batt   warm +1.00->+0.35
+b086 L th=+0.85 ax=+0.25 [ b4_32] @sauna          saw: surely cleanup stunning massage inspir susp   warm +1.00->+0.51
+b087 R th=-0.10 ax=+0.50 [ b4_32] @sauna          saw: androidx Casino Browser surve suite survey   warm +1.00->+0.44
+b088 L th=+0.85 ax=+0.25 [ b4_32] @sauna          saw: casino cannabis salope Turkey mysqli Wisconsin   warm +1.00->+0.59
+b089 R th=-0.10 ax=+0.50 [ b4_32] @sauna          saw: porno Tai restaur studio sca Store   warm +1.00->+0.47
+b090 L th=+1.35 ax=+0.75 [ b4_32] @sauna          saw: Porno suicide marijuana Ukraine rape abortion   warm +1.00->+0.45
+b091 R th=-0.10 ax=+0.50 [ b4_32] @sauna          saw: Afghanistan sesso sua Tournament stay sur   warm +1.00->+0.29
+b092 L th=+0.85 ax=+0.25 [ b4_32] @sauna          saw: bathroom cabin restaurant bedroom campus Bureau   warm +1.00->+0.55
+b093 R th=-0.10 ax=+0.50 [ b4_32] @sauna          saw: Unfortunately tournament sne Transaction bath surv   warm +1.00->+0.51
+b094 L th=+1.35 ax=+0.75 [ b4_32] @sauna          saw: wur trailer zur garage downtown chairman   warm +1.00->+0.52
+b095 R th=+0.40 ax=+1.00 [ b4_32] @sauna          saw: Airport restaurants stable beach barrier Chair   warm +1.00->+0.45
+b096 L th=+0.85 ax=+0.25 [ b4_32] @sauna          saw: Xbox Sprite ceremony Suite Conference scenario   warm +1.00->+0.41
+b097 R th=-0.60 ax=+0.00 [ b4_32] @sauna          saw: sauce shower Crusher Kitchen Bath Storage   warm +1.00->+0.63
+b098 L th=+0.35 ax=-0.25 [ b4_32] @sauna          saw: scanner Casino Studio situ testim Safe   warm +1.00->+0.45
+b099 R th=-1.10 ax=-0.50 [ b4_32] @sauna          saw: casino tun availability kitchen furn exhaust   warm +1.00->+0.59
+b100 L th=+0.35 ax=-0.25 [ b4_32] @sauna          saw: inflater barrel Camera surveillance dinner casual   warm +0.42->+0.40   -> casino
+b101 R th=-0.60 ax=+0.00 [ b4_32] @casino         saw: championship Dallas Vegas vacation hosp holiday   warm +0.37->+0.19
+b102 L th=+0.60 ax=+0.00 [ b4_32] @casino         saw: Hollywood conference Championship championship contest campaign   warm +0.37->+0.17
+b103 R th=-0.85 ax=-0.25 [ b4_32] @casino         saw: Chicago wedding Disney Facebook vacc jail   warm +0.37->+0.29
+b104 L th=+0.10 ax=-0.50 [ b4_32] @casino         saw: Singapore festival Academy campaigns dining battle   warm +0.37->+0.30
+b105 R th=-0.85 ax=-0.25 [ b4_32] @casino         saw: Casino Hospital Vegas Welcome illegal lobby   warm +0.37->+0.25
+b106 L th=+0.85 ax=+0.25 [ b4_32] @casino         saw: Christmas Dallas campus cli cab cas   warm +0.37->+0.17
+b107 R th=-0.60 ax=+0.00 [ b4_32] @casino         saw: newsletter rally banned polic presidential mad   warm +0.37->+0.39   -> newsletter
+b108 L th=+0.60 ax=+0.00 [ b4_32] @newsletter     saw: newspaper Friday email Monday podcast ticket   warm +0.39->+0.46
+b109 R th=-0.60 ax=+0.00 [ b4_32] @newsletter     saw: hotel news journal News Mrs newsp   warm +0.39->+0.50   -> journal
+b110 L th=+0.60 ax=+0.00 [ b4_32] @journal        saw: Journal reader editor model register   warm +0.50->+0.40
+b111 R th=-0.60 ax=+0.00 [ b4_32] @journal        saw: document Dictionary Model chart note Document   warm +0.50->+0.35
+b112 L th=+0.85 ax=+0.25 [ b4_32] @journal        saw: dictionary Journal folder portfolio marker regarding   warm +0.50->+0.49
+b113 R th=-0.10 ax=+0.50 [ b4_32] @journal        saw: forum gallery Just mill model record   warm +0.50->+0.35
+b114 L th=+1.35 ax=+0.75 [ b4_32] @journal        saw: viol reporter library lawyer director manager   warm +0.50->+0.46
+b115 R th=-0.35 ax=+0.25 [ b4_32] @journal        saw: novel well consider just judge report   warm +0.50->+0.30
+b116 L th=+1.10 ax=+0.50 [ b4_32] @journal        saw: considering Consider document scroll told found   warm +0.50->+0.41
+b117 R th=+0.15 ax=+0.75 [ b4_32] @journal        saw: mirror given letter writer Model list   warm +0.50->+0.46
+b118 L th=+1.10 ax=+0.50 [ b4_32] @journal        saw: Journal overall Consult Found tell View   warm +0.50->+0.36
+b119 R th=-0.85 ax=-0.25 [ b4_32] @journal        saw: illustr reader level noted notice Well   warm +0.50->+0.38
+b120 L th=+0.10 ax=-0.50 [ b4_32] @journal        saw: magazine Library diagram file offer model   warm +0.50->+0.49
+b121 R th=-0.85 ax=-0.25 [ b4_32] @journal        saw: catalog Given Just Will according key   warm +0.50->+0.42
+b122 L th=+0.60 ax=+0.00 [ b4_32] @journal        saw: dictionary Dictionary narr editor writer listener   warm +0.50->+0.49
+b123 R th=-0.35 ax=+0.25 [ b4_32] @journal        saw: consult register folder following column guide   warm +0.50->+0.42
+b124 L th=+1.10 ax=+0.50 [ b4_32] @journal        saw: Journal Report note Find will find   warm +0.50->+0.36
+b125 R th=-0.35 ax=+0.25 [ b4_32] @journal        saw: mention scholar label discuss chart mill   warm +0.50->+0.34
+b126 L th=+1.10 ax=+0.50 [ b4_32] @journal        saw: gallery viol doll List Valid lot   warm +0.50->+0.49
+b127 R th=-0.35 ax=+0.25 [ b4_32] @journal        saw: violin consider record known Guide Note   warm +0.50->+0.70   -> violin
+b128 L th=+0.60 ax=+0.00 [ b4_32] @violin         saw: guitar piano sword keyboard triangle   warm +0.70->+1.00
+b129 R th=-0.60 ax=+0.00 [ b4_32] @violin         saw: wouldn knife smartphone inspired instrument pron   warm +0.70->+0.56   -> guitar

@@ -1,0 +1,3661 @@
+{
+ "log": [
+  {
+   "beat": 0,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "Berlin",
+   "reads": [
+    "London",
+    "Denver",
+    "Ontario",
+    "Toronto",
+    "mont"
+   ],
+   "coherence": 0.455,
+   "novelty": 1.0
+  },
+  {
+   "beat": 1,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "Berlin",
+   "reads": [
+    "Delhi",
+    "Florida",
+    "Minnesota",
+    "Michigan",
+    "Illinois",
+    "Massachusetts"
+   ],
+   "coherence": 0.53,
+   "novelty": 1.0,
+   "commit": "London"
+  },
+  {
+   "beat": 2,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "top64",
+   "anchor": "London",
+   "reads": [
+    "England",
+    "Japan",
+    "Rome",
+    "Hollywood",
+    "downtown",
+    "Monday"
+   ],
+   "coherence": 0.6,
+   "novelty": 1.0
+  },
+  {
+   "beat": 3,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "top64",
+   "anchor": "London",
+   "reads": [
+    "Germany",
+    "Italy",
+    "Scotland",
+    "Russia",
+    "France",
+    "Canada"
+   ],
+   "coherence": 0.621,
+   "novelty": 1.0,
+   "commit": "England"
+  },
+  {
+   "beat": 4,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "England",
+   "reads": [
+    "Spain",
+    "Britain",
+    "English",
+    "Ireland",
+    "Australia"
+   ],
+   "coherence": 0.72,
+   "novelty": 1.0
+  },
+  {
+   "beat": 5,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "England",
+   "reads": [
+    "Afghanistan",
+    "America",
+    "Korea",
+    "Pakistan",
+    "India",
+    "Syria"
+   ],
+   "coherence": 0.643,
+   "novelty": 1.0,
+   "commit": "Spain"
+  },
+  {
+   "beat": 6,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Spain",
+   "reads": [
+    "Asia",
+    "Europe",
+    "Iran",
+    "Spanish",
+    "Ukraine",
+    "China"
+   ],
+   "coherence": 0.674,
+   "novelty": 1.0
+  },
+  {
+   "beat": 7,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Spain",
+   "reads": [
+    "Mexico",
+    "Israel",
+    "Iraq",
+    "Syria",
+    "Africa",
+    "Asia"
+   ],
+   "coherence": 0.672,
+   "novelty": 0.667,
+   "commit": "Asia"
+  },
+  {
+   "beat": 8,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Asia",
+   "reads": [
+    "Asian",
+    "Arizona",
+    "Atlanta",
+    "Area",
+    "air"
+   ],
+   "coherence": 0.515,
+   "novelty": 1.0
+  },
+  {
+   "beat": 9,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Asia",
+   "reads": [
+    "Alabama",
+    "Europe",
+    "Africa",
+    "Australia",
+    "atmosphere",
+    "Nature"
+   ],
+   "coherence": 0.557,
+   "novelty": 0.5,
+   "commit": "Asian"
+  },
+  {
+   "beat": 10,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Asian",
+   "reads": [
+    "American",
+    "Syrian",
+    "Australian",
+    "Eastern",
+    "Indian",
+    "Afghan"
+   ],
+   "coherence": 0.683,
+   "novelty": 1.0
+  },
+  {
+   "beat": 11,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Asian",
+   "reads": [
+    "African",
+    "Japanese",
+    "Chinese",
+    "Russian",
+    "German",
+    "European"
+   ],
+   "coherence": 0.646,
+   "novelty": 1.0,
+   "commit": "American"
+  },
+  {
+   "beat": 12,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "American",
+   "reads": [
+    "Americans",
+    "Canadian",
+    "Americ",
+    "California",
+    "Amazon"
+   ],
+   "coherence": 0.672,
+   "novelty": 1.0
+  },
+  {
+   "beat": 13,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "American",
+   "reads": [
+    "British",
+    "Italian",
+    "French",
+    "Roman",
+    "Irish",
+    "German"
+   ],
+   "coherence": 0.668,
+   "novelty": 0.833,
+   "commit": "Americans"
+  },
+  {
+   "beat": 14,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Americans",
+   "reads": [
+    "Muslims",
+    "Democrats",
+    "Christians",
+    "immigrants",
+    "Republicans",
+    "activists"
+   ],
+   "coherence": 0.612,
+   "novelty": 1.0
+  },
+  {
+   "beat": 15,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Americans",
+   "reads": [
+    "Muslims",
+    "Jews",
+    "Democrats",
+    "refugees",
+    "voters",
+    "politicians"
+   ],
+   "coherence": 0.515,
+   "novelty": 0.667,
+   "commit": "Muslims"
+  },
+  {
+   "beat": 16,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Muslims",
+   "reads": [
+    "Muslim",
+    "Islam",
+    "Islamic",
+    "investors"
+   ],
+   "coherence": 0.708,
+   "novelty": 1.0
+  },
+  {
+   "beat": 17,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Muslims",
+   "reads": [
+    "Jews",
+    "Muslim",
+    "Jewish",
+    "Jesus",
+    "religion",
+    "Putin"
+   ],
+   "coherence": 0.613,
+   "novelty": 0.667,
+   "commit": "Muslim"
+  },
+  {
+   "beat": 18,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Muslim",
+   "reads": [
+    "Catholic",
+    "Christian",
+    "Islamic",
+    "Palestinian",
+    "Islam",
+    "Arab"
+   ],
+   "coherence": 0.623,
+   "novelty": 0.667
+  },
+  {
+   "beat": 19,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Muslim",
+   "reads": [
+    "Jewish",
+    "Soviet",
+    "Republican",
+    "Saudi",
+    "Catholic",
+    "liberal"
+   ],
+   "coherence": 0.542,
+   "novelty": 0.667,
+   "commit": "Catholic"
+  },
+  {
+   "beat": 20,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Catholic",
+   "reads": [
+    "Korean",
+    "copyright",
+    "Bible",
+    "Cath",
+    "cult",
+    "convent"
+   ],
+   "coherence": 0.389,
+   "novelty": 1.0
+  },
+  {
+   "beat": 21,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Catholic",
+   "reads": [
+    "Democratic",
+    "conservative",
+    "federal",
+    "academic",
+    "Federal",
+    "championship"
+   ],
+   "coherence": 0.421,
+   "novelty": 1.0,
+   "commit": "Korean"
+  },
+  {
+   "beat": 22,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Korean",
+   "reads": [
+    "Greek",
+    "Korea",
+    "Russian",
+    "Kore",
+    "Kim"
+   ],
+   "coherence": 0.592,
+   "novelty": 0.8
+  },
+  {
+   "beat": 23,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Korean",
+   "reads": [
+    "Israeli",
+    "Japanese",
+    "Spanish",
+    "Carolina",
+    "Indian",
+    "Northern"
+   ],
+   "coherence": 0.605,
+   "novelty": 0.667,
+   "commit": "Greek"
+  },
+  {
+   "beat": 24,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Greek",
+   "reads": [
+    "French",
+    "Egypt",
+    "Georgia",
+    "Latin",
+    "Spring",
+    "Gree"
+   ],
+   "coherence": 0.49,
+   "novelty": 0.833
+  },
+  {
+   "beat": 25,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Greek",
+   "reads": [
+    "Chinese",
+    "Irish",
+    "Brazil",
+    "European",
+    "Roman",
+    "Syrian"
+   ],
+   "coherence": 0.589,
+   "novelty": 0.167,
+   "commit": "Egypt"
+  },
+  {
+   "beat": 26,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Egypt",
+   "reads": [
+    "Scotland",
+    "Mexico",
+    "Empire",
+    "East",
+    "crypt",
+    "Afr"
+   ],
+   "coherence": 0.476,
+   "novelty": 1.0
+  },
+  {
+   "beat": 27,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Egypt",
+   "reads": [
+    "Ireland",
+    "Italy",
+    "Japan",
+    "France",
+    "Britain",
+    "Russia"
+   ],
+   "coherence": 0.607,
+   "novelty": 1.0,
+   "commit": "Empire"
+  },
+  {
+   "beat": 28,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Empire",
+   "reads": [
+    "Kingdom",
+    "Emp",
+    "Prince",
+    "enterprise",
+    "estate",
+    "elite"
+   ],
+   "coherence": 0.452,
+   "novelty": 1.0
+  },
+  {
+   "beat": 29,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Empire",
+   "reads": [
+    "Army",
+    "Academy",
+    "Ministry",
+    "Championship",
+    "County",
+    "Centre"
+   ],
+   "coherence": 0.452,
+   "novelty": 1.0,
+   "commit": "Kingdom"
+  },
+  {
+   "beat": 30,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Kingdom",
+   "reads": [
+    "Domain",
+    "King",
+    "Queen",
+    "Republic",
+    "king"
+   ],
+   "coherence": 0.521,
+   "novelty": 1.0
+  },
+  {
+   "beat": 31,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Kingdom",
+   "reads": [
+    "Class",
+    "Domain",
+    "Category",
+    "Group",
+    "Division",
+    "Association"
+   ],
+   "coherence": 0.479,
+   "novelty": 0.833,
+   "commit": "Domain"
+  },
+  {
+   "beat": 32,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Domain",
+   "reads": [
+    "domain",
+    "Region",
+    "Zone",
+    "Context"
+   ],
+   "coherence": 0.585,
+   "novelty": 1.0
+  },
+  {
+   "beat": 33,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Domain",
+   "reads": [
+    "Module",
+    "Section",
+    "Entity",
+    "Node",
+    "Format",
+    "Component"
+   ],
+   "coherence": 0.47,
+   "novelty": 1.0,
+   "commit": "domain"
+  },
+  {
+   "beat": 34,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "domain",
+   "reads": [
+    "region",
+    "realm",
+    "directory",
+    "mode",
+    "atom",
+    "context"
+   ],
+   "coherence": 0.465,
+   "novelty": 1.0
+  },
+  {
+   "beat": 35,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "domain",
+   "reads": [
+    "dimension",
+    "module",
+    "genre",
+    "database",
+    "section",
+    "plugin"
+   ],
+   "coherence": 0.415,
+   "novelty": 1.0,
+   "commit": "region"
+  },
+  {
+   "beat": 36,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "region",
+   "reads": [
+    "regions",
+    "Region",
+    "province",
+    "location",
+    "district"
+   ],
+   "coherence": 0.694,
+   "novelty": 0.8
+  },
+  {
+   "beat": 37,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "region",
+   "reads": [
+    "nation",
+    "area",
+    "territory",
+    "route",
+    "locale",
+    "areas"
+   ],
+   "coherence": 0.55,
+   "novelty": 1.0,
+   "commit": "regions"
+  },
+  {
+   "beat": 38,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "regions",
+   "reads": [
+    "sections",
+    "locations",
+    "areas",
+    "ranges",
+    "regional",
+    "nations"
+   ],
+   "coherence": 0.636,
+   "novelty": 0.833
+  },
+  {
+   "beat": 39,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "regions",
+   "reads": [
+    "groups",
+    "places",
+    "organizations",
+    "agencies",
+    "positions",
+    "populations"
+   ],
+   "coherence": 0.559,
+   "novelty": 1.0,
+   "commit": "sections"
+  },
+  {
+   "beat": 40,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "sections",
+   "reads": [
+    "section",
+    "portions",
+    "segments",
+    "Section",
+    "seconds"
+   ],
+   "coherence": 0.601,
+   "novelty": 0.6
+  },
+  {
+   "beat": 41,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "sections",
+   "reads": [
+    "components",
+    "pieces",
+    "sessions",
+    "panels",
+    "modules",
+    "classes"
+   ],
+   "coherence": 0.562,
+   "novelty": 1.0,
+   "commit": "portions"
+  },
+  {
+   "beat": 42,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "portions",
+   "reads": [
+    "portion",
+    "provisions",
+    "provision",
+    "amounts"
+   ],
+   "coherence": 0.606,
+   "novelty": 1.0
+  },
+  {
+   "beat": 43,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "portions",
+   "reads": [
+    "purposes",
+    "profits",
+    "contents",
+    "efforts",
+    "costs",
+    "chances"
+   ],
+   "coherence": 0.416,
+   "novelty": 1.0,
+   "commit": "portion"
+  },
+  {
+   "beat": 44,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "portion",
+   "reads": [
+    "proportion",
+    "amount",
+    "pour",
+    "piece",
+    "overflow",
+    "flavor"
+   ],
+   "coherence": 0.447,
+   "novelty": 1.0
+  },
+  {
+   "beat": 45,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "portion",
+   "reads": [
+    "provision",
+    "recipient",
+    "quantity",
+    "partition",
+    "particle",
+    "proof"
+   ],
+   "coherence": 0.423,
+   "novelty": 0.833,
+   "commit": "proportion"
+  },
+  {
+   "beat": 46,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "proportion",
+   "reads": [
+    "fraction",
+    "ratio",
+    "pattern",
+    "contrast",
+    "Pattern",
+    "approx"
+   ],
+   "coherence": 0.483,
+   "novelty": 1.0
+  },
+  {
+   "beat": 47,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "proportion",
+   "reads": [
+    "representation",
+    "probability",
+    "prediction",
+    "frequency",
+    "percentage",
+    "discrimination"
+   ],
+   "coherence": 0.46,
+   "novelty": 1.0,
+   "commit": "fraction"
+  },
+  {
+   "beat": 48,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "fraction",
+   "reads": [
+    "integer",
+    "decimal",
+    "factor",
+    "division",
+    "fragment",
+    "clause"
+   ],
+   "coherence": 0.536,
+   "novelty": 1.0
+  },
+  {
+   "beat": 49,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "fraction",
+   "reads": [
+    "interval",
+    "number",
+    "Integer",
+    "binary",
+    "integer",
+    "Binary"
+   ],
+   "coherence": 0.459,
+   "novelty": 0.833,
+   "commit": "integer"
+  },
+  {
+   "beat": 50,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "integer",
+   "reads": [
+    "Integer",
+    "boolean",
+    "iterator",
+    "uint",
+    "unit"
+   ],
+   "coherence": 0.548,
+   "novelty": 0.8
+  },
+  {
+   "beat": 51,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "integer",
+   "reads": [
+    "tuple",
+    "Boolean",
+    "zero",
+    "sqlite",
+    "html",
+    "compiler"
+   ],
+   "coherence": 0.437,
+   "novelty": 1.0,
+   "commit": "boolean"
+  },
+  {
+   "beat": 52,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "boolean",
+   "reads": [
+    "bool",
+    "Boolean",
+    "Bool"
+   ],
+   "coherence": 0.773,
+   "novelty": 0.667
+  },
+  {
+   "beat": 53,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "boolean",
+   "reads": [
+    "bool",
+    "json",
+    "debug",
+    "logical",
+    "charset",
+    "password"
+   ],
+   "coherence": 0.481,
+   "novelty": 0.833,
+   "commit": "bool"
+  },
+  {
+   "beat": 54,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "bool",
+   "reads": [
+    "Bool",
+    "nil",
+    "btn",
+    "let",
+    "doub"
+   ],
+   "coherence": 0.481,
+   "novelty": 0.8
+  },
+  {
+   "beat": 55,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "bool",
+   "reads": [
+    "elif",
+    "lbl",
+    "cls",
+    "eval",
+    "evt",
+    "lst"
+   ],
+   "coherence": 0.359,
+   "novelty": 1.0,
+   "commit": "nil"
+  },
+  {
+   "beat": 56,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "nil",
+   "reads": [
+    "null",
+    "Null",
+    "nullptr",
+    "mil",
+    "nan"
+   ],
+   "coherence": 0.552,
+   "novelty": 1.0
+  },
+  {
+   "beat": 57,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "nil",
+   "reads": [
+    "Null",
+    "none",
+    "None",
+    "Nothing",
+    "nothing",
+    "undefined"
+   ],
+   "coherence": 0.495,
+   "novelty": 0.833,
+   "commit": "null"
+  },
+  {
+   "beat": 58,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "null",
+   "reads": [
+    "Invalid",
+    "Null",
+    "nullptr",
+    "unknown",
+    "nullable",
+    "Unknown"
+   ],
+   "coherence": 0.668,
+   "novelty": 0.667
+  },
+  {
+   "beat": 59,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "null",
+   "reads": [
+    "xxx",
+    "Default",
+    "Error",
+    "Return",
+    "Other",
+    "Unknown"
+   ],
+   "coherence": 0.51,
+   "novelty": 0.833,
+   "commit": "Invalid"
+  },
+  {
+   "beat": 60,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Invalid",
+   "reads": [
+    "Valid",
+    "invalid",
+    "Illegal",
+    "incorrect",
+    "Failed"
+   ],
+   "coherence": 0.675,
+   "novelty": 1.0
+  },
+  {
+   "beat": 61,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Invalid",
+   "reads": [
+    "Required",
+    "Available",
+    "Updated",
+    "Custom",
+    "Created",
+    "Added"
+   ],
+   "coherence": 0.575,
+   "novelty": 1.0,
+   "commit": "invalid"
+  },
+  {
+   "beat": 62,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "invalid",
+   "reads": [
+    "valid",
+    "disabled",
+    "illegal",
+    "official",
+    "independent",
+    "individual"
+   ],
+   "coherence": 0.436,
+   "novelty": 1.0
+  },
+  {
+   "beat": 63,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "invalid",
+   "reads": [
+    "incorrect",
+    "wrong",
+    "unsafe",
+    "failed",
+    "damaged",
+    "injured"
+   ],
+   "coherence": 0.437,
+   "novelty": 0.833,
+   "commit": "valid"
+  },
+  {
+   "beat": 64,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "valid",
+   "reads": [
+    "validate",
+    "Valid",
+    "correct",
+    "visible",
+    "verify",
+    "legit"
+   ],
+   "coherence": 0.574,
+   "novelty": 0.833
+  },
+  {
+   "beat": 65,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "valid",
+   "reads": [
+    "available",
+    "acceptable",
+    "qualified",
+    "accepted",
+    "suitable",
+    "relevant"
+   ],
+   "coherence": 0.505,
+   "novelty": 1.0,
+   "commit": "validate"
+  },
+  {
+   "beat": 66,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "validate",
+   "reads": [
+    "evaluate",
+    "normalize",
+    "verify",
+    "Validation",
+    "validation",
+    "activate"
+   ],
+   "coherence": 0.646,
+   "novelty": 0.833
+  },
+  {
+   "beat": 67,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "validate",
+   "reads": [
+    "define",
+    "modify",
+    "translate",
+    "determine",
+    "demonstrate",
+    "encode"
+   ],
+   "coherence": 0.528,
+   "novelty": 1.0,
+   "commit": "evaluate"
+  },
+  {
+   "beat": 68,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "evaluate",
+   "reads": [
+    "investigate",
+    "evaluation",
+    "examine",
+    "estimate",
+    "evalu"
+   ],
+   "coherence": 0.585,
+   "novelty": 1.0
+  },
+  {
+   "beat": 69,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "evaluate",
+   "reads": [
+    "predict",
+    "enumerate",
+    "eliminate",
+    "describe",
+    "explain",
+    "calculate"
+   ],
+   "coherence": 0.57,
+   "novelty": 1.0,
+   "commit": "investigate"
+  },
+  {
+   "beat": 70,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "investigate",
+   "reads": [
+    "investigation",
+    "investig",
+    "Invest",
+    "explore"
+   ],
+   "coherence": 0.516,
+   "novelty": 1.0
+  },
+  {
+   "beat": 71,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "investigate",
+   "reads": [
+    "identify",
+    "specify",
+    "introduce",
+    "Analysis",
+    "describe",
+    "describes"
+   ],
+   "coherence": 0.536,
+   "novelty": 0.833,
+   "commit": "investigation"
+  },
+  {
+   "beat": 72,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "investigation",
+   "reads": [
+    "research",
+    "investment",
+    "assessment",
+    "intervention",
+    "infection",
+    "investments"
+   ],
+   "coherence": 0.56,
+   "novelty": 1.0
+  },
+  {
+   "beat": 73,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "investigation",
+   "reads": [
+    "analysis",
+    "discussion",
+    "competition",
+    "education",
+    "development",
+    "organization"
+   ],
+   "coherence": 0.493,
+   "novelty": 1.0,
+   "commit": "research"
+  },
+  {
+   "beat": 74,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "research",
+   "reads": [
+    "Research",
+    "researchers",
+    "search",
+    "reference"
+   ],
+   "coherence": 0.579,
+   "novelty": 1.0
+  },
+  {
+   "beat": 75,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "research",
+   "reads": [
+    "study",
+    "science",
+    "strategy",
+    "training",
+    "teaching",
+    "programming"
+   ],
+   "coherence": 0.492,
+   "novelty": 1.0,
+   "commit": "Research"
+  },
+  {
+   "beat": 76,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Research",
+   "reads": [
+    "Search",
+    "Training",
+    "Studies",
+    "Study",
+    "Learning",
+    "Science"
+   ],
+   "coherence": 0.618,
+   "novelty": 1.0
+  },
+  {
+   "beat": 77,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Research",
+   "reads": [
+    "Review",
+    "Resources",
+    "Query",
+    "Request",
+    "Question",
+    "Task"
+   ],
+   "coherence": 0.555,
+   "novelty": 1.0,
+   "commit": "Search"
+  },
+  {
+   "beat": 78,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Search",
+   "reads": [
+    "Check",
+    "Find",
+    "Select",
+    "searching",
+    "search",
+    "Start"
+   ],
+   "coherence": 0.63,
+   "novelty": 0.833
+  },
+  {
+   "beat": 79,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Search",
+   "reads": [
+    "Use",
+    "Choose",
+    "Show",
+    "Remove",
+    "Add",
+    "Write"
+   ],
+   "coherence": 0.613,
+   "novelty": 1.0,
+   "commit": "Check"
+  },
+  {
+   "beat": 80,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Check",
+   "reads": [
+    "Close",
+    "check",
+    "Click",
+    "Fill",
+    "checks"
+   ],
+   "coherence": 0.584,
+   "novelty": 1.0
+  },
+  {
+   "beat": 81,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Check",
+   "reads": [
+    "Comment",
+    "Please",
+    "Have",
+    "Create",
+    "Based",
+    "Convert"
+   ],
+   "coherence": 0.63,
+   "novelty": 1.0,
+   "commit": "Close"
+  },
+  {
+   "beat": 82,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Close",
+   "reads": [
+    "close",
+    "Open",
+    "Clear",
+    "closer",
+    "clos"
+   ],
+   "coherence": 0.531,
+   "novelty": 1.0
+  },
+  {
+   "beat": 83,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Close",
+   "reads": [
+    "Follow",
+    "Continue",
+    "Come",
+    "More",
+    "Give",
+    "Finally"
+   ],
+   "coherence": 0.592,
+   "novelty": 1.0,
+   "commit": "close"
+  },
+  {
+   "beat": 84,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "close",
+   "reads": [
+    "open",
+    "closed",
+    "closing",
+    "closely",
+    "near",
+    "closer"
+   ],
+   "coherence": 0.564,
+   "novelty": 0.833
+  },
+  {
+   "beat": 85,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "close",
+   "reads": [
+    "follow",
+    "clean",
+    "hold",
+    "fold",
+    "join",
+    "move"
+   ],
+   "coherence": 0.473,
+   "novelty": 1.0,
+   "commit": "open"
+  },
+  {
+   "beat": 86,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "open",
+   "reads": [
+    "opens",
+    "opened",
+    "opening",
+    "Open"
+   ],
+   "coherence": 0.673,
+   "novelty": 0.75
+  },
+  {
+   "beat": 87,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "open",
+   "reads": [
+    "opened",
+    "full",
+    "empty",
+    "unlock",
+    "expand",
+    "filled"
+   ],
+   "coherence": 0.46,
+   "novelty": 0.833,
+   "commit": "opens"
+  },
+  {
+   "beat": 88,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "opens",
+   "reads": [
+    "holds",
+    "extends",
+    "applies",
+    "ends",
+    "enables",
+    "plays"
+   ],
+   "coherence": 0.533,
+   "novelty": 1.0
+  },
+  {
+   "beat": 89,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "opens",
+   "reads": [
+    "releases",
+    "uses",
+    "shows",
+    "throws",
+    "makes",
+    "produces"
+   ],
+   "coherence": 0.495,
+   "novelty": 1.0,
+   "commit": "holds"
+  },
+  {
+   "beat": 90,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "holds",
+   "reads": [
+    "held",
+    "holding",
+    "contains",
+    "hold",
+    "has"
+   ],
+   "coherence": 0.693,
+   "novelty": 0.8
+  },
+  {
+   "beat": 91,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "holds",
+   "reads": [
+    "supports",
+    "gives",
+    "needs",
+    "assumes",
+    "provides",
+    "represents"
+   ],
+   "coherence": 0.532,
+   "novelty": 1.0,
+   "commit": "held"
+  },
+  {
+   "beat": 92,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "held",
+   "reads": [
+    "carried",
+    "kept",
+    "offered",
+    "handled",
+    "stood",
+    "holding"
+   ],
+   "coherence": 0.639,
+   "novelty": 0.833
+  },
+  {
+   "beat": 93,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "held",
+   "reads": [
+    "pushed",
+    "brought",
+    "fought",
+    "reached",
+    "picked",
+    "bought"
+   ],
+   "coherence": 0.604,
+   "novelty": 1.0,
+   "commit": "carried"
+  },
+  {
+   "beat": 94,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "carried",
+   "reads": [
+    "carrying",
+    "delivered",
+    "carry",
+    "contained"
+   ],
+   "coherence": 0.632,
+   "novelty": 1.0
+  },
+  {
+   "beat": 95,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "carried",
+   "reads": [
+    "walked",
+    "captured",
+    "copied",
+    "attacked",
+    "played",
+    "arrived"
+   ],
+   "coherence": 0.584,
+   "novelty": 1.0,
+   "commit": "carrying"
+  },
+  {
+   "beat": 96,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "carrying",
+   "reads": [
+    "bringing",
+    "throwing",
+    "serving",
+    "containing",
+    "carrier",
+    "carry"
+   ],
+   "coherence": 0.569,
+   "novelty": 0.833
+  },
+  {
+   "beat": 97,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "carrying",
+   "reads": [
+    "taking",
+    "calling",
+    "supporting",
+    "playing",
+    "hanging",
+    "connecting"
+   ],
+   "coherence": 0.514,
+   "novelty": 1.0,
+   "commit": "bringing"
+  },
+  {
+   "beat": 98,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "bringing",
+   "reads": [
+    "brings",
+    "bring",
+    "coming",
+    "brought"
+   ],
+   "coherence": 0.707,
+   "novelty": 0.75
+  },
+  {
+   "beat": 99,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "bringing",
+   "reads": [
+    "giving",
+    "providing",
+    "creating",
+    "allowing",
+    "trying",
+    "breaking"
+   ],
+   "coherence": 0.592,
+   "novelty": 1.0,
+   "commit": "brings"
+  },
+  {
+   "beat": 100,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "brings",
+   "reads": [
+    "comes",
+    "creates",
+    "breaks",
+    "bring",
+    "becomes",
+    "suggests"
+   ],
+   "coherence": 0.584,
+   "novelty": 0.833
+  },
+  {
+   "beat": 101,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "brings",
+   "reads": [
+    "gives",
+    "builds",
+    "takes",
+    "drives",
+    "reveals",
+    "meets"
+   ],
+   "coherence": 0.53,
+   "novelty": 0.833,
+   "commit": "comes"
+  },
+  {
+   "beat": 102,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "comes",
+   "reads": [
+    "came",
+    "come",
+    "coming",
+    "Come"
+   ],
+   "coherence": 0.697,
+   "novelty": 0.75
+  },
+  {
+   "beat": 103,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "comes",
+   "reads": [
+    "goes",
+    "occurs",
+    "appears",
+    "seems",
+    "happens",
+    "seem"
+   ],
+   "coherence": 0.514,
+   "novelty": 1.0,
+   "commit": "came"
+  },
+  {
+   "beat": 104,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "came",
+   "reads": [
+    "became",
+    "gave",
+    "went",
+    "made",
+    "fell",
+    "were"
+   ],
+   "coherence": 0.557,
+   "novelty": 1.0
+  },
+  {
+   "beat": 105,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "came",
+   "reads": [
+    "broke",
+    "lived",
+    "took",
+    "grew",
+    "died",
+    "laid"
+   ],
+   "coherence": 0.503,
+   "novelty": 1.0,
+   "commit": "became"
+  },
+  {
+   "beat": 106,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "became",
+   "reads": [
+    "become",
+    "becoming",
+    "becomes"
+   ],
+   "coherence": 0.805,
+   "novelty": 0.667
+  },
+  {
+   "beat": 107,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "became",
+   "reads": [
+    "appeared",
+    "occurred",
+    "emerged",
+    "gained",
+    "performed",
+    "begun"
+   ],
+   "coherence": 0.564,
+   "novelty": 1.0,
+   "commit": "become"
+  },
+  {
+   "beat": 108,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "become",
+   "reads": [
+    "create",
+    "overcome",
+    "becoming",
+    "appear",
+    "transform",
+    "enhance"
+   ],
+   "coherence": 0.54,
+   "novelty": 0.833
+  },
+  {
+   "beat": 109,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "become",
+   "reads": [
+    "avoid",
+    "acquire",
+    "determine",
+    "activate",
+    "reduce",
+    "improve"
+   ],
+   "coherence": 0.446,
+   "novelty": 1.0,
+   "commit": "appear"
+  },
+  {
+   "beat": 110,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "appear",
+   "reads": [
+    "appears",
+    "appearance",
+    "appeared",
+    "occur",
+    "arrive"
+   ],
+   "coherence": 0.677,
+   "novelty": 0.6
+  },
+  {
+   "beat": 111,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "appear",
+   "reads": [
+    "apparent",
+    "exist",
+    "afford",
+    "contain",
+    "happen",
+    "attend"
+   ],
+   "coherence": 0.465,
+   "novelty": 1.0,
+   "commit": "occur"
+  },
+  {
+   "beat": 112,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "occur",
+   "reads": [
+    "occurs",
+    "occurred",
+    "involve",
+    "emit",
+    "occup"
+   ],
+   "coherence": 0.592,
+   "novelty": 0.6
+  },
+  {
+   "beat": 113,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "occur",
+   "reads": [
+    "happened",
+    "consist",
+    "involves",
+    "encounter",
+    "involved",
+    "involve"
+   ],
+   "coherence": 0.474,
+   "novelty": 0.833,
+   "commit": "involve"
+  },
+  {
+   "beat": 114,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "involve",
+   "reads": [
+    "involving",
+    "involvement",
+    "involves",
+    "involved"
+   ],
+   "coherence": 0.753,
+   "novelty": 0.5
+  },
+  {
+   "beat": 115,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "involve",
+   "reads": [
+    "engage",
+    "participate",
+    "invoke",
+    "influence",
+    "endorse",
+    "encourage"
+   ],
+   "coherence": 0.53,
+   "novelty": 1.0,
+   "commit": "involving"
+  },
+  {
+   "beat": 116,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "involving",
+   "reads": [
+    "concerning",
+    "featuring",
+    "including",
+    "involves",
+    "regarding",
+    "containing"
+   ],
+   "coherence": 0.619,
+   "novelty": 0.833
+  },
+  {
+   "beat": 117,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "involving",
+   "reads": [
+    "handling",
+    "maintaining",
+    "having",
+    "providing",
+    "considering",
+    "ordering"
+   ],
+   "coherence": 0.479,
+   "novelty": 1.0,
+   "commit": "featuring"
+  },
+  {
+   "beat": 118,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "featuring",
+   "reads": [
+    "featured",
+    "features",
+    "feature",
+    "feat",
+    "hosting"
+   ],
+   "coherence": 0.545,
+   "novelty": 1.0
+  },
+  {
+   "beat": 119,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "featuring",
+   "reads": [
+    "features",
+    "Features",
+    "particularly",
+    "Feature",
+    "described",
+    "characteristics"
+   ],
+   "coherence": 0.466,
+   "novelty": 0.833,
+   "commit": "featured"
+  },
+  {
+   "beat": 120,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "featured",
+   "reads": [
+    "displayed",
+    "reviewed",
+    "feature",
+    "latest",
+    "favorite",
+    "placeholder"
+   ],
+   "coherence": 0.451,
+   "novelty": 0.833
+  },
+  {
+   "beat": 121,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "featured",
+   "reads": [
+    "included",
+    "selected",
+    "edited",
+    "deleted",
+    "listed",
+    "completed"
+   ],
+   "coherence": 0.419,
+   "novelty": 1.0,
+   "commit": "displayed"
+  },
+  {
+   "beat": 122,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "displayed",
+   "reads": [
+    "displays",
+    "demonstrated",
+    "display",
+    "Display",
+    "printed"
+   ],
+   "coherence": 0.563,
+   "novelty": 1.0
+  },
+  {
+   "beat": 123,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "displayed",
+   "reads": [
+    "presented",
+    "mounted",
+    "placed",
+    "stored",
+    "collected",
+    "dropped"
+   ],
+   "coherence": 0.584,
+   "novelty": 1.0,
+   "commit": "displays"
+  },
+  {
+   "beat": 124,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "displays",
+   "reads": [
+    "designs",
+    "shows",
+    "display",
+    "stores",
+    "stands",
+    "images"
+   ],
+   "coherence": 0.587,
+   "novelty": 0.833
+  },
+  {
+   "beat": 125,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "displays",
+   "reads": [
+    "scenes",
+    "frames",
+    "lists",
+    "models",
+    "filters",
+    "signs"
+   ],
+   "coherence": 0.49,
+   "novelty": 1.0,
+   "commit": "designs"
+  },
+  {
+   "beat": 126,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "designs",
+   "reads": [
+    "design",
+    "designed",
+    "Design",
+    "patterns"
+   ],
+   "coherence": 0.607,
+   "novelty": 1.0
+  },
+  {
+   "beat": 127,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "designs",
+   "reads": [
+    "styles",
+    "techniques",
+    "recipes",
+    "codes",
+    "shapes",
+    "methods"
+   ],
+   "coherence": 0.501,
+   "novelty": 1.0,
+   "commit": "design"
+  },
+  {
+   "beat": 128,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "design",
+   "reads": [
+    "Design",
+    "designer",
+    "engineering",
+    "Designer",
+    "build"
+   ],
+   "coherence": 0.472,
+   "novelty": 0.8
+  },
+  {
+   "beat": 129,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "design",
+   "reads": [
+    "detail",
+    "technique",
+    "configuration",
+    "method",
+    "strategy",
+    "system"
+   ],
+   "coherence": 0.392,
+   "novelty": 1.0,
+   "commit": "designer"
+  },
+  {
+   "beat": 130,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "designer",
+   "reads": [
+    "Designer",
+    "senior",
+    "Disney",
+    "premium",
+    "German"
+   ],
+   "coherence": 0.503,
+   "novelty": 0.8
+  },
+  {
+   "beat": 131,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "designer",
+   "reads": [
+    "classic",
+    "golden",
+    "American",
+    "modern",
+    "Canadian",
+    "Australian"
+   ],
+   "coherence": 0.384,
+   "novelty": 1.0,
+   "commit": "classic"
+  },
+  {
+   "beat": 132,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "classic",
+   "reads": [
+    "Classic",
+    "basic",
+    "traditional",
+    "class"
+   ],
+   "coherence": 0.588,
+   "novelty": 1.0
+  },
+  {
+   "beat": 133,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "classic",
+   "reads": [
+    "historic",
+    "basic",
+    "Basic",
+    "conventional",
+    "typical",
+    "mainstream"
+   ],
+   "coherence": 0.461,
+   "novelty": 0.833,
+   "commit": "Classic"
+  },
+  {
+   "beat": 134,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Classic",
+   "reads": [
+    "Standard",
+    "Basic",
+    "Mini",
+    "Modern",
+    "Common",
+    "Academy"
+   ],
+   "coherence": 0.532,
+   "novelty": 0.833
+  },
+  {
+   "beat": 135,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Classic",
+   "reads": [
+    "Standard",
+    "Normal",
+    "Solid",
+    "Simple",
+    "Real",
+    "Full"
+   ],
+   "coherence": 0.446,
+   "novelty": 0.833,
+   "commit": "Standard"
+  },
+  {
+   "beat": 136,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Standard",
+   "reads": [
+    "standard",
+    "Station",
+    "standards",
+    "Stand"
+   ],
+   "coherence": 0.523,
+   "novelty": 1.0
+  },
+  {
+   "beat": 137,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Standard",
+   "reads": [
+    "General",
+    "Special",
+    "Original",
+    "Short",
+    "Single",
+    "Random"
+   ],
+   "coherence": 0.521,
+   "novelty": 1.0,
+   "commit": "standard"
+  },
+  {
+   "beat": 138,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "standard",
+   "reads": [
+    "regular",
+    "standards",
+    "brand",
+    "stand",
+    "pointer",
+    "stud"
+   ],
+   "coherence": 0.432,
+   "novelty": 0.833
+  },
+  {
+   "beat": 139,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "standard",
+   "reads": [
+    "general",
+    "broad",
+    "common",
+    "major",
+    "monitor",
+    "universal"
+   ],
+   "coherence": 0.381,
+   "novelty": 1.0,
+   "commit": "regular"
+  },
+  {
+   "beat": 140,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "regular",
+   "reads": [
+    "normal",
+    "regularly",
+    "ordinary",
+    "reg",
+    "real"
+   ],
+   "coherence": 0.555,
+   "novelty": 1.0
+  },
+  {
+   "beat": 141,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "regular",
+   "reads": [
+    "normal",
+    "usual",
+    "organic",
+    "proper",
+    "normally",
+    "regional"
+   ],
+   "coherence": 0.485,
+   "novelty": 0.833,
+   "commit": "normal"
+  },
+  {
+   "beat": 142,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "normal",
+   "reads": [
+    "Normal",
+    "natural",
+    "normalize",
+    "norm",
+    "nor"
+   ],
+   "coherence": 0.507,
+   "novelty": 0.8
+  },
+  {
+   "beat": 143,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "normal",
+   "reads": [
+    "original",
+    "unusual",
+    "simple",
+    "almost",
+    "nearly",
+    "possible"
+   ],
+   "coherence": 0.414,
+   "novelty": 1.0,
+   "commit": "natural"
+  },
+  {
+   "beat": 144,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "natural",
+   "reads": [
+    "Natural",
+    "naturally",
+    "natur",
+    "nature"
+   ],
+   "coherence": 0.664,
+   "novelty": 1.0
+  },
+  {
+   "beat": 145,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "natural",
+   "reads": [
+    "physical",
+    "Natural",
+    "external",
+    "historical",
+    "environmental",
+    "artificial"
+   ],
+   "coherence": 0.539,
+   "novelty": 0.833,
+   "commit": "Natural"
+  },
+  {
+   "beat": 146,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Natural",
+   "reads": [
+    "Nature",
+    "National",
+    "Digital",
+    "Living",
+    "Material"
+   ],
+   "coherence": 0.532,
+   "novelty": 1.0
+  },
+  {
+   "beat": 147,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Natural",
+   "reads": [
+    "Personal",
+    "Internal",
+    "Virtual",
+    "Native",
+    "Trans",
+    "Secret"
+   ],
+   "coherence": 0.476,
+   "novelty": 1.0,
+   "commit": "Nature"
+  },
+  {
+   "beat": 148,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Nature",
+   "reads": [
+    "nature",
+    "Environment",
+    "Forest",
+    "Culture"
+   ],
+   "coherence": 0.613,
+   "novelty": 0.75
+  },
+  {
+   "beat": 149,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Nature",
+   "reads": [
+    "Life",
+    "History",
+    "Society",
+    "Nation",
+    "Nations",
+    "Africa"
+   ],
+   "coherence": 0.451,
+   "novelty": 1.0,
+   "commit": "Environment"
+  },
+  {
+   "beat": 150,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Environment",
+   "reads": [
+    "environment",
+    "environments",
+    "environmental"
+   ],
+   "coherence": 0.693,
+   "novelty": 0.667
+  },
+  {
+   "beat": 151,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Environment",
+   "reads": [
+    "Location",
+    "Organization",
+    "Configuration",
+    "Event",
+    "Equipment",
+    "Events"
+   ],
+   "coherence": 0.508,
+   "novelty": 1.0,
+   "commit": "environment"
+  },
+  {
+   "beat": 152,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "environment",
+   "reads": [
+    "atmosphere",
+    "climate",
+    "environments",
+    "env",
+    "domain",
+    "exposure"
+   ],
+   "coherence": 0.525,
+   "novelty": 0.833
+  },
+  {
+   "beat": 153,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "environment",
+   "reads": [
+    "infrastructure",
+    "government",
+    "industry",
+    "architecture",
+    "education",
+    "society"
+   ],
+   "coherence": 0.481,
+   "novelty": 1.0,
+   "commit": "atmosphere"
+  },
+  {
+   "beat": 154,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "atmosphere",
+   "reads": [
+    "atmos",
+    "atom",
+    "air",
+    "breath",
+    "universe"
+   ],
+   "coherence": 0.535,
+   "novelty": 1.0
+  },
+  {
+   "beat": 155,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "atmosphere",
+   "reads": [
+    "temperature",
+    "electricity",
+    "attitude",
+    "anxiety",
+    "muscle",
+    "latitude"
+   ],
+   "coherence": 0.458,
+   "novelty": 1.0,
+   "commit": "atmos"
+  },
+  {
+   "beat": 156,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "atmos",
+   "reads": [
+    "accum",
+    "circum",
+    "citiz",
+    "enthus",
+    "tempor",
+    "aus"
+   ],
+   "coherence": 0.416,
+   "novelty": 1.0
+  },
+  {
+   "beat": 157,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "atmos",
+   "reads": [
+    "absor",
+    "distrib",
+    "simult",
+    "explo",
+    "explos",
+    "displ"
+   ],
+   "coherence": 0.387,
+   "novelty": 1.0,
+   "commit": "circum"
+  },
+  {
+   "beat": 158,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "circum",
+   "reads": [
+    "circ",
+    "Circ",
+    "durch",
+    "cum",
+    "around",
+    "micro"
+   ],
+   "coherence": 0.427,
+   "novelty": 1.0
+  },
+  {
+   "beat": 159,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "circum",
+   "reads": [
+    "compreh",
+    "circ",
+    "compr",
+    "redu",
+    "conver",
+    "prec"
+   ],
+   "coherence": 0.399,
+   "novelty": 0.833,
+   "commit": "circ"
+  },
+  {
+   "beat": 160,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "circ",
+   "reads": [
+    "Circ",
+    "inc",
+    "enc",
+    "comm",
+    "Comm"
+   ],
+   "coherence": 0.583,
+   "novelty": 0.8
+  },
+  {
+   "beat": 161,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "circ",
+   "reads": [
+    "dec",
+    "acc",
+    "rec",
+    "scr",
+    "esc",
+    "pic"
+   ],
+   "coherence": 0.496,
+   "novelty": 1.0,
+   "commit": "inc"
+  },
+  {
+   "beat": 162,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "inc",
+   "reads": [
+    "ins",
+    "Inc",
+    "inv",
+    "inf",
+    "inst"
+   ],
+   "coherence": 0.68,
+   "novelty": 1.0
+  },
+  {
+   "beat": 163,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "inc",
+   "reads": [
+    "emb",
+    "ind",
+    "ign",
+    "ent",
+    "obs",
+    "Inv"
+   ],
+   "coherence": 0.58,
+   "novelty": 1.0,
+   "commit": "ins"
+  },
+  {
+   "beat": 164,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "ins",
+   "reads": [
+    "Ins",
+    "uns",
+    "ens",
+    "ans",
+    "sens"
+   ],
+   "coherence": 0.615,
+   "novelty": 1.0
+  },
+  {
+   "beat": 165,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "ins",
+   "reads": [
+    "cons",
+    "Inst",
+    "est",
+    "ist",
+    "Ess",
+    "ess"
+   ],
+   "coherence": 0.543,
+   "novelty": 1.0,
+   "commit": "Ins"
+  },
+  {
+   "beat": 166,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Ins",
+   "reads": [
+    "Inf",
+    "Dis",
+    "Ind",
+    "Cons",
+    "Unt",
+    "Ill"
+   ],
+   "coherence": 0.687,
+   "novelty": 1.0
+  },
+  {
+   "beat": 167,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Ins",
+   "reads": [
+    "Exp",
+    "Aff",
+    "Att",
+    "Res",
+    "Des",
+    "Def"
+   ],
+   "coherence": 0.636,
+   "novelty": 1.0,
+   "commit": "Inf"
+  },
+  {
+   "beat": 168,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Inf",
+   "reads": [
+    "Prof",
+    "Int",
+    "inf",
+    "Conf",
+    "Ext"
+   ],
+   "coherence": 0.701,
+   "novelty": 0.8
+  },
+  {
+   "beat": 169,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Inf",
+   "reads": [
+    "Min",
+    "Div",
+    "Rep",
+    "Ref",
+    "Rev",
+    "Dev"
+   ],
+   "coherence": 0.594,
+   "novelty": 1.0,
+   "commit": "Int"
+  },
+  {
+   "beat": 170,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Int",
+   "reads": [
+    "int",
+    "Mult",
+    "Intern",
+    "Ont",
+    "Init"
+   ],
+   "coherence": 0.63,
+   "novelty": 1.0
+  },
+  {
+   "beat": 171,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Int",
+   "reads": [
+    "Ent",
+    "Eth",
+    "Ret",
+    "Rel",
+    "Cont",
+    "Det"
+   ],
+   "coherence": 0.636,
+   "novelty": 1.0,
+   "commit": "int"
+  },
+  {
+   "beat": 172,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "int",
+   "reads": [
+    "ext",
+    "intr",
+    "quant",
+    "init",
+    "uint",
+    "inter"
+   ],
+   "coherence": 0.55,
+   "novelty": 1.0
+  },
+  {
+   "beat": 173,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "int",
+   "reads": [
+    "mult",
+    "opt",
+    "hist",
+    "integr",
+    "alt",
+    "dict"
+   ],
+   "coherence": 0.527,
+   "novelty": 1.0,
+   "commit": "ext"
+  },
+  {
+   "beat": 174,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "ext",
+   "reads": [
+    "extr",
+    "Ext",
+    "extrem",
+    "exp",
+    "extended",
+    "extent"
+   ],
+   "coherence": 0.559,
+   "novelty": 0.833
+  },
+  {
+   "beat": 175,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "ext",
+   "reads": [
+    "det",
+    "dist",
+    "eth",
+    "ult",
+    "exem",
+    "emerg"
+   ],
+   "coherence": 0.528,
+   "novelty": 1.0,
+   "commit": "extr"
+  },
+  {
+   "beat": 176,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "extr",
+   "reads": [
+    "intr",
+    "expl",
+    "extra",
+    "exclus",
+    "exper",
+    "external"
+   ],
+   "coherence": 0.545,
+   "novelty": 0.833
+  },
+  {
+   "beat": 177,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "extr",
+   "reads": [
+    "entr",
+    "vibr",
+    "stri",
+    "trem",
+    "equ",
+    "requ"
+   ],
+   "coherence": 0.476,
+   "novelty": 1.0,
+   "commit": "expl"
+  },
+  {
+   "beat": 178,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "expl",
+   "reads": [
+    "Expl",
+    "explan",
+    "explo",
+    "exc",
+    "appl"
+   ],
+   "coherence": 0.635,
+   "novelty": 1.0
+  },
+  {
+   "beat": 179,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "expl",
+   "reads": [
+    "repl",
+    "experi",
+    "compl",
+    "impl",
+    "proble",
+    "accompl"
+   ],
+   "coherence": 0.509,
+   "novelty": 1.0,
+   "commit": "Expl"
+  },
+  {
+   "beat": 180,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Expl",
+   "reads": [
+    "Exp",
+    "Enc",
+    "Pract",
+    "Coll",
+    "Looking",
+    "Play"
+   ],
+   "coherence": 0.575,
+   "novelty": 0.833
+  },
+  {
+   "beat": 181,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Expl",
+   "reads": [
+    "Exec",
+    "Appro",
+    "Arr",
+    "Com",
+    "Comm",
+    "The"
+   ],
+   "coherence": 0.525,
+   "novelty": 1.0,
+   "commit": "Enc"
+  },
+  {
+   "beat": 182,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Enc",
+   "reads": [
+    "Con",
+    "Rec",
+    "enc",
+    "Eng",
+    "Occ"
+   ],
+   "coherence": 0.679,
+   "novelty": 1.0
+  },
+  {
+   "beat": 183,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Enc",
+   "reads": [
+    "Acc",
+    "Seg",
+    "Cong",
+    "Reg",
+    "Dec",
+    "Cor"
+   ],
+   "coherence": 0.617,
+   "novelty": 1.0,
+   "commit": "Con"
+  },
+  {
+   "beat": 184,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Con",
+   "reads": [
+    "con",
+    "Mon",
+    "Pro",
+    "kon",
+    "Cons"
+   ],
+   "coherence": 0.708,
+   "novelty": 1.0
+  },
+  {
+   "beat": 185,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Con",
+   "reads": [
+    "Col",
+    "Cal",
+    "Par",
+    "Cur",
+    "Pol",
+    "Mor"
+   ],
+   "coherence": 0.681,
+   "novelty": 1.0,
+   "commit": "Col"
+  },
+  {
+   "beat": 186,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Col",
+   "reads": [
+    "col",
+    "Del",
+    "Cos",
+    "Cou",
+    "Clo"
+   ],
+   "coherence": 0.719,
+   "novelty": 1.0
+  },
+  {
+   "beat": 187,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Col",
+   "reads": [
+    "Mar",
+    "Mil",
+    "Mel",
+    "Fil",
+    "Hel",
+    "Ger"
+   ],
+   "coherence": 0.688,
+   "novelty": 1.0,
+   "commit": "Del"
+  },
+  {
+   "beat": 188,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Del",
+   "reads": [
+    "del",
+    "Der",
+    "Dar",
+    "Delete"
+   ],
+   "coherence": 0.627,
+   "novelty": 1.0
+  },
+  {
+   "beat": 189,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Del",
+   "reads": [
+    "Bal",
+    "Bel",
+    "Val",
+    "Mal",
+    "Ber",
+    "Gil"
+   ],
+   "coherence": 0.671,
+   "novelty": 1.0,
+   "commit": "del"
+  },
+  {
+   "beat": 190,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "del",
+   "reads": [
+    "mel",
+    "der",
+    "dev",
+    "delet",
+    "def",
+    "deliver"
+   ],
+   "coherence": 0.558,
+   "novelty": 1.0
+  },
+  {
+   "beat": 191,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "del",
+   "reads": [
+    "hel",
+    "sel",
+    "mul",
+    "dol",
+    "mal",
+    "pol"
+   ],
+   "coherence": 0.6,
+   "novelty": 1.0,
+   "commit": "mel"
+  },
+  {
+   "beat": 192,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "mel",
+   "reads": [
+    "mol",
+    "pel",
+    "mer",
+    "Mel",
+    "meg",
+    "med"
+   ],
+   "coherence": 0.696,
+   "novelty": 0.833
+  },
+  {
+   "beat": 193,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "mel",
+   "reads": [
+    "sal",
+    "mor",
+    "mar",
+    "mur",
+    "mag",
+    "ger"
+   ],
+   "coherence": 0.646,
+   "novelty": 1.0,
+   "commit": "mol"
+  },
+  {
+   "beat": 194,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "mol",
+   "reads": [
+    "vol",
+    "mot",
+    "por",
+    "poll",
+    "mand",
+    "org"
+   ],
+   "coherence": 0.618,
+   "novelty": 1.0
+  },
+  {
+   "beat": 195,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "mol",
+   "reads": [
+    "mil",
+    "pou",
+    "hor",
+    "mus",
+    "mut",
+    "vor"
+   ],
+   "coherence": 0.603,
+   "novelty": 1.0,
+   "commit": "vol"
+  },
+  {
+   "beat": 196,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "vol",
+   "reads": [
+    "Vol",
+    "invol",
+    "vel",
+    "volt",
+    "val"
+   ],
+   "coherence": 0.653,
+   "novelty": 1.0
+  },
+  {
+   "beat": 197,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "vol",
+   "reads": [
+    "vul",
+    "bol",
+    "vis",
+    "ful",
+    "voc",
+    "vot"
+   ],
+   "coherence": 0.603,
+   "novelty": 1.0,
+   "commit": "Vol"
+  },
+  {
+   "beat": 198,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Vol",
+   "reads": [
+    "Ver",
+    "Sur",
+    "Var",
+    "Sch",
+    "Grad",
+    "Volume"
+   ],
+   "coherence": 0.58,
+   "novelty": 1.0
+  },
+  {
+   "beat": 199,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "full",
+   "anchor": "Vol",
+   "reads": [
+    "Sil",
+    "Tur",
+    "Bur",
+    "Wil",
+    "Vis",
+    "San"
+   ],
+   "coherence": 0.632,
+   "novelty": 1.0,
+   "commit": "Ver"
+  }
+ ],
+ "refs": {
+  "sweep": {
+   "moves": 100,
+   "distinct": 101,
+   "revisits": 0,
+   "regions": 31,
+   "step_cos": 0.66
+  },
+  "greedy nearest": {
+   "moves": 100,
+   "distinct": 5,
+   "revisits": 96,
+   "regions": 1,
+   "step_cos": 0.802
+  },
+  "random of 10 nearest": {
+   "moves": 100,
+   "distinct": 51,
+   "revisits": 50,
+   "regions": 2,
+   "step_cos": 0.702
+  }
+ },
+ "tag": "sol_bank_forage_Berlin",
+ "gate0": {
+  "sides_alternate": "1.00 of beats switch side",
+  "grain_changes_reads": "15/16 probes read differently across grains; e.g. top8:Jackson / top16:Brazil / b4_32:California / top64:Brazil / full:German",
+  "coverage_repels": "distinct reads 104 with trace, 2 without"
+ },
+ "grain use": {
+  "b4_32": 2,
+  "top64": 2,
+  "full": 196
+ }
+}

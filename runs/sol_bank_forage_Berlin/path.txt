@@ -1,0 +1,200 @@
+b000 L th=+0.60 ax=+0.00 [ b4_32] @Berlin         saw: London Denver Ontario Toronto mont
+b001 R th=-0.60 ax=+0.00 [ b4_32] @Berlin         saw: Delhi Florida Minnesota Michigan Illinois Massachusetts   -> London
+b002 L th=+0.60 ax=+0.00 [ top64] @London         saw: England Japan Rome Hollywood downtown Monday
+b003 R th=-0.60 ax=+0.00 [ top64] @London         saw: Germany Italy Scotland Russia France Canada   -> England
+b004 L th=+0.60 ax=+0.00 [  full] @England        saw: Spain Britain English Ireland Australia
+b005 R th=-0.60 ax=+0.00 [  full] @England        saw: Afghanistan America Korea Pakistan India Syria   -> Spain
+b006 L th=+0.60 ax=+0.00 [  full] @Spain          saw: Asia Europe Iran Spanish Ukraine China
+b007 R th=-0.60 ax=+0.00 [  full] @Spain          saw: Mexico Israel Iraq Syria Africa Asia   -> Asia
+b008 L th=+0.60 ax=+0.00 [  full] @Asia           saw: Asian Arizona Atlanta Area air
+b009 R th=-0.60 ax=+0.00 [  full] @Asia           saw: Alabama Europe Africa Australia atmosphere Nature   -> Asian
+b010 L th=+0.60 ax=+0.00 [  full] @Asian          saw: American Syrian Australian Eastern Indian Afghan
+b011 R th=-0.60 ax=+0.00 [  full] @Asian          saw: African Japanese Chinese Russian German European   -> American
+b012 L th=+0.60 ax=+0.00 [  full] @American       saw: Americans Canadian Americ California Amazon
+b013 R th=-0.60 ax=+0.00 [  full] @American       saw: British Italian French Roman Irish German   -> Americans
+b014 L th=+0.60 ax=+0.00 [  full] @Americans      saw: Muslims Democrats Christians immigrants Republicans activists
+b015 R th=-0.60 ax=+0.00 [  full] @Americans      saw: Muslims Jews Democrats refugees voters politicians   -> Muslims
+b016 L th=+0.60 ax=+0.00 [  full] @Muslims        saw: Muslim Islam Islamic investors
+b017 R th=-0.60 ax=+0.00 [  full] @Muslims        saw: Jews Muslim Jewish Jesus religion Putin   -> Muslim
+b018 L th=+0.60 ax=+0.00 [  full] @Muslim         saw: Catholic Christian Islamic Palestinian Islam Arab
+b019 R th=-0.60 ax=+0.00 [  full] @Muslim         saw: Jewish Soviet Republican Saudi Catholic liberal   -> Catholic
+b020 L th=+0.60 ax=+0.00 [  full] @Catholic       saw: Korean copyright Bible Cath cult convent
+b021 R th=-0.60 ax=+0.00 [  full] @Catholic       saw: Democratic conservative federal academic Federal championship   -> Korean
+b022 L th=+0.60 ax=+0.00 [  full] @Korean         saw: Greek Korea Russian Kore Kim
+b023 R th=-0.60 ax=+0.00 [  full] @Korean         saw: Israeli Japanese Spanish Carolina Indian Northern   -> Greek
+b024 L th=+0.60 ax=+0.00 [  full] @Greek          saw: French Egypt Georgia Latin Spring Gree
+b025 R th=-0.60 ax=+0.00 [  full] @Greek          saw: Chinese Irish Brazil European Roman Syrian   -> Egypt
+b026 L th=+0.60 ax=+0.00 [  full] @Egypt          saw: Scotland Mexico Empire East crypt Afr
+b027 R th=-0.60 ax=+0.00 [  full] @Egypt          saw: Ireland Italy Japan France Britain Russia   -> Empire
+b028 L th=+0.60 ax=+0.00 [  full] @Empire         saw: Kingdom Emp Prince enterprise estate elite
+b029 R th=-0.60 ax=+0.00 [  full] @Empire         saw: Army Academy Ministry Championship County Centre   -> Kingdom
+b030 L th=+0.60 ax=+0.00 [  full] @Kingdom        saw: Domain King Queen Republic king
+b031 R th=-0.60 ax=+0.00 [  full] @Kingdom        saw: Class Domain Category Group Division Association   -> Domain
+b032 L th=+0.60 ax=+0.00 [  full] @Domain         saw: domain Region Zone Context
+b033 R th=-0.60 ax=+0.00 [  full] @Domain         saw: Module Section Entity Node Format Component   -> domain
+b034 L th=+0.60 ax=+0.00 [  full] @domain         saw: region realm directory mode atom context
+b035 R th=-0.60 ax=+0.00 [  full] @domain         saw: dimension module genre database section plugin   -> region
+b036 L th=+0.60 ax=+0.00 [  full] @region         saw: regions Region province location district
+b037 R th=-0.60 ax=+0.00 [  full] @region         saw: nation area territory route locale areas   -> regions
+b038 L th=+0.60 ax=+0.00 [  full] @regions        saw: sections locations areas ranges regional nations
+b039 R th=-0.60 ax=+0.00 [  full] @regions        saw: groups places organizations agencies positions populations   -> sections
+b040 L th=+0.60 ax=+0.00 [  full] @sections       saw: section portions segments Section seconds
+b041 R th=-0.60 ax=+0.00 [  full] @sections       saw: components pieces sessions panels modules classes   -> portions
+b042 L th=+0.60 ax=+0.00 [  full] @portions       saw: portion provisions provision amounts
+b043 R th=-0.60 ax=+0.00 [  full] @portions       saw: purposes profits contents efforts costs chances   -> portion
+b044 L th=+0.60 ax=+0.00 [  full] @portion        saw: proportion amount pour piece overflow flavor
+b045 R th=-0.60 ax=+0.00 [  full] @portion        saw: provision recipient quantity partition particle proof   -> proportion
+b046 L th=+0.60 ax=+0.00 [  full] @proportion     saw: fraction ratio pattern contrast Pattern approx
+b047 R th=-0.60 ax=+0.00 [  full] @proportion     saw: representation probability prediction frequency percentage discrimination   -> fraction
+b048 L th=+0.60 ax=+0.00 [  full] @fraction       saw: integer decimal factor division fragment clause
+b049 R th=-0.60 ax=+0.00 [  full] @fraction       saw: interval number Integer binary integer Binary   -> integer
+b050 L th=+0.60 ax=+0.00 [  full] @integer        saw: Integer boolean iterator uint unit
+b051 R th=-0.60 ax=+0.00 [  full] @integer        saw: tuple Boolean zero sqlite html compiler   -> boolean
+b052 L th=+0.60 ax=+0.00 [  full] @boolean        saw: bool Boolean Bool
+b053 R th=-0.60 ax=+0.00 [  full] @boolean        saw: bool json debug logical charset password   -> bool
+b054 L th=+0.60 ax=+0.00 [  full] @bool           saw: Bool nil btn let doub
+b055 R th=-0.60 ax=+0.00 [  full] @bool           saw: elif lbl cls eval evt lst   -> nil
+b056 L th=+0.60 ax=+0.00 [  full] @nil            saw: null Null nullptr mil nan
+b057 R th=-0.60 ax=+0.00 [  full] @nil            saw: Null none None Nothing nothing undefined   -> null
+b058 L th=+0.60 ax=+0.00 [  full] @null           saw: Invalid Null nullptr unknown nullable Unknown
+b059 R th=-0.60 ax=+0.00 [  full] @null           saw: xxx Default Error Return Other Unknown   -> Invalid
+b060 L th=+0.60 ax=+0.00 [  full] @Invalid        saw: Valid invalid Illegal incorrect Failed
+b061 R th=-0.60 ax=+0.00 [  full] @Invalid        saw: Required Available Updated Custom Created Added   -> invalid
+b062 L th=+0.60 ax=+0.00 [  full] @invalid        saw: valid disabled illegal official independent individual
+b063 R th=-0.60 ax=+0.00 [  full] @invalid        saw: incorrect wrong unsafe failed damaged injured   -> valid
+b064 L th=+0.60 ax=+0.00 [  full] @valid          saw: validate Valid correct visible verify legit
+b065 R th=-0.60 ax=+0.00 [  full] @valid          saw: available acceptable qualified accepted suitable relevant   -> validate
+b066 L th=+0.60 ax=+0.00 [  full] @validate       saw: evaluate normalize verify Validation validation activate
+b067 R th=-0.60 ax=+0.00 [  full] @validate       saw: define modify translate determine demonstrate encode   -> evaluate
+b068 L th=+0.60 ax=+0.00 [  full] @evaluate       saw: investigate evaluation examine estimate evalu
+b069 R th=-0.60 ax=+0.00 [  full] @evaluate       saw: predict enumerate eliminate describe explain calculate   -> investigate
+b070 L th=+0.60 ax=+0.00 [  full] @investigate    saw: investigation investig Invest explore
+b071 R th=-0.60 ax=+0.00 [  full] @investigate    saw: identify specify introduce Analysis describe describes   -> investigation
+b072 L th=+0.60 ax=+0.00 [  full] @investigation  saw: research investment assessment intervention infection investments
+b073 R th=-0.60 ax=+0.00 [  full] @investigation  saw: analysis discussion competition education development organization   -> research
+b074 L th=+0.60 ax=+0.00 [  full] @research       saw: Research researchers search reference
+b075 R th=-0.60 ax=+0.00 [  full] @research       saw: study science strategy training teaching programming   -> Research
+b076 L th=+0.60 ax=+0.00 [  full] @Research       saw: Search Training Studies Study Learning Science
+b077 R th=-0.60 ax=+0.00 [  full] @Research       saw: Review Resources Query Request Question Task   -> Search
+b078 L th=+0.60 ax=+0.00 [  full] @Search         saw: Check Find Select searching search Start
+b079 R th=-0.60 ax=+0.00 [  full] @Search         saw: Use Choose Show Remove Add Write   -> Check
+b080 L th=+0.60 ax=+0.00 [  full] @Check          saw: Close check Click Fill checks
+b081 R th=-0.60 ax=+0.00 [  full] @Check          saw: Comment Please Have Create Based Convert   -> Close
+b082 L th=+0.60 ax=+0.00 [  full] @Close          saw: close Open Clear closer clos
+b083 R th=-0.60 ax=+0.00 [  full] @Close          saw: Follow Continue Come More Give Finally   -> close
+b084 L th=+0.60 ax=+0.00 [  full] @close          saw: open closed closing closely near closer
+b085 R th=-0.60 ax=+0.00 [  full] @close          saw: follow clean hold fold join move   -> open
+b086 L th=+0.60 ax=+0.00 [  full] @open           saw: opens opened opening Open
+b087 R th=-0.60 ax=+0.00 [  full] @open           saw: opened full empty unlock expand filled   -> opens
+b088 L th=+0.60 ax=+0.00 [  full] @opens          saw: holds extends applies ends enables plays
+b089 R th=-0.60 ax=+0.00 [  full] @opens          saw: releases uses shows throws makes produces   -> holds
+b090 L th=+0.60 ax=+0.00 [  full] @holds          saw: held holding contains hold has
+b091 R th=-0.60 ax=+0.00 [  full] @holds          saw: supports gives needs assumes provides represents   -> held
+b092 L th=+0.60 ax=+0.00 [  full] @held           saw: carried kept offered handled stood holding
+b093 R th=-0.60 ax=+0.00 [  full] @held           saw: pushed brought fought reached picked bought   -> carried
+b094 L th=+0.60 ax=+0.00 [  full] @carried        saw: carrying delivered carry contained
+b095 R th=-0.60 ax=+0.00 [  full] @carried        saw: walked captured copied attacked played arrived   -> carrying
+b096 L th=+0.60 ax=+0.00 [  full] @carrying       saw: bringing throwing serving containing carrier carry
+b097 R th=-0.60 ax=+0.00 [  full] @carrying       saw: taking calling supporting playing hanging connecting   -> bringing
+b098 L th=+0.60 ax=+0.00 [  full] @bringing       saw: brings bring coming brought
+b099 R th=-0.60 ax=+0.00 [  full] @bringing       saw: giving providing creating allowing trying breaking   -> brings
+b100 L th=+0.60 ax=+0.00 [  full] @brings         saw: comes creates breaks bring becomes suggests
+b101 R th=-0.60 ax=+0.00 [  full] @brings         saw: gives builds takes drives reveals meets   -> comes
+b102 L th=+0.60 ax=+0.00 [  full] @comes          saw: came come coming Come
+b103 R th=-0.60 ax=+0.00 [  full] @comes          saw: goes occurs appears seems happens seem   -> came
+b104 L th=+0.60 ax=+0.00 [  full] @came           saw: became gave went made fell were
+b105 R th=-0.60 ax=+0.00 [  full] @came           saw: broke lived took grew died laid   -> became
+b106 L th=+0.60 ax=+0.00 [  full] @became         saw: become becoming becomes
+b107 R th=-0.60 ax=+0.00 [  full] @became         saw: appeared occurred emerged gained performed begun   -> become
+b108 L th=+0.60 ax=+0.00 [  full] @become         saw: create overcome becoming appear transform enhance
+b109 R th=-0.60 ax=+0.00 [  full] @become         saw: avoid acquire determine activate reduce improve   -> appear
+b110 L th=+0.60 ax=+0.00 [  full] @appear         saw: appears appearance appeared occur arrive
+b111 R th=-0.60 ax=+0.00 [  full] @appear         saw: apparent exist afford contain happen attend   -> occur
+b112 L th=+0.60 ax=+0.00 [  full] @occur          saw: occurs occurred involve emit occup
+b113 R th=-0.60 ax=+0.00 [  full] @occur          saw: happened consist involves encounter involved involve   -> involve
+b114 L th=+0.60 ax=+0.00 [  full] @involve        saw: involving involvement involves involved
+b115 R th=-0.60 ax=+0.00 [  full] @involve        saw: engage participate invoke influence endorse encourage   -> involving
+b116 L th=+0.60 ax=+0.00 [  full] @involving      saw: concerning featuring including involves regarding containing
+b117 R th=-0.60 ax=+0.00 [  full] @involving      saw: handling maintaining having providing considering ordering   -> featuring
+b118 L th=+0.60 ax=+0.00 [  full] @featuring      saw: featured features feature feat hosting
+b119 R th=-0.60 ax=+0.00 [  full] @featuring      saw: features Features particularly Feature described characteristics   -> featured
+b120 L th=+0.60 ax=+0.00 [  full] @featured       saw: displayed reviewed feature latest favorite placeholder
+b121 R th=-0.60 ax=+0.00 [  full] @featured       saw: included selected edited deleted listed completed   -> displayed
+b122 L th=+0.60 ax=+0.00 [  full] @displayed      saw: displays demonstrated display Display printed
+b123 R th=-0.60 ax=+0.00 [  full] @displayed      saw: presented mounted placed stored collected dropped   -> displays
+b124 L th=+0.60 ax=+0.00 [  full] @displays       saw: designs shows display stores stands images
+b125 R th=-0.60 ax=+0.00 [  full] @displays       saw: scenes frames lists models filters signs   -> designs
+b126 L th=+0.60 ax=+0.00 [  full] @designs        saw: design designed Design patterns
+b127 R th=-0.60 ax=+0.00 [  full] @designs        saw: styles techniques recipes codes shapes methods   -> design
+b128 L th=+0.60 ax=+0.00 [  full] @design         saw: Design designer engineering Designer build
+b129 R th=-0.60 ax=+0.00 [  full] @design         saw: detail technique configuration method strategy system   -> designer
+b130 L th=+0.60 ax=+0.00 [  full] @designer       saw: Designer senior Disney premium German
+b131 R th=-0.60 ax=+0.00 [  full] @designer       saw: classic golden American modern Canadian Australian   -> classic
+b132 L th=+0.60 ax=+0.00 [  full] @classic        saw: Classic basic traditional class
+b133 R th=-0.60 ax=+0.00 [  full] @classic        saw: historic basic Basic conventional typical mainstream   -> Classic
+b134 L th=+0.60 ax=+0.00 [  full] @Classic        saw: Standard Basic Mini Modern Common Academy
+b135 R th=-0.60 ax=+0.00 [  full] @Classic        saw: Standard Normal Solid Simple Real Full   -> Standard
+b136 L th=+0.60 ax=+0.00 [  full] @Standard       saw: standard Station standards Stand
+b137 R th=-0.60 ax=+0.00 [  full] @Standard       saw: General Special Original Short Single Random   -> standard
+b138 L th=+0.60 ax=+0.00 [  full] @standard       saw: regular standards brand stand pointer stud
+b139 R th=-0.60 ax=+0.00 [  full] @standard       saw: general broad common major monitor universal   -> regular
+b140 L th=+0.60 ax=+0.00 [  full] @regular        saw: normal regularly ordinary reg real
+b141 R th=-0.60 ax=+0.00 [  full] @regular        saw: normal usual organic proper normally regional   -> normal
+b142 L th=+0.60 ax=+0.00 [  full] @normal         saw: Normal natural normalize norm nor
+b143 R th=-0.60 ax=+0.00 [  full] @normal         saw: original unusual simple almost nearly possible   -> natural
+b144 L th=+0.60 ax=+0.00 [  full] @natural        saw: Natural naturally natur nature
+b145 R th=-0.60 ax=+0.00 [  full] @natural        saw: physical Natural external historical environmental artificial   -> Natural
+b146 L th=+0.60 ax=+0.00 [  full] @Natural        saw: Nature National Digital Living Material
+b147 R th=-0.60 ax=+0.00 [  full] @Natural        saw: Personal Internal Virtual Native Trans Secret   -> Nature
+b148 L th=+0.60 ax=+0.00 [  full] @Nature         saw: nature Environment Forest Culture
+b149 R th=-0.60 ax=+0.00 [  full] @Nature         saw: Life History Society Nation Nations Africa   -> Environment
+b150 L th=+0.60 ax=+0.00 [  full] @Environment    saw: environment environments environmental
+b151 R th=-0.60 ax=+0.00 [  full] @Environment    saw: Location Organization Configuration Event Equipment Events   -> environment
+b152 L th=+0.60 ax=+0.00 [  full] @environment    saw: atmosphere climate environments env domain exposure
+b153 R th=-0.60 ax=+0.00 [  full] @environment    saw: infrastructure government industry architecture education society   -> atmosphere
+b154 L th=+0.60 ax=+0.00 [  full] @atmosphere     saw: atmos atom air breath universe
+b155 R th=-0.60 ax=+0.00 [  full] @atmosphere     saw: temperature electricity attitude anxiety muscle latitude   -> atmos
+b156 L th=+0.60 ax=+0.00 [  full] @atmos          saw: accum circum citiz enthus tempor aus
+b157 R th=-0.60 ax=+0.00 [  full] @atmos          saw: absor distrib simult explo explos displ   -> circum
+b158 L th=+0.60 ax=+0.00 [  full] @circum         saw: circ Circ durch cum around micro
+b159 R th=-0.60 ax=+0.00 [  full] @circum         saw: compreh circ compr redu conver prec   -> circ
+b160 L th=+0.60 ax=+0.00 [  full] @circ           saw: Circ inc enc comm Comm
+b161 R th=-0.60 ax=+0.00 [  full] @circ           saw: dec acc rec scr esc pic   -> inc
+b162 L th=+0.60 ax=+0.00 [  full] @inc            saw: ins Inc inv inf inst
+b163 R th=-0.60 ax=+0.00 [  full] @inc            saw: emb ind ign ent obs Inv   -> ins
+b164 L th=+0.60 ax=+0.00 [  full] @ins            saw: Ins uns ens ans sens
+b165 R th=-0.60 ax=+0.00 [  full] @ins            saw: cons Inst est ist Ess ess   -> Ins
+b166 L th=+0.60 ax=+0.00 [  full] @Ins            saw: Inf Dis Ind Cons Unt Ill
+b167 R th=-0.60 ax=+0.00 [  full] @Ins            saw: Exp Aff Att Res Des Def   -> Inf
+b168 L th=+0.60 ax=+0.00 [  full] @Inf            saw: Prof Int inf Conf Ext
+b169 R th=-0.60 ax=+0.00 [  full] @Inf            saw: Min Div Rep Ref Rev Dev   -> Int
+b170 L th=+0.60 ax=+0.00 [  full] @Int            saw: int Mult Intern Ont Init
+b171 R th=-0.60 ax=+0.00 [  full] @Int            saw: Ent Eth Ret Rel Cont Det   -> int
+b172 L th=+0.60 ax=+0.00 [  full] @int            saw: ext intr quant init uint inter
+b173 R th=-0.60 ax=+0.00 [  full] @int            saw: mult opt hist integr alt dict   -> ext
+b174 L th=+0.60 ax=+0.00 [  full] @ext            saw: extr Ext extrem exp extended extent
+b175 R th=-0.60 ax=+0.00 [  full] @ext            saw: det dist eth ult exem emerg   -> extr
+b176 L th=+0.60 ax=+0.00 [  full] @extr           saw: intr expl extra exclus exper external
+b177 R th=-0.60 ax=+0.00 [  full] @extr           saw: entr vibr stri trem equ requ   -> expl
+b178 L th=+0.60 ax=+0.00 [  full] @expl           saw: Expl explan explo exc appl
+b179 R th=-0.60 ax=+0.00 [  full] @expl           saw: repl experi compl impl proble accompl   -> Expl
+b180 L th=+0.60 ax=+0.00 [  full] @Expl           saw: Exp Enc Pract Coll Looking Play
+b181 R th=-0.60 ax=+0.00 [  full] @Expl           saw: Exec Appro Arr Com Comm The   -> Enc
+b182 L th=+0.60 ax=+0.00 [  full] @Enc            saw: Con Rec enc Eng Occ
+b183 R th=-0.60 ax=+0.00 [  full] @Enc            saw: Acc Seg Cong Reg Dec Cor   -> Con
+b184 L th=+0.60 ax=+0.00 [  full] @Con            saw: con Mon Pro kon Cons
+b185 R th=-0.60 ax=+0.00 [  full] @Con            saw: Col Cal Par Cur Pol Mor   -> Col
+b186 L th=+0.60 ax=+0.00 [  full] @Col            saw: col Del Cos Cou Clo
+b187 R th=-0.60 ax=+0.00 [  full] @Col            saw: Mar Mil Mel Fil Hel Ger   -> Del
+b188 L th=+0.60 ax=+0.00 [  full] @Del            saw: del Der Dar Delete
+b189 R th=-0.60 ax=+0.00 [  full] @Del            saw: Bal Bel Val Mal Ber Gil   -> del
+b190 L th=+0.60 ax=+0.00 [  full] @del            saw: mel der dev delet def deliver
+b191 R th=-0.60 ax=+0.00 [  full] @del            saw: hel sel mul dol mal pol   -> mel
+b192 L th=+0.60 ax=+0.00 [  full] @mel            saw: mol pel mer Mel meg med
+b193 R th=-0.60 ax=+0.00 [  full] @mel            saw: sal mor mar mur mag ger   -> mol
+b194 L th=+0.60 ax=+0.00 [  full] @mol            saw: vol mot por poll mand org
+b195 R th=-0.60 ax=+0.00 [  full] @mol            saw: mil pou hor mus mut vor   -> vol
+b196 L th=+0.60 ax=+0.00 [  full] @vol            saw: Vol invol vel volt val
+b197 R th=-0.60 ax=+0.00 [  full] @vol            saw: vul bol vis ful voc vot   -> Vol
+b198 L th=+0.60 ax=+0.00 [  full] @Vol            saw: Ver Sur Var Sch Grad Volume
+b199 R th=-0.60 ax=+0.00 [  full] @Vol            saw: Sil Tur Bur Wil Vis San   -> Ver

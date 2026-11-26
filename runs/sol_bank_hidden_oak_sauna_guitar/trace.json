@@ -1,0 +1,2617 @@
+{
+ "log": [
+  {
+   "beat": 0,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "oak",
+   "reads": [
+    "Oak",
+    "Ontario",
+    "Ohio",
+    "Aust"
+   ],
+   "coherence": 0.441,
+   "novelty": 1.0,
+   "warmth": 0.19,
+   "anchor_warmth": 0.313
+  },
+  {
+   "beat": 1,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "oak",
+   "reads": [
+    "Oregon",
+    "Illinois",
+    "onion",
+    "Corn",
+    "Rock",
+    "Log"
+   ],
+   "coherence": 0.351,
+   "novelty": 1.0,
+   "warmth": 0.361,
+   "anchor_warmth": 0.313,
+   "commit": "onion"
+  },
+  {
+   "beat": 2,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "onion",
+   "reads": [
+    "orange",
+    "Orange",
+    "obviously",
+    "corn",
+    "flour",
+    "enorm"
+   ],
+   "coherence": 0.347,
+   "novelty": 1.0,
+   "warmth": 0.284,
+   "anchor_warmth": 0.361
+  },
+  {
+   "beat": 3,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "onion",
+   "reads": [
+    "salmon",
+    "Rose",
+    "marijuana",
+    "cream",
+    "Bowl",
+    "Pen"
+   ],
+   "coherence": 0.338,
+   "novelty": 1.0,
+   "warmth": 0.45,
+   "anchor_warmth": 0.361,
+   "commit": "marijuana"
+  },
+  {
+   "beat": 4,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "marijuana",
+   "reads": [
+    "cannabis",
+    "viagra",
+    "Hawai",
+    "necessarily",
+    "Turkey"
+   ],
+   "coherence": 0.382,
+   "novelty": 1.0,
+   "warmth": 0.449,
+   "anchor_warmth": 0.45
+  },
+  {
+   "beat": 5,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "marijuana",
+   "reads": [
+    "Porno",
+    "porno",
+    "abortion",
+    "Porn",
+    "erotische",
+    "cigaret"
+   ],
+   "coherence": 0.429,
+   "novelty": 1.0,
+   "warmth": 0.346,
+   "anchor_warmth": 0.45
+  },
+  {
+   "beat": 6,
+   "side": "L",
+   "theta": 0.85,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "marijuana",
+   "reads": [
+    "diabetes",
+    "pregnancy",
+    "democracy",
+    "potentially",
+    "literally",
+    "naturally"
+   ],
+   "coherence": 0.265,
+   "novelty": 1.0,
+   "warmth": 0.295,
+   "anchor_warmth": 0.45
+  },
+  {
+   "beat": 7,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "marijuana",
+   "reads": [
+    "numpy",
+    "rape",
+    "fucking",
+    "prostitutas",
+    "Porno",
+    "salope"
+   ],
+   "coherence": 0.349,
+   "novelty": 0.833,
+   "warmth": 0.305,
+   "anchor_warmth": 0.45
+  },
+  {
+   "beat": 8,
+   "side": "L",
+   "theta": 0.35,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "marijuana",
+   "reads": [
+    "viagra",
+    "cannabis",
+    "Pakistan",
+    "butter",
+    "Palestinian",
+    "gratuit"
+   ],
+   "coherence": 0.434,
+   "novelty": 0.667,
+   "warmth": 0.449,
+   "anchor_warmth": 0.45
+  },
+  {
+   "beat": 9,
+   "side": "R",
+   "theta": -0.35,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "marijuana",
+   "reads": [
+    "Bitcoin",
+    "Palestin",
+    "Putin",
+    "cancer",
+    "sanit",
+    "bacter"
+   ],
+   "coherence": 0.311,
+   "novelty": 1.0,
+   "warmth": 0.295,
+   "anchor_warmth": 0.45
+  },
+  {
+   "beat": 10,
+   "side": "L",
+   "theta": 1.1,
+   "axis": 0.5,
+   "grain": "b4_32",
+   "anchor": "marijuana",
+   "reads": [
+    "mysqli",
+    "porn",
+    "porno",
+    "sexo",
+    "sesso",
+    "personally"
+   ],
+   "coherence": 0.342,
+   "novelty": 0.833,
+   "warmth": 0.346,
+   "anchor_warmth": 0.45
+  },
+  {
+   "beat": 11,
+   "side": "R",
+   "theta": 0.15,
+   "axis": 0.75,
+   "grain": "b4_32",
+   "anchor": "marijuana",
+   "reads": [
+    "lombok",
+    "Saudi",
+    "Muslim",
+    "Navy",
+    "mari",
+    "Gay"
+   ],
+   "coherence": 0.227,
+   "novelty": 1.0,
+   "warmth": 0.261,
+   "anchor_warmth": 0.45
+  },
+  {
+   "beat": 12,
+   "side": "L",
+   "theta": 1.6,
+   "axis": 1.0,
+   "grain": "b4_32",
+   "anchor": "marijuana",
+   "reads": [
+    "pickle",
+    "milk",
+    "rape",
+    "porno",
+    "Porno",
+    "Porn"
+   ],
+   "coherence": 0.399,
+   "novelty": 0.333,
+   "warmth": 0.346,
+   "anchor_warmth": 0.45
+  },
+  {
+   "beat": 13,
+   "side": "R",
+   "theta": -0.35,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "marijuana",
+   "reads": [
+    "bitcoin",
+    "Islam",
+    "Firebase",
+    "suicide",
+    "cig",
+    "cigaret"
+   ],
+   "coherence": 0.395,
+   "novelty": 0.833,
+   "warmth": 0.379,
+   "anchor_warmth": 0.45
+  },
+  {
+   "beat": 14,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "marijuana",
+   "reads": [
+    "apparently",
+    "Niger",
+    "Obama",
+    "anxiety",
+    "abortion",
+    "immigration"
+   ],
+   "coherence": 0.314,
+   "novelty": 0.833,
+   "warmth": 0.339,
+   "anchor_warmth": 0.45
+  },
+  {
+   "beat": 15,
+   "side": "R",
+   "theta": -0.85,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "marijuana",
+   "reads": [
+    "cannabis",
+    "allegedly",
+    "Turkey",
+    "tissue",
+    "Medicine",
+    "safely"
+   ],
+   "coherence": 0.304,
+   "novelty": 0.667,
+   "warmth": 0.449,
+   "anchor_warmth": 0.45
+  },
+  {
+   "beat": 16,
+   "side": "L",
+   "theta": 0.1,
+   "axis": -0.5,
+   "grain": "b4_32",
+   "anchor": "marijuana",
+   "reads": [
+    "carrot",
+    "Hawai",
+    "pregnancy",
+    "memcpy",
+    "gratis",
+    "gay"
+   ],
+   "coherence": 0.291,
+   "novelty": 0.667,
+   "warmth": 0.356,
+   "anchor_warmth": 0.45
+  },
+  {
+   "beat": 17,
+   "side": "R",
+   "theta": -0.85,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "marijuana",
+   "reads": [
+    "diabetes",
+    "beer",
+    "Brazil",
+    "compensation",
+    "marriage",
+    "emissions"
+   ],
+   "coherence": 0.336,
+   "novelty": 0.833,
+   "warmth": 0.414,
+   "anchor_warmth": 0.45
+  },
+  {
+   "beat": 18,
+   "side": "L",
+   "theta": 0.1,
+   "axis": -0.5,
+   "grain": "b4_32",
+   "anchor": "marijuana",
+   "reads": [
+    "Minnesota",
+    "Americ",
+    "viagra",
+    "erotische",
+    "prostit",
+    "ridic"
+   ],
+   "coherence": 0.294,
+   "novelty": 0.667,
+   "warmth": 0.432,
+   "anchor_warmth": 0.45
+  },
+  {
+   "beat": 19,
+   "side": "R",
+   "theta": -0.85,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "marijuana",
+   "reads": [
+    "nonatomic",
+    "democracy",
+    "Liver",
+    "cancer",
+    "Ham",
+    "legislation"
+   ],
+   "coherence": 0.272,
+   "novelty": 0.667,
+   "warmth": 0.295,
+   "anchor_warmth": 0.45
+  },
+  {
+   "beat": 20,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "marijuana",
+   "reads": [
+    "alcohol",
+    "protein",
+    "fucking",
+    "gratuit",
+    "intim",
+    "smartphone"
+   ],
+   "coherence": 0.273,
+   "novelty": 0.667,
+   "warmth": 0.354,
+   "anchor_warmth": 0.45
+  },
+  {
+   "beat": 21,
+   "side": "R",
+   "theta": -0.35,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "marijuana",
+   "reads": [
+    "matplotlib",
+    "Muslims",
+    "pregn",
+    "pregnant",
+    "meth",
+    "seks"
+   ],
+   "coherence": 0.275,
+   "novelty": 1.0,
+   "warmth": 0.224,
+   "anchor_warmth": 0.45
+  },
+  {
+   "beat": 22,
+   "side": "L",
+   "theta": 1.1,
+   "axis": 0.5,
+   "grain": "b4_32",
+   "anchor": "marijuana",
+   "reads": [
+    "incredibly",
+    "sauna",
+    "Casino",
+    "casino",
+    "bathroom"
+   ],
+   "coherence": 0.319,
+   "novelty": 1.0,
+   "warmth": 1.0,
+   "anchor_warmth": 0.45,
+   "commit": "sauna"
+  },
+  {
+   "beat": 23,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "shower",
+    "cabin",
+    "bath",
+    "sca",
+    "Bath",
+    "stable"
+   ],
+   "coherence": 0.45,
+   "novelty": 1.0,
+   "warmth": 0.634,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 24,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "Casino",
+    "restaur",
+    "tun",
+    "restaurant",
+    "cru",
+    "tournament"
+   ],
+   "coherence": 0.282,
+   "novelty": 0.833,
+   "warmth": 0.458,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 25,
+   "side": "R",
+   "theta": -0.85,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "casino",
+    "shower",
+    "Scanner",
+    "massage",
+    "surveillance",
+    "aside"
+   ],
+   "coherence": 0.408,
+   "novelty": 0.667,
+   "warmth": 0.634,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 26,
+   "side": "L",
+   "theta": 0.1,
+   "axis": -0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "bathroom",
+    "trailer",
+    "surve",
+    "Suite",
+    "Setup",
+    "Studio"
+   ],
+   "coherence": 0.264,
+   "novelty": 0.833,
+   "warmth": 0.535,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 27,
+   "side": "R",
+   "theta": -1.35,
+   "axis": -0.75,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "sauce",
+    "unsafe",
+    "Camera",
+    "accessible",
+    "Cache",
+    "cache"
+   ],
+   "coherence": 0.233,
+   "novelty": 1.0,
+   "warmth": 0.479,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 28,
+   "side": "L",
+   "theta": 0.75,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "Unfortunately",
+    "warranty",
+    "ceremony",
+    "Tournament",
+    "studio",
+    "surf"
+   ],
+   "coherence": 0.288,
+   "novelty": 1.0,
+   "warmth": 0.471,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 29,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "scanner",
+    "Cru",
+    "lawsuit",
+    "cas",
+    "Sale",
+    "bedroom"
+   ],
+   "coherence": 0.213,
+   "novelty": 1.0,
+   "warmth": 0.483,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 30,
+   "side": "L",
+   "theta": 0.35,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "Casino",
+    "bom",
+    "bath",
+    "testim",
+    "scre",
+    "sca"
+   ],
+   "coherence": 0.21,
+   "novelty": 0.5,
+   "warmth": 0.51,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 31,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "oven",
+    "cabin",
+    "Beach",
+    "venue",
+    "dam",
+    "stayed"
+   ],
+   "coherence": 0.334,
+   "novelty": 0.833,
+   "warmth": 0.572,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 32,
+   "side": "L",
+   "theta": 0.35,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "surgery",
+    "Museum",
+    "stable",
+    "Bath",
+    "beach",
+    "assault"
+   ],
+   "coherence": 0.362,
+   "novelty": 0.667,
+   "warmth": 0.452,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 33,
+   "side": "R",
+   "theta": -1.1,
+   "axis": -0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "casino",
+    "shower",
+    "wur",
+    "navbar",
+    "garage",
+    "wir"
+   ],
+   "coherence": 0.368,
+   "novelty": 0.667,
+   "warmth": 0.634,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 34,
+   "side": "L",
+   "theta": -0.15,
+   "axis": -0.75,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "inflater",
+    "sne",
+    "sink",
+    "suite",
+    "Sur",
+    "surve"
+   ],
+   "coherence": 0.205,
+   "novelty": 0.833,
+   "warmth": 0.489,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 35,
+   "side": "R",
+   "theta": -1.6,
+   "axis": -1.0,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "bathroom",
+    "tou",
+    "newspaper",
+    "whenever",
+    "Sony",
+    "androidx"
+   ],
+   "coherence": 0.214,
+   "novelty": 0.833,
+   "warmth": 0.535,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 36,
+   "side": "L",
+   "theta": 0.35,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "thai",
+    "sua",
+    "sty",
+    "Crusher",
+    "spons",
+    "Bus"
+   ],
+   "coherence": 0.204,
+   "novelty": 1.0,
+   "warmth": 0.306,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 37,
+   "side": "R",
+   "theta": -1.1,
+   "axis": -0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "stunning",
+    "crusher",
+    "cru",
+    "tra",
+    "Studio",
+    "Tour"
+   ],
+   "coherence": 0.158,
+   "novelty": 0.667,
+   "warmth": 0.412,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 38,
+   "side": "L",
+   "theta": -0.15,
+   "axis": -0.75,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "sauce",
+    "restaur",
+    "trav",
+    "surv",
+    "Suite",
+    "audience"
+   ],
+   "coherence": 0.222,
+   "novelty": 0.5,
+   "warmth": 0.479,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 39,
+   "side": "R",
+   "theta": -1.1,
+   "axis": -0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "Syria",
+    "trailer",
+    "supplier",
+    "Tai",
+    "Bush",
+    "Bureau"
+   ],
+   "coherence": 0.194,
+   "novelty": 0.833,
+   "warmth": 0.442,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 40,
+   "side": "L",
+   "theta": 0.85,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "pipeline",
+    "Casino",
+    "tun",
+    "esta",
+    "bei",
+    "cha"
+   ],
+   "coherence": 0.195,
+   "novelty": 0.667,
+   "warmth": 0.441,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 41,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "salope",
+    "disap",
+    "Sar",
+    "harass",
+    "Session",
+    "susp"
+   ],
+   "coherence": 0.045,
+   "novelty": 1.0,
+   "warmth": 0.267,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 42,
+   "side": "L",
+   "theta": 0.85,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "unsafe",
+    "Browser",
+    "bedroom",
+    "cette",
+    "faire",
+    "Camera"
+   ],
+   "coherence": 0.202,
+   "novelty": 0.5,
+   "warmth": 0.483,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 43,
+   "side": "R",
+   "theta": -0.1,
+   "axis": 0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "casino",
+    "shower",
+    "bath",
+    "Saf",
+    "Setup",
+    "survey"
+   ],
+   "coherence": 0.326,
+   "novelty": 0.5,
+   "warmth": 0.634,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 44,
+   "side": "L",
+   "theta": 0.35,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "surely",
+    "Scanner",
+    "shader",
+    "barrier",
+    "sur",
+    "stay"
+   ],
+   "coherence": 0.178,
+   "novelty": 1.0,
+   "warmth": 0.369,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 45,
+   "side": "R",
+   "theta": -1.1,
+   "axis": -0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "bass",
+    "bathroom",
+    "casual",
+    "Xbox",
+    "campus",
+    "incontri"
+   ],
+   "coherence": 0.291,
+   "novelty": 0.833,
+   "warmth": 0.535,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 46,
+   "side": "L",
+   "theta": -0.15,
+   "axis": -0.75,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "kann",
+    "cleanup",
+    "tournament",
+    "sca",
+    "slee",
+    "studio"
+   ],
+   "coherence": 0.261,
+   "novelty": 0.833,
+   "warmth": 0.471,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 47,
+   "side": "R",
+   "theta": -1.6,
+   "axis": -1.0,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "usuario",
+    "Casino",
+    "Samsung",
+    "Instagram",
+    "Miami",
+    "basketball"
+   ],
+   "coherence": 0.253,
+   "novelty": 0.833,
+   "warmth": 0.441,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 48,
+   "side": "L",
+   "theta": 0.5,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "porno",
+    "surveillance",
+    "Cru",
+    "Tournament",
+    "stable",
+    "cabin"
+   ],
+   "coherence": 0.306,
+   "novelty": 0.5,
+   "warmth": 0.554,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 49,
+   "side": "R",
+   "theta": -0.1,
+   "axis": 0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "restaurant",
+    "scanner",
+    "safely",
+    "Bath",
+    "screening",
+    "Safe"
+   ],
+   "coherence": 0.257,
+   "novelty": 0.833,
+   "warmth": 0.458,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 50,
+   "side": "L",
+   "theta": 1.35,
+   "axis": 0.75,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "Unfortunately",
+    "ceremony",
+    "Kitchen",
+    "Sometimes",
+    "bench",
+    "tent"
+   ],
+   "coherence": 0.223,
+   "novelty": 1.0,
+   "warmth": 0.424,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 51,
+   "side": "R",
+   "theta": -0.1,
+   "axis": 0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "soup",
+    "Museum",
+    "testim",
+    "saf",
+    "surve",
+    "surf"
+   ],
+   "coherence": 0.212,
+   "novelty": 0.833,
+   "warmth": 0.456,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 52,
+   "side": "L",
+   "theta": 0.35,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "warranty",
+    "bom",
+    "Beach",
+    "Dam",
+    "Wash",
+    "scre"
+   ],
+   "coherence": 0.137,
+   "novelty": 1.0,
+   "warmth": 0.35,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 53,
+   "side": "R",
+   "theta": -1.1,
+   "axis": -0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "lawsuit",
+    "shower",
+    "votre",
+    "newsletter",
+    "surpr",
+    "Sur"
+   ],
+   "coherence": 0.204,
+   "novelty": 0.833,
+   "warmth": 0.634,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 54,
+   "side": "L",
+   "theta": -0.15,
+   "axis": -0.75,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "oven",
+    "restaur",
+    "situ",
+    "venue",
+    "presentation",
+    "stayed"
+   ],
+   "coherence": 0.207,
+   "novelty": 0.833,
+   "warmth": 0.572,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 55,
+   "side": "R",
+   "theta": -1.6,
+   "axis": -1.0,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "casino",
+    "suddenly",
+    "surprising",
+    "newspaper",
+    "sou",
+    "Sou"
+   ],
+   "coherence": 0.179,
+   "novelty": 0.833,
+   "warmth": 0.586,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 56,
+   "side": "L",
+   "theta": 0.35,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "viagra",
+    "bowl",
+    "camera",
+    "bath",
+    "Sale",
+    "sale"
+   ],
+   "coherence": 0.316,
+   "novelty": 0.833,
+   "warmth": 0.51,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 57,
+   "side": "R",
+   "theta": -1.1,
+   "axis": -0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "bathroom",
+    "tun",
+    "barrel",
+    "cabinet",
+    "basket",
+    "Bowl"
+   ],
+   "coherence": 0.378,
+   "novelty": 0.667,
+   "warmth": 0.535,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 58,
+   "side": "L",
+   "theta": -0.15,
+   "axis": -0.75,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "sauce",
+    "Casino",
+    "trailer",
+    "cru",
+    "Studio",
+    "Suite"
+   ],
+   "coherence": 0.328,
+   "novelty": 0.0,
+   "warmth": 0.479,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 59,
+   "side": "R",
+   "theta": -1.6,
+   "axis": -1.0,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "Syrian",
+    "stunning",
+    "sustainable",
+    "piano",
+    "untuk",
+    "compr"
+   ],
+   "coherence": 0.158,
+   "novelty": 1.0,
+   "warmth": 0.481,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 60,
+   "side": "L",
+   "theta": 0.35,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "sesso",
+    "canvas",
+    "sua",
+    "sca",
+    "beach",
+    "advis"
+   ],
+   "coherence": 0.235,
+   "novelty": 0.833,
+   "warmth": 0.452,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 61,
+   "side": "R",
+   "theta": -1.1,
+   "axis": -0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "availability",
+    "Crusher",
+    "Console",
+    "sus",
+    "studio",
+    "lua"
+   ],
+   "coherence": 0.183,
+   "novelty": 0.833,
+   "warmth": 0.471,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 62,
+   "side": "L",
+   "theta": -0.15,
+   "axis": -0.75,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "unsafe",
+    "sne",
+    "cabin",
+    "suite",
+    "Setup",
+    "cas"
+   ],
+   "coherence": 0.199,
+   "novelty": 0.5,
+   "warmth": 0.554,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 63,
+   "side": "R",
+   "theta": -1.1,
+   "axis": -0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "salope",
+    "tou",
+    "usuario",
+    "sono",
+    "soup",
+    "nude"
+   ],
+   "coherence": 0.203,
+   "novelty": 0.5,
+   "warmth": 0.456,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 64,
+   "side": "L",
+   "theta": 0.85,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "surgery",
+    "shower",
+    "stable",
+    "Scanner",
+    "sink",
+    "screen"
+   ],
+   "coherence": 0.438,
+   "novelty": 0.5,
+   "warmth": 0.634,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 65,
+   "side": "R",
+   "theta": -0.1,
+   "axis": 0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "inflater",
+    "transmission",
+    "assault",
+    "sle",
+    "Bath",
+    "surv"
+   ],
+   "coherence": 0.213,
+   "novelty": 0.833,
+   "warmth": 0.327,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 66,
+   "side": "L",
+   "theta": 1.35,
+   "axis": 0.75,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "casino",
+    "crusher",
+    "scanner",
+    "sanit",
+    "serializer",
+    "tablet"
+   ],
+   "coherence": 0.4,
+   "novelty": 0.667,
+   "warmth": 0.586,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 67,
+   "side": "R",
+   "theta": 0.4,
+   "axis": 1.0,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "cannabis",
+    "bathroom",
+    "Camera",
+    "bath",
+    "sie",
+    "Screen"
+   ],
+   "coherence": 0.353,
+   "novelty": 0.5,
+   "warmth": 0.535,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 68,
+   "side": "L",
+   "theta": 0.85,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "thai",
+    "Casino",
+    "renderer",
+    "clin",
+    "sein",
+    "Render"
+   ],
+   "coherence": 0.165,
+   "novelty": 0.833,
+   "warmth": 0.441,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 69,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "porno",
+    "tournament",
+    "reserv",
+    "vacation",
+    "pas",
+    "Avenue"
+   ],
+   "coherence": 0.207,
+   "novelty": 0.667,
+   "warmth": 0.394,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 70,
+   "side": "L",
+   "theta": 0.85,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "usually",
+    "restaur",
+    "spons",
+    "batter",
+    "treatment",
+    "shader"
+   ],
+   "coherence": 0.126,
+   "novelty": 0.833,
+   "warmth": 0.252,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 71,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "Unfortunately",
+    "restaurant",
+    "Tournament",
+    "Sar",
+    "garage",
+    "dam"
+   ],
+   "coherence": 0.209,
+   "novelty": 0.5,
+   "warmth": 0.522,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 72,
+   "side": "L",
+   "theta": 0.35,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "Atlanta",
+    "ceremony",
+    "Cru",
+    "surve",
+    "shower",
+    "trav"
+   ],
+   "coherence": 0.227,
+   "novelty": 0.333,
+   "warmth": 0.634,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 73,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "navbar",
+    "maintenance",
+    "Saf",
+    "sustain",
+    "setup",
+    "Studio"
+   ],
+   "coherence": 0.183,
+   "novelty": 0.833,
+   "warmth": 0.391,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 74,
+   "side": "L",
+   "theta": 0.85,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "pipeline",
+    "surveillance",
+    "ceiling",
+    "reven",
+    "Beach",
+    "screening"
+   ],
+   "coherence": 0.304,
+   "novelty": 0.833,
+   "warmth": 0.435,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 75,
+   "side": "R",
+   "theta": -0.1,
+   "axis": 0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "disclaimer",
+    "bedroom",
+    "sty",
+    "sca",
+    "Tour",
+    "Training"
+   ],
+   "coherence": 0.2,
+   "novelty": 0.833,
+   "warmth": 0.483,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 76,
+   "side": "L",
+   "theta": 0.35,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "sauce",
+    "swe",
+    "tra",
+    "slee",
+    "Tra",
+    "Suite"
+   ],
+   "coherence": 0.157,
+   "novelty": 0.667,
+   "warmth": 0.479,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 77,
+   "side": "R",
+   "theta": -1.1,
+   "axis": -0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "casino",
+    "Casino",
+    "harass",
+    "rally",
+    "campaign",
+    "announce"
+   ],
+   "coherence": 0.283,
+   "novelty": 0.667,
+   "warmth": 0.586,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 78,
+   "side": "L",
+   "theta": -0.15,
+   "axis": -0.75,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "bom",
+    "cabin",
+    "trailer",
+    "testim",
+    "Bus",
+    "Session"
+   ],
+   "coherence": 0.198,
+   "novelty": 0.667,
+   "warmth": 0.554,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 79,
+   "side": "R",
+   "theta": -1.6,
+   "axis": -1.0,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "warranty",
+    "disap",
+    "bass",
+    "salmon",
+    "announcement",
+    "Amazon"
+   ],
+   "coherence": 0.238,
+   "novelty": 1.0,
+   "warmth": 0.431,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 80,
+   "side": "L",
+   "theta": 0.5,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "prison",
+    "tun",
+    "surf",
+    "stable",
+    "cru",
+    "Cas"
+   ],
+   "coherence": 0.23,
+   "novelty": 0.5,
+   "warmth": 0.46,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 81,
+   "side": "R",
+   "theta": -0.1,
+   "axis": 0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "bathroom",
+    "lawsuit",
+    "safely",
+    "bath",
+    "Bath",
+    "stayed"
+   ],
+   "coherence": 0.292,
+   "novelty": 0.5,
+   "warmth": 0.535,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 82,
+   "side": "L",
+   "theta": 0.85,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "unsafe",
+    "aan",
+    "Aus",
+    "auch",
+    "esta",
+    "Available"
+   ],
+   "coherence": -0.006,
+   "novelty": 0.833,
+   "warmth": 0.146,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 83,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "viagra",
+    "oven",
+    "Museum",
+    "Visit",
+    "resort",
+    "Sur"
+   ],
+   "coherence": 0.253,
+   "novelty": 1.0,
+   "warmth": 0.572,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 84,
+   "side": "L",
+   "theta": 0.35,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "Syria",
+    "shower",
+    "Scanner",
+    "Setup",
+    "scre",
+    "sink"
+   ],
+   "coherence": 0.291,
+   "novelty": 0.333,
+   "warmth": 0.634,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 85,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "kann",
+    "incontri",
+    "venue",
+    "Sale",
+    "audience",
+    "batt"
+   ],
+   "coherence": 0.137,
+   "novelty": 1.0,
+   "warmth": 0.347,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 86,
+   "side": "L",
+   "theta": 0.85,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "surely",
+    "cleanup",
+    "stunning",
+    "massage",
+    "inspir",
+    "susp"
+   ],
+   "coherence": 0.16,
+   "novelty": 1.0,
+   "warmth": 0.507,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 87,
+   "side": "R",
+   "theta": -0.1,
+   "axis": 0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "androidx",
+    "Casino",
+    "Browser",
+    "surve",
+    "suite",
+    "survey"
+   ],
+   "coherence": 0.248,
+   "novelty": 0.667,
+   "warmth": 0.441,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 88,
+   "side": "L",
+   "theta": 0.85,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "casino",
+    "cannabis",
+    "salope",
+    "Turkey",
+    "mysqli",
+    "Wisconsin"
+   ],
+   "coherence": 0.317,
+   "novelty": 0.5,
+   "warmth": 0.586,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 89,
+   "side": "R",
+   "theta": -0.1,
+   "axis": 0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "porno",
+    "Tai",
+    "restaur",
+    "studio",
+    "sca",
+    "Store"
+   ],
+   "coherence": 0.229,
+   "novelty": 0.333,
+   "warmth": 0.471,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 90,
+   "side": "L",
+   "theta": 1.35,
+   "axis": 0.75,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "Porno",
+    "suicide",
+    "marijuana",
+    "Ukraine",
+    "rape",
+    "abortion"
+   ],
+   "coherence": 0.332,
+   "novelty": 1.0,
+   "warmth": 0.45,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 91,
+   "side": "R",
+   "theta": -0.1,
+   "axis": 0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "Afghanistan",
+    "sesso",
+    "sua",
+    "Tournament",
+    "stay",
+    "sur"
+   ],
+   "coherence": 0.151,
+   "novelty": 0.833,
+   "warmth": 0.292,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 92,
+   "side": "L",
+   "theta": 0.85,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "bathroom",
+    "cabin",
+    "restaurant",
+    "bedroom",
+    "campus",
+    "Bureau"
+   ],
+   "coherence": 0.422,
+   "novelty": 0.333,
+   "warmth": 0.554,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 93,
+   "side": "R",
+   "theta": -0.1,
+   "axis": 0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "Unfortunately",
+    "tournament",
+    "sne",
+    "Transaction",
+    "bath",
+    "surv"
+   ],
+   "coherence": 0.128,
+   "novelty": 0.5,
+   "warmth": 0.51,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 94,
+   "side": "L",
+   "theta": 1.35,
+   "axis": 0.75,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "wur",
+    "trailer",
+    "zur",
+    "garage",
+    "downtown",
+    "chairman"
+   ],
+   "coherence": 0.256,
+   "novelty": 0.833,
+   "warmth": 0.522,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 95,
+   "side": "R",
+   "theta": 0.4,
+   "axis": 1.0,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "Airport",
+    "restaurants",
+    "stable",
+    "beach",
+    "barrier",
+    "Chair"
+   ],
+   "coherence": 0.331,
+   "novelty": 0.833,
+   "warmth": 0.452,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 96,
+   "side": "L",
+   "theta": 0.85,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "Xbox",
+    "Sprite",
+    "ceremony",
+    "Suite",
+    "Conference",
+    "scenario"
+   ],
+   "coherence": 0.282,
+   "novelty": 0.667,
+   "warmth": 0.41,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 97,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "sauce",
+    "shower",
+    "Crusher",
+    "Kitchen",
+    "Bath",
+    "Storage"
+   ],
+   "coherence": 0.362,
+   "novelty": 0.5,
+   "warmth": 0.634,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 98,
+   "side": "L",
+   "theta": 0.35,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "scanner",
+    "Casino",
+    "Studio",
+    "situ",
+    "testim",
+    "Safe"
+   ],
+   "coherence": 0.17,
+   "novelty": 0.5,
+   "warmth": 0.449,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 99,
+   "side": "R",
+   "theta": -1.1,
+   "axis": -0.5,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "casino",
+    "tun",
+    "availability",
+    "kitchen",
+    "furn",
+    "exhaust"
+   ],
+   "coherence": 0.288,
+   "novelty": 0.667,
+   "warmth": 0.586,
+   "anchor_warmth": 1.0
+  },
+  {
+   "beat": 100,
+   "side": "L",
+   "theta": 0.35,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "sauna",
+   "reads": [
+    "inflater",
+    "barrel",
+    "Camera",
+    "surveillance",
+    "dinner",
+    "casual"
+   ],
+   "coherence": 0.318,
+   "novelty": 0.833,
+   "warmth": 0.396,
+   "anchor_warmth": 0.417,
+   "commit": "casino"
+  },
+  {
+   "beat": 101,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "casino",
+   "reads": [
+    "championship",
+    "Dallas",
+    "Vegas",
+    "vacation",
+    "hosp",
+    "holiday"
+   ],
+   "coherence": 0.346,
+   "novelty": 1.0,
+   "warmth": 0.194,
+   "anchor_warmth": 0.372
+  },
+  {
+   "beat": 102,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "casino",
+   "reads": [
+    "Hollywood",
+    "conference",
+    "Championship",
+    "championship",
+    "contest",
+    "campaign"
+   ],
+   "coherence": 0.376,
+   "novelty": 0.833,
+   "warmth": 0.165,
+   "anchor_warmth": 0.372
+  },
+  {
+   "beat": 103,
+   "side": "R",
+   "theta": -0.85,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "casino",
+   "reads": [
+    "Chicago",
+    "wedding",
+    "Disney",
+    "Facebook",
+    "vacc",
+    "jail"
+   ],
+   "coherence": 0.303,
+   "novelty": 1.0,
+   "warmth": 0.29,
+   "anchor_warmth": 0.372
+  },
+  {
+   "beat": 104,
+   "side": "L",
+   "theta": 0.1,
+   "axis": -0.5,
+   "grain": "b4_32",
+   "anchor": "casino",
+   "reads": [
+    "Singapore",
+    "festival",
+    "Academy",
+    "campaigns",
+    "dining",
+    "battle"
+   ],
+   "coherence": 0.324,
+   "novelty": 1.0,
+   "warmth": 0.298,
+   "anchor_warmth": 0.372
+  },
+  {
+   "beat": 105,
+   "side": "R",
+   "theta": -0.85,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "casino",
+   "reads": [
+    "Casino",
+    "Hospital",
+    "Vegas",
+    "Welcome",
+    "illegal",
+    "lobby"
+   ],
+   "coherence": 0.368,
+   "novelty": 0.667,
+   "warmth": 0.249,
+   "anchor_warmth": 0.372
+  },
+  {
+   "beat": 106,
+   "side": "L",
+   "theta": 0.85,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "casino",
+   "reads": [
+    "Christmas",
+    "Dallas",
+    "campus",
+    "cli",
+    "cab",
+    "cas"
+   ],
+   "coherence": 0.259,
+   "novelty": 0.667,
+   "warmth": 0.166,
+   "anchor_warmth": 0.372
+  },
+  {
+   "beat": 107,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "casino",
+   "reads": [
+    "newsletter",
+    "rally",
+    "banned",
+    "polic",
+    "presidential",
+    "mad"
+   ],
+   "coherence": 0.201,
+   "novelty": 1.0,
+   "warmth": 0.391,
+   "anchor_warmth": 0.372,
+   "commit": "newsletter"
+  },
+  {
+   "beat": 108,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "newsletter",
+   "reads": [
+    "newspaper",
+    "Friday",
+    "email",
+    "Monday",
+    "podcast",
+    "ticket"
+   ],
+   "coherence": 0.451,
+   "novelty": 1.0,
+   "warmth": 0.46,
+   "anchor_warmth": 0.391
+  },
+  {
+   "beat": 109,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "newsletter",
+   "reads": [
+    "hotel",
+    "news",
+    "journal",
+    "News",
+    "Mrs",
+    "newsp"
+   ],
+   "coherence": 0.38,
+   "novelty": 1.0,
+   "warmth": 0.503,
+   "anchor_warmth": 0.391,
+   "commit": "journal"
+  },
+  {
+   "beat": 110,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "journal",
+   "reads": [
+    "Journal",
+    "reader",
+    "editor",
+    "model",
+    "register"
+   ],
+   "coherence": 0.551,
+   "novelty": 1.0,
+   "warmth": 0.398,
+   "anchor_warmth": 0.503
+  },
+  {
+   "beat": 111,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "journal",
+   "reads": [
+    "document",
+    "Dictionary",
+    "Model",
+    "chart",
+    "note",
+    "Document"
+   ],
+   "coherence": 0.384,
+   "novelty": 1.0,
+   "warmth": 0.352,
+   "anchor_warmth": 0.503
+  },
+  {
+   "beat": 112,
+   "side": "L",
+   "theta": 0.85,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "journal",
+   "reads": [
+    "dictionary",
+    "Journal",
+    "folder",
+    "portfolio",
+    "marker",
+    "regarding"
+   ],
+   "coherence": 0.5,
+   "novelty": 0.833,
+   "warmth": 0.491,
+   "anchor_warmth": 0.503
+  },
+  {
+   "beat": 113,
+   "side": "R",
+   "theta": -0.1,
+   "axis": 0.5,
+   "grain": "b4_32",
+   "anchor": "journal",
+   "reads": [
+    "forum",
+    "gallery",
+    "Just",
+    "mill",
+    "model",
+    "record"
+   ],
+   "coherence": 0.345,
+   "novelty": 0.833,
+   "warmth": 0.353,
+   "anchor_warmth": 0.503
+  },
+  {
+   "beat": 114,
+   "side": "L",
+   "theta": 1.35,
+   "axis": 0.75,
+   "grain": "b4_32",
+   "anchor": "journal",
+   "reads": [
+    "viol",
+    "reporter",
+    "library",
+    "lawyer",
+    "director",
+    "manager"
+   ],
+   "coherence": 0.407,
+   "novelty": 1.0,
+   "warmth": 0.462,
+   "anchor_warmth": 0.503
+  },
+  {
+   "beat": 115,
+   "side": "R",
+   "theta": -0.35,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "journal",
+   "reads": [
+    "novel",
+    "well",
+    "consider",
+    "just",
+    "judge",
+    "report"
+   ],
+   "coherence": 0.281,
+   "novelty": 1.0,
+   "warmth": 0.299,
+   "anchor_warmth": 0.503
+  },
+  {
+   "beat": 116,
+   "side": "L",
+   "theta": 1.1,
+   "axis": 0.5,
+   "grain": "b4_32",
+   "anchor": "journal",
+   "reads": [
+    "considering",
+    "Consider",
+    "document",
+    "scroll",
+    "told",
+    "found"
+   ],
+   "coherence": 0.13,
+   "novelty": 0.833,
+   "warmth": 0.409,
+   "anchor_warmth": 0.503
+  },
+  {
+   "beat": 117,
+   "side": "R",
+   "theta": 0.15,
+   "axis": 0.75,
+   "grain": "b4_32",
+   "anchor": "journal",
+   "reads": [
+    "mirror",
+    "given",
+    "letter",
+    "writer",
+    "Model",
+    "list"
+   ],
+   "coherence": 0.281,
+   "novelty": 0.833,
+   "warmth": 0.461,
+   "anchor_warmth": 0.503
+  },
+  {
+   "beat": 118,
+   "side": "L",
+   "theta": 1.1,
+   "axis": 0.5,
+   "grain": "b4_32",
+   "anchor": "journal",
+   "reads": [
+    "Journal",
+    "overall",
+    "Consult",
+    "Found",
+    "tell",
+    "View"
+   ],
+   "coherence": 0.164,
+   "novelty": 0.833,
+   "warmth": 0.356,
+   "anchor_warmth": 0.503
+  },
+  {
+   "beat": 119,
+   "side": "R",
+   "theta": -0.85,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "journal",
+   "reads": [
+    "illustr",
+    "reader",
+    "level",
+    "noted",
+    "notice",
+    "Well"
+   ],
+   "coherence": 0.25,
+   "novelty": 0.833,
+   "warmth": 0.381,
+   "anchor_warmth": 0.503
+  },
+  {
+   "beat": 120,
+   "side": "L",
+   "theta": 0.1,
+   "axis": -0.5,
+   "grain": "b4_32",
+   "anchor": "journal",
+   "reads": [
+    "magazine",
+    "Library",
+    "diagram",
+    "file",
+    "offer",
+    "model"
+   ],
+   "coherence": 0.386,
+   "novelty": 0.833,
+   "warmth": 0.49,
+   "anchor_warmth": 0.503
+  },
+  {
+   "beat": 121,
+   "side": "R",
+   "theta": -0.85,
+   "axis": -0.25,
+   "grain": "b4_32",
+   "anchor": "journal",
+   "reads": [
+    "catalog",
+    "Given",
+    "Just",
+    "Will",
+    "according",
+    "key"
+   ],
+   "coherence": 0.077,
+   "novelty": 0.833,
+   "warmth": 0.422,
+   "anchor_warmth": 0.503
+  },
+  {
+   "beat": 122,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "journal",
+   "reads": [
+    "dictionary",
+    "Dictionary",
+    "narr",
+    "editor",
+    "writer",
+    "listener"
+   ],
+   "coherence": 0.415,
+   "novelty": 0.333,
+   "warmth": 0.491,
+   "anchor_warmth": 0.503
+  },
+  {
+   "beat": 123,
+   "side": "R",
+   "theta": -0.35,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "journal",
+   "reads": [
+    "consult",
+    "register",
+    "folder",
+    "following",
+    "column",
+    "guide"
+   ],
+   "coherence": 0.325,
+   "novelty": 0.667,
+   "warmth": 0.421,
+   "anchor_warmth": 0.503
+  },
+  {
+   "beat": 124,
+   "side": "L",
+   "theta": 1.1,
+   "axis": 0.5,
+   "grain": "b4_32",
+   "anchor": "journal",
+   "reads": [
+    "Journal",
+    "Report",
+    "note",
+    "Find",
+    "will",
+    "find"
+   ],
+   "coherence": 0.201,
+   "novelty": 0.667,
+   "warmth": 0.356,
+   "anchor_warmth": 0.503
+  },
+  {
+   "beat": 125,
+   "side": "R",
+   "theta": -0.35,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "journal",
+   "reads": [
+    "mention",
+    "scholar",
+    "label",
+    "discuss",
+    "chart",
+    "mill"
+   ],
+   "coherence": 0.348,
+   "novelty": 0.667,
+   "warmth": 0.337,
+   "anchor_warmth": 0.503
+  },
+  {
+   "beat": 126,
+   "side": "L",
+   "theta": 1.1,
+   "axis": 0.5,
+   "grain": "b4_32",
+   "anchor": "journal",
+   "reads": [
+    "gallery",
+    "viol",
+    "doll",
+    "List",
+    "Valid",
+    "lot"
+   ],
+   "coherence": 0.178,
+   "novelty": 0.667,
+   "warmth": 0.492,
+   "anchor_warmth": 0.503
+  },
+  {
+   "beat": 127,
+   "side": "R",
+   "theta": -0.35,
+   "axis": 0.25,
+   "grain": "b4_32",
+   "anchor": "journal",
+   "reads": [
+    "violin",
+    "consider",
+    "record",
+    "known",
+    "Guide",
+    "Note"
+   ],
+   "coherence": 0.222,
+   "novelty": 0.667,
+   "warmth": 0.697,
+   "anchor_warmth": 0.503,
+   "commit": "violin"
+  },
+  {
+   "beat": 128,
+   "side": "L",
+   "theta": 0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "violin",
+   "reads": [
+    "guitar",
+    "piano",
+    "sword",
+    "keyboard",
+    "triangle"
+   ],
+   "coherence": 0.572,
+   "novelty": 1.0,
+   "warmth": 1.0,
+   "anchor_warmth": 0.697
+  },
+  {
+   "beat": 129,
+   "side": "R",
+   "theta": -0.6,
+   "axis": 0.0,
+   "grain": "b4_32",
+   "anchor": "violin",
+   "reads": [
+    "wouldn",
+    "knife",
+    "smartphone",
+    "inspired",
+    "instrument",
+    "pron"
+   ],
+   "coherence": 0.302,
+   "novelty": 1.0,
+   "warmth": 0.559,
+   "anchor_warmth": 0.697,
+   "commit": "guitar"
+  }
+ ],
+ "refs": {},
+ "tag": "sol_bank_hidden_oak_sauna_guitar",
+ "gate0": {
+  "sides_alternate": "1.00 of beats switch side",
+  "grain_changes_reads": "16/16 probes read differently across grains; e.g. top8:nude / top16:date / b4_32:pine / top64:maple / full:maple",
+  "coverage_repels": "distinct reads 118 with trace, 1 without",
+  "probe_leaves_heading": "axis +1.53 rad while anchor stays on oak"
+ },
+ "reads to first see target": 769,
+ "reached target as anchor": true,
+ "oracle hill-climb reads (sees all 10 neighbours' warmth)": 40
+}
