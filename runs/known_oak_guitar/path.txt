@@ -1,0 +1,2 @@
+b000 L th=+1.80 ax=+1.20 [ b4_32] @oak            saw: willow elm axe guitar harp   warm +0.24->+1.00
+b001 R th=+0.60 ax=+1.20 [ b4_32] @oak            saw: olive firewood cedar birch cello carrot   warm +0.24->+0.59   -> guitar
