@@ -1,0 +1,300 @@
+b000 L th=+0.60 ax=+0.00 [ b4_32] @Berlin         saw: London Denver Ontario Toronto mont
+b001 R th=-0.60 ax=+0.00 [ b4_32] @Berlin         saw: Delhi Florida Minnesota Michigan Illinois Massachusetts   -> London
+b002 L th=+0.60 ax=+0.00 [ b4_32] @London         saw: Japan Hollywood Mont nov international north
+b003 R th=-0.60 ax=+0.00 [ b4_32] @London         saw: Indiana Ohio Korea Italy Rome Russia   -> Japan
+b004 L th=+0.60 ax=+0.00 [ top64] @Japan          saw: Spain Germany Pakistan Iran Islam Japanese
+b005 R th=-0.60 ax=+0.00 [ top64] @Japan          saw: Mexico France America Syria Asia Afghanistan   -> Germany
+b006 L th=+0.60 ax=+0.00 [ b4_32] @Germany        saw: England Europe Britain democracy Democrats Republicans
+b007 R th=-0.60 ax=+0.00 [ b4_32] @Germany        saw: Ukraine Ireland Scotland Russia India Europe   -> England
+b008 L th=+0.60 ax=+0.00 [ top16] @England        saw: Australia Africa Canada Israel January Americans
+b009 R th=-0.60 ax=+0.00 [ top16] @England        saw: Kansas Iraq Alabama Arizona December February   -> Australia
+b010 L th=+0.60 ax=+0.00 [  top8] @Australia      saw: Egypt Texas Jewish British Christmas Chinese
+b011 R th=-0.60 ax=+0.00 [  top8] @Australia      saw: Singapore Colorado Philadelphia Chicago Pennsylvania English   -> Pennsylvania
+b012 L th=+0.60 ax=+0.00 [  top8] @Pennsylvania   saw: California Canadian Australian American European International
+b013 R th=-0.60 ax=+0.00 [  top8] @Pennsylvania   saw: Manchester Federal Pacific Carolina Latin Franklin   -> California
+b014 L th=+0.60 ax=+0.00 [  top8] @California     saw: Russian Roman Italian French Indian Spanish
+b015 R th=-0.60 ax=+0.00 [  top8] @California     saw: Korean German Brazil Boston Asian Syrian   -> Brazil
+b016 L th=+0.60 ax=+0.00 [  top8] @Brazil         saw: Afghan Irish Arab Amazon Mars Tai
+b017 R th=-0.60 ax=+0.00 [  top8] @Brazil         saw: African Harris Golden Pale Austral Han   -> Amazon
+b018 L th=+0.60 ax=+0.00 [  top8] @Amazon         saw: Sony Jackson Allen Chrome Carbon Mac
+b019 R th=-0.60 ax=+0.00 [  top8] @Amazon         saw: Miller Samsung Navy Apache Scott Metro   -> Apache
+b020 L th=+0.60 ax=+0.00 [ top16] @Apache         saw: Jordan Brian Oracle Link Jay Stan
+b021 R th=-0.60 ax=+0.00 [ top16] @Apache         saw: Hillary Trump Clinton Newton Obama Putin   -> Oracle
+b022 L th=+0.60 ax=+0.00 [ b4_32] @Oracle         saw: valor invoke Promise Marvel reveal proxy
+b023 R th=-0.60 ax=+0.00 [ b4_32] @Oracle         saw: avatar Fox Token Role Note goal
+b024 L th=+0.60 ax=+0.00 [ top64] @Oracle         saw: Icon Matrix Scanner Google Observable probe   -> Icon
+b025 R th=-0.60 ax=+0.00 [ top64] @Icon           saw: icon Tile Symbol Label Button
+b026 L th=+0.60 ax=+0.00 [  full] @Icon           saw: icon Font Image indicator font   -> icon
+b027 R th=-0.60 ax=+0.00 [  full] @icon           saw: logo token symbol tile sign diagram
+b028 L th=+0.60 ax=+0.00 [  full] @icon           saw: image column decor glyphicon plugin entity   -> logo
+b029 R th=-0.60 ax=+0.00 [  full] @logo           saw: label flag labels menu formula photo
+b030 L th=+0.60 ax=+0.00 [  full] @logo           saw: mask memo log hero login roster   -> label
+b031 R th=-0.60 ax=+0.00 [  full] @label          saw: labels Label handle filter level cover
+b032 L th=+0.60 ax=+0.00 [  full] @label          saw: tag labels Label lbl title caption   -> tag
+b033 R th=-0.60 ax=+0.00 [  full] @tag            saw: tags tab patch pack rag
+b034 L th=+0.60 ax=+0.00 [ top64] @tag            saw: pad tack Tag mark drag   -> tags
+b035 R th=-0.60 ax=+0.00 [ top64] @tags           saw: targets tokens posts bags threads strings
+b036 L th=+0.60 ax=+0.00 [ top64] @tags           saw: flags tiles bands marks tracks bits   -> bags
+b037 R th=-0.60 ax=+0.00 [ top64] @bags           saw: bag boxes tables cars cases houses
+b038 L th=+0.60 ax=+0.00 [ top64] @bags           saw: Bag bag packages basket fans   -> bag
+b039 R th=-0.60 ax=+0.00 [ top64] @bag            saw: box cap bottle bed boat book
+b040 L th=+0.60 ax=+0.00 [ b4_32] @bag            saw: case package Available bas Package available   -> box
+b041 R th=-0.60 ax=+0.00 [ b4_32] @box            saw: Box table chair Complete cup complete
+b042 L th=+0.60 ax=+0.00 [ top64] @box            saw: bus block bucket Box boxes bowl   -> Box
+b043 R th=-0.60 ax=+0.00 [ top64] @Box            saw: Table Bus Cup Glass Ball Bed
+b044 L th=+0.60 ax=+0.00 [ top64] @Box            saw: Bowl Book Case Block Bridge Car   -> Table
+b045 R th=-0.60 ax=+0.00 [ top64] @Table          saw: Chair Paper Floor Wall Computer Temple
+b046 L th=+0.60 ax=+0.00 [ b4_32] @Table          saw: table tables sheet desk stands plate   -> Paper
+b047 R th=-0.60 ax=+0.00 [ b4_32] @Paper          saw: paper Paint Phot Music Film
+b048 L th=+0.60 ax=+0.00 [ b4_32] @Paper          saw: Pen papers Por Real paper trying   -> paper
+b049 R th=-0.60 ax=+0.00 [ b4_32] @paper          saw: software possible the computer what dictionary
+b050 L th=+0.60 ax=+0.00 [ top64] @paper          saw: newspaper paint tape papers sugar film   -> newspaper
+b051 R th=-0.60 ax=+0.00 [ top64] @newspaper      saw: magazine newsletter reporter journal restaurant hospital
+b052 L th=+0.60 ax=+0.00 [  full] @newspaper      saw: television news newsp reporters onion announcement   -> television
+b053 R th=-0.60 ax=+0.00 [  full] @television     saw: telephone phone smartphone violin phones football
+b054 L th=+0.60 ax=+0.00 [  full] @television     saw: telephone radio website library university electronic   -> telephone
+b055 R th=-0.60 ax=+0.00 [  full] @telephone      saw: Phone phone phones remote battery socket
+b056 L th=+0.60 ax=+0.00 [  full] @telephone      saw: Phone police tele photograph tel transportation   -> Phone
+b057 R th=-0.60 ax=+0.00 [  full] @Phone          saw: Camera Mobile Screen Watch Money Lock
+b058 L th=+0.60 ax=+0.00 [  full] @Phone          saw: Remote Computer phone Device Engine phones   -> Camera
+b059 R th=-0.60 ax=+0.00 [  full] @Camera         saw: camera cameras Card Frame Container Bow
+b060 L th=+0.60 ax=+0.00 [ top64] @Camera         saw: Scanner camera Calendar cameras Casino Radio   -> camera
+b061 R th=-0.60 ax=+0.00 [ top64] @camera         saw: speaker scanner piano mirror marker keyboard
+b062 L th=+0.60 ax=+0.00 [ b4_32] @camera         saw: car cam bab cal cer har   -> speaker
+b063 R th=-0.60 ax=+0.00 [ b4_32] @speaker        saw: speakers reader processor timer receiver operator
+b064 L th=+0.60 ax=+0.00 [ top64] @speaker        saw: speakers poker stage spoke writer   -> speakers
+b065 R th=-0.60 ax=+0.00 [ top64] @speakers       saw: readers records doors projects texts posts
+b066 L th=+0.60 ax=+0.00 [ top64] @speakers       saw: keys servers spokes actors presents stages   -> readers
+b067 R th=-0.60 ax=+0.00 [ top64] @readers        saw: writers viewers teachers authors artists leaders
+b068 L th=+0.60 ax=+0.00 [  full] @readers        saw: reader writers reading listener viewers   -> writers
+b069 R th=-0.60 ax=+0.00 [  full] @writers        saw: writer writes scientists investors researchers developers
+b070 L th=+0.60 ax=+0.00 [ top64] @writers        saw: writing stories writes writ written write   -> writes
+b071 R th=-0.60 ax=+0.00 [ top64] @writes         saw: wrote reads tells speaks gives applies
+b072 L th=+0.60 ax=+0.00 [ top64] @writes         saw: talks wrote write builds read cuts   -> wrote
+b073 R th=-0.60 ax=+0.00 [ top64] @wrote          saw: told gave talked showed fought took
+b074 L th=+0.60 ax=+0.00 [ b4_32] @wrote          saw: looked reached viewed stood pued proved   -> talked
+b075 R th=-0.60 ax=+0.00 [ b4_32] @talked         saw: walked taught argued planned happened committed
+b076 L th=+0.60 ax=+0.00 [ b4_32] @talked         saw: discussed spoken played watched Talk liked   -> walked
+b077 R th=-0.60 ax=+0.00 [ b4_32] @walked         saw: moved attacked pushed stopped distributed destroyed
+b078 L th=+0.60 ax=+0.00 [ b4_32] @walked         saw: carried struck launched conducted started walking   -> walking
+b079 R th=-0.60 ax=+0.00 [ b4_32] @walking        saw: running moving driving flying traveling shooting
+b080 L th=+0.60 ax=+0.00 [ b4_32] @walking        saw: searching pushing standing hitting sleeping burning   -> running
+b081 R th=-0.60 ax=+0.00 [ b4_32] @running        saw: rolling ordering promoting turning throwing breaking
+b082 L th=+0.60 ax=+0.00 [ b4_32] @running        saw: processing training Training run Run promotion   -> rolling
+b083 R th=-0.60 ax=+0.00 [ b4_32] @rolling        saw: grinding pulling opening floating filling reducing
+b084 L th=+0.60 ax=+0.00 [ top64] @rolling        saw: carrying roll rounded Roll round   -> floating
+b085 R th=-0.60 ax=+0.00 [ top64] @floating       saw: falling float suspended hanging fallen hover
+b086 L th=+0.60 ax=+0.00 [ top64] @floating       saw: flying Float transparent flexible horizontal Throwable   -> falling
+b087 R th=-0.60 ax=+0.00 [ top64] @falling        saw: falls fall failing dying Fall fell
+b088 L th=+0.60 ax=+0.00 [ top64] @falling        saw: fallen growing dropped failed falls fall   -> falls
+b089 R th=-0.60 ax=+0.00 [ top64] @falls          saw: fields deals ends meets leads passes
+b090 L th=+0.60 ax=+0.00 [ top64] @falls          saw: breaks fails drops lands starts fell   -> breaks
+b091 R th=-0.60 ax=+0.00 [ top64] @breaks         saw: stops break takes allows creates causes
+b092 L th=+0.60 ax=+0.00 [ top64] @breaks         saw: broke begins break Break blocks crack   -> break
+b093 R th=-0.60 ax=+0.00 [ top64] @break          saw: step turn draw cut bind patch
+b094 L th=+0.60 ax=+0.00 [ top64] @break          saw: split stop trick keep Break check   -> turn
+b095 R th=-0.60 ax=+0.00 [ top64] @turn           saw: Turn spin tun ton tur tum
+b096 L th=+0.60 ax=+0.00 [  full] @turn           saw: turns turning Turn turned   -> Turn
+b097 R th=-0.60 ax=+0.00 [  full] @Turn           saw: Put Start Return Take Get Remove
+b098 L th=+0.60 ax=+0.00 [  full] @Turn           saw: Burn Sum Cut Even Run Tur   -> Put
+b099 R th=-0.60 ax=+0.00 [  full] @Put            saw: put Let Make Give For Send
+b100 L th=+0.60 ax=+0.00 [  full] @Put            saw: Pick put puts putting Place Post   -> put
+b101 R th=-0.60 ax=+0.00 [  full] @put            saw: get take give hold buy sit
+b102 L th=+0.60 ax=+0.00 [ top64] @put            saw: puts try push let pat shut   -> get
+b103 R th=-0.60 ax=+0.00 [ top64] @get            saw: find have eat move fetch know
+b104 L th=+0.60 ax=+0.00 [ top64] @get            saw: gets need Get getting enter   -> find
+b105 R th=-0.60 ax=+0.00 [ top64] @find           saw: Find finding identify define explain investigate
+b106 L th=+0.60 ax=+0.00 [ top64] @find           saw: finds found finding Found fix   -> Find
+b107 R th=-0.60 ax=+0.00 [ top64] @Find           saw: Write Create Choose Based Generate Given
+b108 L th=+0.60 ax=+0.00 [ top64] @Find           saw: Check Follow Final Search List From   -> Write
+b109 R th=-0.60 ax=+0.00 [ top64] @Write          saw: Use Would Which Continue Please Therefore
+b110 L th=+0.60 ax=+0.00 [ b4_32] @Write          saw: describe Using Query Request query rewrite   -> Use
+b111 R th=-0.60 ax=+0.00 [ b4_32] @Use            saw: use Has Since Have Should Was
+b112 L th=+0.60 ax=+0.00 [ top16] @Use            saw: Show Calculate See Read Move Review   -> Have
+b113 R th=-0.60 ax=+0.00 [ top16] @Have           saw: Will Are Could Every Well Never
+b114 L th=+0.60 ax=+0.00 [  top8] @Have           saw: Did Come Own Know Yeah Like   -> Are
+b115 R th=-0.60 ax=+0.00 [  top8] @Are            saw: Now Who Your Some Most Kind
+b116 L th=+0.60 ax=+0.00 [  top8] @Are            saw: How Also What You Thus Maybe   -> How
+b117 R th=-0.60 ax=+0.00 [  top8] @How            saw: That This Last One Many The
+b118 L th=+0.60 ax=+0.00 [  top8] @How            saw: When There And Can Way End   -> When
+b119 R th=-0.60 ax=+0.00 [  top8] @When           saw: While During Either Sometimes Unknown Although
+b120 L th=+0.60 ax=+0.00 [  top8] @When           saw: Where Below Before Why Right Self   -> Where
+b121 R th=-0.60 ax=+0.00 [  top8] @Where          saw: Each These Does Those Nothing Both
+b122 L th=+0.60 ax=+0.00 [  top8] @Where          saw: Here About Only User Through Everything   -> Here
+b123 R th=-0.60 ax=+0.00 [  top8] @Here           saw: Then With Yes what But there
+b124 L th=+0.60 ax=+0.00 [  top8] @Here           saw: After None They where Name Look   -> there
+b125 R th=-0.60 ax=+0.00 [  top8] @there          saw: here few though plenty fellow familiar
+b126 L th=+0.60 ax=+0.00 [  top8] @there          saw: once now like last rise mean   -> here
+b127 R th=-0.60 ax=+0.00 [  top8] @here           saw: then each either later dozen ease
+b128 L th=+0.60 ax=+0.00 [ top16] @here           saw: from below into upon somewhere above   -> from
+b129 R th=-0.60 ax=+0.00 [ top16] @from           saw: within near toward beyond lowest recent
+b130 L th=+0.60 ax=+0.00 [ b4_32] @from           saw: From nor form rom origin domain   -> From
+b131 R th=-0.60 ax=+0.00 [ b4_32] @From           saw: For Result According Based Statement Question
+b132 L th=+0.60 ax=+0.00 [ top64] @From           saw: More Created All Convert Form Dis   -> According
+b133 R th=-0.60 ax=+0.00 [ top64] @According      saw: according Because Which Should Would Could
+b134 L th=+0.60 ax=+0.00 [ top64] @According      saw: Consider Unfortunately according Appro Comment based   -> according
+b135 R th=-0.60 ax=+0.00 [ top64] @according      saw: depending consequ should shouldn could apprec
+b136 L th=+0.60 ax=+0.00 [ b4_32] @according      saw: although about account because catalog About   -> depending
+b137 R th=-0.60 ax=+0.00 [ b4_32] @depending      saw: continuing neither depends specifically extensions differently
+b138 L th=+0.60 ax=+0.00 [ top64] @depending      saw: regardless depend depends dependent attempting   -> depends
+b139 R th=-0.60 ax=+0.00 [ top64] @depends        saw: therefore endif exists anymore yes finally
+b140 L th=+0.60 ax=+0.00 [ top64] @depends        saw: none undefined dependencies defines ends defaults   -> therefore
+b141 R th=-0.60 ax=+0.00 [ top64] @therefore      saw: Therefore thus however However Thus Otherwise
+b142 L th=+0.60 ax=+0.00 [  full] @therefore      saw: hence Therefore thus hereby   -> hence
+b143 R th=-0.60 ax=+0.00 [  full] @hence          saw: indeed else essentially obviously instantly happens
+b144 L th=+0.60 ax=+0.00 [ top64] @hence          saw: otherwise nicht yet hers hes his   -> indeed
+b145 R th=-0.60 ax=+0.00 [ top64] @indeed         saw: certainly actually truly really seriously hardly
+b146 L th=+0.60 ax=+0.00 [  full] @indeed         saw: definitely exactly surely yeah sure myself   -> certainly
+b147 R th=-0.60 ax=+0.00 [  full] @certainly      saw: definitely clearly absolutely suddenly completely constantly
+b148 L th=+0.60 ax=+0.00 [ top64] @certainly      saw: basically necessarily surely certain apparently usually   -> clearly
+b149 R th=-0.60 ax=+0.00 [ top64] @clearly        saw: closely deeply properly regularly publicly commonly
+b150 L th=+0.60 ax=+0.00 [ b4_32] @clearly        saw: barely clar clear Clear calm Circle   -> deeply
+b151 R th=-0.60 ax=+0.00 [ b4_32] @deeply         saw: heavily deeper rapidly slowly quickly actively
+b152 L th=+0.60 ax=+0.00 [ top64] @deeply         saw: easily highly deep deeper fully Deep   -> heavily
+b153 R th=-0.60 ax=+0.00 [ top64] @heavily        saw: heavy newly largely strongly widely
+b154 L th=+0.60 ax=+0.00 [ b4_32] @heavily        saw: effectively electrical extensive lumber Lesser Storage   -> heavy
+b155 R th=-0.60 ax=+0.00 [ b4_32] @heavy          saw: thick fresh large big solid small
+b156 L th=+0.60 ax=+0.00 [ top64] @heavy          saw: healthy hot empty dirty dead sharp   -> thick
+b157 R th=-0.60 ax=+0.00 [ top64] @thick          saw: thin tough short wide long broad
+b158 L th=+0.60 ax=+0.00 [  full] @thick          saw: tall dark bulk thin toxic chunk   -> thin
+b159 R th=-0.60 ax=+0.00 [  full] @thin           saw: fat tiny narrow flat tan plain
+b160 L th=+0.60 ax=+0.00 [  full] @thin           saw: tight transparent lean than spin trim   -> narrow
+b161 R th=-0.60 ax=+0.00 [  full] @narrow         saw: wide wider round rounded around corner
+b162 L th=+0.60 ax=+0.00 [  full] @narrow         saw: straight single restrict near navigate surround   -> wider
+b163 R th=-0.60 ax=+0.00 [  full] @wider          saw: bigger larger worse easier faster better
+b164 L th=+0.60 ax=+0.00 [  full] @wider          saw: longer smaller closer width bigger harder   -> bigger
+b165 R th=-0.60 ax=+0.00 [  full] @bigger         saw: biggest larger largest stronger higher
+b166 L th=+0.60 ax=+0.00 [ top64] @bigger         saw: longest highest big huge smaller biggest   -> biggest
+b167 R th=-0.60 ax=+0.00 [ top64] @biggest        saw: largest greatest lowest best latest massive
+b168 L th=+0.60 ax=+0.00 [ b4_32] @biggest        saw: Big giant identical indiv dozens citiz   -> greatest
+b169 R th=-0.60 ax=+0.00 [ b4_32] @greatest       saw: Great great excellent justice wonder Justice
+b170 L th=+0.60 ax=+0.00 [ top64] @greatest       saw: worst most greater lifetime vast least   -> great
+b171 R th=-0.60 ax=+0.00 [ top64] @great          saw: Great grand dire meg mac mag
+b172 L th=+0.60 ax=+0.00 [  full] @great          saw: greater Great gentle little crit   -> grand
+b173 R th=-0.60 ax=+0.00 [  full] @grand          saw: Grand gran mand ann bon
+b174 L th=+0.60 ax=+0.00 [  full] @grand          saw: grad Grand grant senior global brand   -> Grand
+b175 R th=-0.60 ax=+0.00 [  full] @Grand          saw: Bon Mag Mon Mar Par Reg
+b176 L th=+0.60 ax=+0.00 [  full] @Grand          saw: Grad Long Fund Band Prom General   -> Bon
+b177 R th=-0.60 ax=+0.00 [  full] @Bon            saw: Hon Bel Cas Por Hor Ber
+b178 L th=+0.60 ax=+0.00 [  full] @Bon            saw: Don Ben bon Mal Beh Bad   -> Hon
+b179 R th=-0.60 ax=+0.00 [  full] @Hon            saw: hon Hol Hur Har Hel Hom
+b180 L th=+0.60 ax=+0.00 [ top64] @Hon            saw: Hun Ven hon Inn Vin Hind   -> hon
+b181 R th=-0.60 ax=+0.00 [ top64] @hon            saw: hun hor dol hur har mor
+b182 L th=+0.60 ax=+0.00 [ b4_32] @hon            saw: kon ign kont Content lon inn   -> hor
+b183 R th=-0.60 ax=+0.00 [ b4_32] @hor            saw: Hor gro fro mar per ter
+b184 L th=+0.60 ax=+0.00 [ b4_32] @hor            saw: cor location fore Location direction directions   -> mar
+b185 R th=-0.60 ax=+0.00 [ b4_32] @mar            saw: par sal var param bis
+b186 L th=+0.60 ax=+0.00 [ top64] @mar            saw: mer dar marg rad mari Mar   -> par
+b187 R th=-0.60 ax=+0.00 [ top64] @par            saw: gar ser cur sim prim bas
+b188 L th=+0.60 ax=+0.00 [ b4_32] @par            saw: Par cam param Param apr pal   -> gar
+b189 R th=-0.60 ax=+0.00 [ b4_32] @gar            saw: Gar Kar guar della batter
+b190 L th=+0.60 ax=+0.00 [ top16] @gar            saw: cro rac ham van sha ram   -> Gar
+b191 R th=-0.60 ax=+0.00 [ top16] @Gar            saw: Sar Sal Dam Ros Ger Count
+b192 L th=+0.60 ax=+0.00 [ top16] @Gar            saw: Cam Char Ham Bron Tal Ark   -> Ger
+b193 R th=-0.60 ax=+0.00 [ top16] @Ger            saw: Mur Vol Rel Pro Prem Prof
+b194 L th=+0.60 ax=+0.00 [ top16] @Ger            saw: Sem Pos Cos Med Res Sym   -> Sem
+b195 R th=-0.60 ax=+0.00 [ top16] @Sem            saw: Tem Ter Mit Sec Met Fre
+b196 L th=+0.60 ax=+0.00 [ top16] @Sem            saw: Mil Var Lim Pers Ver Phys   -> Tem
+b197 R th=-0.60 ax=+0.00 [ top16] @Tem            saw: Sou Que Sur Bre Mir Pur
+b198 L th=+0.60 ax=+0.00 [ top16] @Tem            saw: Mer Vir Som Wil Sen Him   -> Sen
+b199 R th=-0.60 ax=+0.00 [ top16] @Sen            saw: Mart Mont San Dom Phil Scott
+b200 L th=+0.60 ax=+0.00 [ top16] @Sen            saw: Dem Pak Jac Dav Feder Georg   -> San
+b201 R th=-0.60 ax=+0.00 [ top16] @San            saw: Van Gal Han Hong Boston Mac
+b202 L th=+0.60 ax=+0.00 [ top16] @San            saw: Jun New Martin Royal Middle West   -> Van
+b203 R th=-0.60 ax=+0.00 [ top16] @Van            saw: Span Arch Flo Haw Cast Ash
+b204 L th=+0.60 ax=+0.00 [ top16] @Van            saw: Dar Bay Pan Mount Bush Camp   -> Pan
+b205 R th=-0.60 ax=+0.00 [ top16] @Pan            saw: Tor Lin Rod Bar Imp Pin
+b206 L th=+0.60 ax=+0.00 [ b4_32] @Pan            saw: pan pad span bound cone   -> pan
+b207 R th=-0.60 ax=+0.00 [ b4_32] @pan            saw: can cap plate bin cup pin
+b208 L th=+0.60 ax=+0.00 [ top64] @pan            saw: pot fan pen plan mat panel   -> pot
+b209 R th=-0.60 ax=+0.00 [ top64] @pot            saw: nut bottle hat bucket basket sock
+b210 L th=+0.60 ax=+0.00 [ top64] @pot            saw: Pot tub pod post pit   -> Pot
+b211 R th=-0.60 ax=+0.00 [ top64] @Pot            saw: Nut Mat Pod Cup Bed Glass
+b212 L th=+0.60 ax=+0.00 [ top64] @Pot            saw: Cap Ant Prop Nut Pet Mot   -> Mat
+b213 R th=-0.60 ax=+0.00 [ top64] @Mat            saw: Hat Mask Map Table Chair Frame
+b214 L th=+0.60 ax=+0.00 [ top64] @Mat            saw: Net Bat Lat Kat Mod Mem   -> Hat
+b215 R th=-0.60 ax=+0.00 [ top64] @Hat            saw: Bag Watch Boot Key Box Bridge
+b216 L th=+0.60 ax=+0.00 [ top64] @Hat            saw: hat Cat Pen Hen Heart   -> Bag
+b217 R th=-0.60 ax=+0.00 [ top64] @Bag            saw: bag bags Package Book Case Bus
+b218 L th=+0.60 ax=+0.00 [ b4_32] @Bag            saw: bag case package bags Pack   -> bag
+b219 R th=-0.60 ax=+0.00 [ b4_32] @bag            saw: box bas Available based Based
+b220 L th=+0.60 ax=+0.00 [ top16] @bag            saw: ball bowl ring card bench bill   -> box
+b221 R th=-0.60 ax=+0.00 [ top16] @box            saw: table window sink folder page screen
+b222 L th=+0.60 ax=+0.00 [ b4_32] @box            saw: block boxes blocks stack blank includes   -> boxes
+b223 R th=-0.60 ax=+0.00 [ b4_32] @boxes          saw: tables cases columns doors walls houses
+b224 L th=+0.60 ax=+0.00 [ b4_32] @boxes          saw: boards bars tiles frames templates copies   -> cases
+b225 R th=-0.60 ax=+0.00 [ b4_32] @cases          saw: packages bills stages bands levels styles
+b226 L th=+0.60 ax=+0.00 [ b4_32] @cases          saw: panels Sets cas case Case Cas   -> packages
+b227 R th=-0.60 ax=+0.00 [ b4_32] @packages       saw: samples supplies projects parties programs operations
+b228 L th=+0.60 ax=+0.00 [ top64] @packages       saw: package companies packet Package packed   -> packet
+b229 R th=-0.60 ax=+0.00 [ top64] @packet         saw: cable tissue tablet battery thread bullet
+b230 L th=+0.60 ax=+0.00 [ top64] @packet         saw: pipe bundle pack record tape particle   -> pack
+b231 R th=-0.60 ax=+0.00 [ top64] @pack           saw: Pack mount grab patch hang hack
+b232 L th=+0.60 ax=+0.00 [ top64] @pack           saw: track catch gather hold keep collect   -> patch
+b233 R th=-0.60 ax=+0.00 [ top64] @patch          saw: slip split zip crack pitch flip
+b234 L th=+0.60 ax=+0.00 [  full] @patch          saw: padding scrap stretch matching rag matched   -> padding
+b235 R th=-0.60 ax=+0.00 [  full] @padding        saw: pad binding slider shader popup heading
+b236 L th=+0.60 ax=+0.00 [  full] @padding        saw: attachment blocking filling pad loading spread   -> binding
+b237 R th=-0.60 ax=+0.00 [  full] @binding        saw: bind bearing closure constraint connection indicator
+b238 L th=+0.60 ax=+0.00 [  full] @binding        saw: connecting findings bind mapping joining rendering   -> bind
+b239 R th=-0.60 ax=+0.00 [  full] @bind           saw: bund band ban vend rend cast
+b240 L th=+0.60 ax=+0.00 [  full] @bind           saw: bound connect break attach sind linked   -> bund
+b241 R th=-0.60 ax=+0.00 [  full] @bund           saw: batt bur bul dut tut pul
+b242 L th=+0.60 ax=+0.00 [  full] @bund           saw: tun pand bott wed kann Budd   -> batt
+b243 R th=-0.60 ax=+0.00 [  full] @batt           saw: att buff opp fut fant capt
+b244 L th=+0.60 ax=+0.00 [  full] @batt           saw: chall cann batter obst bet Battle   -> att
+b245 R th=-0.60 ax=+0.00 [  full] @att            saw: Att aff ann app alt aut
+b246 L th=+0.60 ax=+0.00 [  full] @att            saw: ath Att appe iss attr ack   -> aff
+b247 R th=-0.60 ax=+0.00 [  full] @aff            saw: Aff acc inf conf adm adv
+b248 L th=+0.60 ax=+0.00 [ top64] @aff            saw: eff appro appl Aff alleg benef   -> Aff
+b249 R th=-0.60 ax=+0.00 [ top64] @Aff            saw: Acc Abs Inf Exp Ins Dis
+b250 L th=+0.60 ax=+0.00 [ b4_32] @Aff            saw: Adv Amb affected ability acknowled Award   -> Acc
+b251 R th=-0.60 ax=+0.00 [ b4_32] @Acc            saw: acc Enc Inc inc exc Rec
+b252 L th=+0.60 ax=+0.00 [ b4_32] @Acc            saw: App Access acc obs abs access   -> App
+b253 R th=-0.60 ax=+0.00 [ b4_32] @App            saw: app comp perm rep Rep
+b254 L th=+0.60 ax=+0.00 [ b4_32] @App            saw: Application Comp apps application amb adj   -> Rep
+b255 R th=-0.60 ax=+0.00 [ b4_32] @Rep            saw: Ref Rem Rev Res Ret Rel
+b256 L th=+0.60 ax=+0.00 [ top64] @Rep            saw: Dep Reg Rec Prop rep Retrie   -> Rem
+b257 R th=-0.60 ax=+0.00 [ top64] @Rem            saw: rem Rom Tem Mer Mel Ren
+b258 L th=+0.60 ax=+0.00 [ b4_32] @Rem            saw: rem Per Ter rev res reg   -> rem
+b259 R th=-0.60 ax=+0.00 [ b4_32] @rem            saw: mer ter per tem dem der
+b260 L th=+0.60 ax=+0.00 [ top16] @rem            saw: mul reb sig jer lag pic   -> dem
+b261 R th=-0.60 ax=+0.00 [ top16] @dem            saw: sen mor nov jed san hom
+b262 L th=+0.60 ax=+0.00 [ top16] @dem            saw: cos simp mal phil fam ben   -> ben
+b263 R th=-0.60 ax=+0.00 [ top16] @ben            saw: dan ali tom han bon bel
+b264 L th=+0.60 ax=+0.00 [ top16] @ben            saw: dar sam conn Dan Ken Jon   -> dan
+b265 R th=-0.60 ax=+0.00 [ top16] @dan            saw: jak sha ran lang von lua
+b266 L th=+0.60 ax=+0.00 [ top16] @dan            saw: kan nom ren rand max uri   -> kan
+b267 R th=-0.60 ax=+0.00 [ top16] @kan            saw: kom pag cin tum och dess
+b268 L th=+0.60 ax=+0.00 [ top16] @kan            saw: nam sel rom kon ang bom   -> kon
+b269 R th=-0.60 ax=+0.00 [ top16] @kon            saw: cer bil sim ther cur requ
+b270 L th=+0.60 ax=+0.00 [ top16] @kon            saw: ber guar con fran jun pri   -> con
+b271 R th=-0.60 ax=+0.00 [ top16] @con            saw: char cor cre pal str clo
+b272 L th=+0.60 ax=+0.00 [ top16] @con            saw: col mon cal prim bal mar   -> cor
+b273 R th=-0.60 ax=+0.00 [ top16] @cor            saw: ger bro shr sou bir hor
+b274 L th=+0.60 ax=+0.00 [  top8] @cor            saw: por pel sil bot bas dom   -> por
+b275 R th=-0.60 ax=+0.00 [  top8] @por            saw: mol squ pou har fle tou
+b276 L th=+0.60 ax=+0.00 [  top8] @por            saw: til las spr nas mus spe   -> pou
+b277 R th=-0.60 ax=+0.00 [  top8] @pou            saw: whe cher thr wer sne swe
+b278 L th=+0.60 ax=+0.00 [  top8] @pou            saw: mur beh tod wir hun wom   -> mur
+b279 R th=-0.60 ax=+0.00 [  top8] @mur            saw: ris dol tok tra vor fra
+b280 L th=+0.60 ax=+0.00 [  top8] @mur            saw: coc vul soc cou sie civ   -> vul
+b281 R th=-0.60 ax=+0.00 [  top8] @vul            saw: nin cele vict vit jur fif
+b282 L th=+0.60 ax=+0.00 [  top8] @vul            saw: din sol ele bey vill lux   -> vill
+b283 R th=-0.60 ax=+0.00 [  top8] @vill           saw: mais dass coun gover pays citiz
+b284 L th=+0.60 ax=+0.00 [  top8] @vill           saw: cour mens hous les pup femme
+b285 R th=-0.60 ax=+0.00 [  top8] @vill           saw: jew gard polic sist veter hosp   -> polic
+b286 L th=+0.60 ax=+0.00 [ top16] @polic          saw: medic lawy scient merch serv milit
+b287 R th=-0.60 ax=+0.00 [ top16] @polic          saw: lect offic prosec legisl discipl negot   -> offic
+b288 L th=+0.60 ax=+0.00 [ b4_32] @offic          saw: office Office police official officially public
+b289 R th=-0.60 ax=+0.00 [ b4_32] @offic          saw: office operating Occ occ opport Post   -> occ
+b290 L th=+0.60 ax=+0.00 [ top64] @occ            saw: loc Occ opp proc occas poss
+b291 R th=-0.60 ax=+0.00 [ top64] @occ            saw: obs acc esc ext ess ack   -> loc
+b292 L th=+0.60 ax=+0.00 [ top64] @loc            saw: pos Loc alloc foc lic
+b293 R th=-0.60 ax=+0.00 [ top64] @loc            saw: mag rac lat pol meg par   -> Loc
+b294 L th=+0.60 ax=+0.00 [ b4_32] @Loc            saw: hole Profile track mob Local Host
+b295 R th=-0.60 ax=+0.00 [ b4_32] @Loc            saw: Location glob Flo Cur Den Bro   -> Cur
+b296 L th=+0.60 ax=+0.00 [ top64] @Cur            saw: Cor Bur Pur Mur Cour Sur
+b297 R th=-0.60 ax=+0.00 [ top64] @Cur            saw: Ber Per Cre Tur Dur Der   -> Cor
+b298 L th=+0.60 ax=+0.00 [ top64] @Cor            saw: Con Hor Ros Com Cong Cos
+b299 R th=-0.60 ax=+0.00 [ top64] @Cor            saw: Mor Bron Sar Mar Dar Bon   -> Con

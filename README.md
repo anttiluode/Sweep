@@ -30,9 +30,10 @@ operations there, and they are here.
 
 ## Modes
 
-- **forage**: no goal. A regulator keeps the reads between bored and noisy by changing grain:
-  bored blurs one step (opens doors), noisy sharpens, and a commit sharpens one step (focus on
-  the new place). So grain breathes.
+- **forage**: no goal. A homeostat on grain: if the reads are nearly the same as the anchor
+  (case twins, plurals) it blurs one step; if they are unrelated to it, it sharpens one step.
+  Coherence is always measured in the full space, so a narrow band cannot win by inflating its
+  own cosines (the bias Neon found in SweepSol's adaptive grain).
 - **known**: a target word. The look plane is turned to contain it and the axis points at it.
   Checks that the probe can leave the heading while the anchor stays.
 - **hidden**: a target the head never sees. It gets one number per read, the warmth (cosine
@@ -48,6 +49,7 @@ python sweep.py --self-test                         # toy map, no model, seconds
 
 python bank.py --model EleutherAI/pythia-410m --device cuda      # a few minutes, once
 python sweep.py --start oak                                       # forage
+python sweep.py --bank ../SweepSol/bank.json --start oak         # Sol's Qwen map, no GPU needed
 python sweep.py --start oak --mode known --target guitar
 python sweep.py --start oak --mode hidden --target sauna --switch guitar --switch-at 80 --beats 300
 ```
@@ -103,8 +105,14 @@ reached, and an oracle hill-climb that sees all ten neighbours' warmth.
 Seen so far: steps often go through a second sense (Kingdom to Domain to domain, fraction to
 integer to boolean) or an opposite (automatic/manual, internal/external, dark/bright, sad/glad).
 Every long forage ends in a continent of word pieces (con, ext, Del, mel, vol...), linked by
-one-letter edits; about 1239 of the 8000 tokens are three letters long. The grain regulator did
-not breathe on this map (full grain about 98% of beats).
+one-letter edits; about 1239 of the 8000 tokens are three letters long. The first grain regulator did
+not breathe on this map (full grain about 98% of beats); runs `sol_bank_*` are from that version.
+The homeostat above replaced it (runs `v2_*`): all five grains are used, about 15 to 33% each.
+From Berlin, v2 goes Brazil, Amazon, Apache, Oracle, Icon, logo, label, tag, bag, box, Table,
+Paper, newspaper, television, telephone, Camera, speaker, readers, writers, wrote, talked,
+walked, running, rolling, floating, falling, ... thick, thin, narrow, wider, bigger, greatest,
+grand, then pieces, then back out: pan, pot, Hat, Bag, box, cases, packages, packet, pack, patch,
+padding, binding.
 
 ## Status
 

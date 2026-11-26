@@ -1,0 +1,300 @@
+b000 L th=+0.60 ax=+0.00 [ b4_32] @oak            saw: Oak Ontario Ohio Aust
+b001 R th=-0.60 ax=+0.00 [ b4_32] @oak            saw: Oregon Illinois onion Corn Rock Log   -> Oak
+b002 L th=+0.60 ax=+0.00 [ b4_32] @Oak            saw: outstanding prominent inch Ash Amendment accordance
+b003 R th=-0.60 ax=+0.00 [ b4_32] @Oak            saw: Iowa Oil Wood Bow Down Roll   -> Wood
+b004 L th=+0.60 ax=+0.00 [ top64] @Wood           saw: wood Metal Stone Tools Tool
+b005 R th=-0.60 ax=+0.00 [ top64] @Wood           saw: Steel Sand Glass Wire Material Text   -> wood
+b006 L th=+0.60 ax=+0.00 [ top64] @wood           saw: metal steel stone tool work hardware
+b007 R th=-0.60 ax=+0.00 [ top64] @wood           saw: rock sand fabric soil wire fuel   -> metal
+b008 L th=+0.60 ax=+0.00 [ top64] @metal          saw: plastic liquid Metal electrical material iron
+b009 R th=-0.60 ax=+0.00 [ top64] @metal          saw: steel electronic mechanical chemical robot battery   -> plastic
+b010 L th=+0.60 ax=+0.00 [ top64] @plastic        saw: artificial fake marijuana concrete plant prescription
+b011 R th=-0.60 ax=+0.00 [ top64] @plastic        saw: transparent electric chocolate practical authentic professional   -> artificial
+b012 L th=+0.60 ax=+0.00 [  full] @artificial     saw: automatic natural industrial genuine virtual modified
+b013 R th=-0.60 ax=+0.00 [  full] @artificial     saw: traditional conventional animated alternative spiritual actual   -> automatic
+b014 L th=+0.60 ax=+0.00 [  full] @automatic      saw: manual instant autom auto automatically activated
+b015 R th=-0.60 ax=+0.00 [  full] @automatic      saw: dynamic compact synchronized interactive Dynamic async   -> manual
+b016 L th=+0.60 ax=+0.00 [  full] @manual         saw: Manual manually manip
+b017 R th=-0.60 ax=+0.00 [  full] @manual         saw: mental oral internal visual moral   -> Manual
+b018 L th=+0.60 ax=+0.00 [  full] @Manual         saw: Internal Module Hand Summary Methods Menu
+b019 R th=-0.60 ax=+0.00 [  full] @Manual         saw: Normal Input Model Context Format Return   -> Internal
+b020 L th=+0.60 ax=+0.00 [  full] @Internal       saw: internal external Local Intern inner
+b021 R th=-0.60 ax=+0.00 [  full] @Internal       saw: Financial Inter Current Front Ext Side   -> external
+b022 L th=+0.60 ax=+0.00 [  full] @external       saw: extern outer extended physical environmental
+b023 R th=-0.60 ax=+0.00 [  full] @external       saw: outside exposed outdoor outer extensive extreme   -> extern
+b024 L th=+0.60 ax=+0.00 [  full] @extern         saw: extrem explan ext intern fmt extent
+b025 R th=-0.60 ax=+0.00 [  full] @extern         saw: intim exem oppon enorm exper perman   -> extrem
+b026 L th=+0.60 ax=+0.00 [  full] @extrem         saw: trem extr extreme extremely elem exclus
+b027 R th=-0.60 ax=+0.00 [  full] @extrem         saw: estim desper imper eleg stre incred   -> extr
+b028 L th=+0.60 ax=+0.00 [  full] @extr           saw: intr expl extra exp mult
+b029 R th=-0.60 ax=+0.00 [  full] @extr           saw: est str spr spl tro squ   -> intr
+b030 L th=+0.60 ax=+0.00 [  full] @intr           saw: inst ins int inter contr inj
+b031 R th=-0.60 ax=+0.00 [  full] @intr           saw: inv instr infl inc influ incl   -> inst
+b032 L th=+0.60 ax=+0.00 [  full] @inst           saw: Inst ist instit stat instr
+b033 R th=-0.60 ax=+0.00 [  full] @inst           saw: inf ens ign ind ing esc   -> Inst
+b034 L th=+0.60 ax=+0.00 [  full] @Inst           saw: Ins Inc Inf Ast Inv Instant
+b035 R th=-0.60 ax=+0.00 [  full] @Inst           saw: Int Est Ind Cons Dis Att   -> Ins
+b036 L th=+0.60 ax=+0.00 [ top64] @Ins            saw: Aff Enc Ill Min Non Was
+b037 R th=-0.60 ax=+0.00 [ top64] @Ins            saw: Imm Conf Vis Des Pre All   -> Enc
+b038 L th=+0.60 ax=+0.00 [ b4_32] @Enc            saw: enc Esc emb conce
+b039 R th=-0.60 ax=+0.00 [ b4_32] @Enc            saw: Comm Circ Com Col comple Cre   -> enc
+b040 L th=+0.60 ax=+0.00 [ b4_32] @enc            saw: disp circ rec hang Connect extends
+b041 R th=-0.60 ax=+0.00 [ b4_32] @enc            saw: inc dec esc dep des exchange   -> rec
+b042 L th=+0.60 ax=+0.00 [ b4_32] @rec            saw: Rec ref record program project
+b043 R th=-0.60 ax=+0.00 [ b4_32] @rec            saw: rep Rep pre recipe rem   -> Rec
+b044 L th=+0.60 ax=+0.00 [ top64] @Rec            saw: Reg Res Ret Ref Disc Rel
+b045 R th=-0.60 ax=+0.00 [ top64] @Rec            saw: Rep Rem Rev Div Rad Trans   -> Reg
+b046 L th=+0.60 ax=+0.00 [ b4_32] @Reg            saw: reg regulations merc regulation rank
+b047 R th=-0.60 ax=+0.00 [ b4_32] @Reg            saw: rev Mer Jer Bern Mor Var   -> reg
+b048 L th=+0.60 ax=+0.00 [ top64] @reg            saw: res arg ter seg gen norm
+b049 R th=-0.60 ax=+0.00 [ top64] @reg            saw: rel mer ber ger mor jer   -> res
+b050 L th=+0.60 ax=+0.00 [ b4_32] @res            saw: Res resources results resource result less
+b051 R th=-0.60 ax=+0.00 [ b4_32] @res            saw: pres mes ver vis values true   -> pres
+b052 L th=+0.60 ax=+0.00 [ top64] @pres           saw: pers Pres presum purs serv compr
+b053 R th=-0.60 ax=+0.00 [ top64] @pres           saw: pos spec spe ple pur sou   -> Pres
+b054 L th=+0.60 ax=+0.00 [ top64] @Pres           saw: Sup Pers Par Pur Press Bas
+b055 R th=-0.60 ax=+0.00 [ top64] @Pres           saw: Per Str Sur Exp Pre App   -> Sup
+b056 L th=+0.60 ax=+0.00 [ top64] @Sup            saw: Sim Sub sup Sou Ass
+b057 R th=-0.60 ax=+0.00 [ top64] @Sup            saw: Pos Sum Super Ste Over Top   -> sup
+b058 L th=+0.60 ax=+0.00 [ b4_32] @sup            saw: sub sleep survive smoke sob Pass
+b059 R th=-0.60 ax=+0.00 [ b4_32] @sup            saw: Sub sum syn sim sol span   -> sub
+b060 L th=+0.60 ax=+0.00 [ top64] @sub            saw: pro subs dual main partial subject
+b061 R th=-0.60 ax=+0.00 [ top64] @sub            saw: trans mid multi micro poly multiple   -> subs
+b062 L th=+0.60 ax=+0.00 [  full] @subs           saw: vars cols posts ads tub divers
+b063 R th=-0.60 ax=+0.00 [  full] @subs           saw: uns newsp spons mys thems consc   -> vars
+b064 L th=+0.60 ax=+0.00 [  full] @vars           saw: var pars vers datas Wars wins
+b065 R th=-0.60 ax=+0.00 [  full] @vars           saw: vari vez vess els vec eps   -> var
+b066 L th=+0.60 ax=+0.00 [  full] @var            saw: Var ver val vary variable
+b067 R th=-0.60 ax=+0.00 [  full] @var            saw: par cor mar har por pol   -> val
+b068 L th=+0.60 ax=+0.00 [  full] @val            saw: Val vol vel ben value
+b069 R th=-0.60 ax=+0.00 [  full] @val            saw: mal cal bil mel hel fel   -> Val
+b070 L th=+0.60 ax=+0.00 [  full] @Val            saw: Wil Mal Phil Dev Pat Jan
+b071 R th=-0.60 ax=+0.00 [  full] @Val            saw: Vol Mel Mil Mar Del Pol   -> Wil
+b072 L th=+0.60 ax=+0.00 [ top64] @Wil            saw: Tim Gil Wis Wilson William Will
+b073 R th=-0.60 ax=+0.00 [ top64] @Wil            saw: Mur Mir Bul Mos Hur Hum   -> Gil
+b074 L th=+0.60 ax=+0.00 [ b4_32] @Gil            saw: Kelly Kim Lee Davis Jeff Jason
+b075 R th=-0.60 ax=+0.00 [ b4_32] @Gil            saw: Daniel Miller Ken Kelly Joe Hillary   -> Ken
+b076 L th=+0.60 ax=+0.00 [ b4_32] @Ken            saw: Ben Dan Henry gent ben ren
+b077 R th=-0.60 ax=+0.00 [ b4_32] @Ken            saw: Jim Jon dan Stan Tom conn   -> Ben
+b078 L th=+0.60 ax=+0.00 [ b4_32] @Ben            saw: Carl Jane ben dem Han consent
+b079 R th=-0.60 ax=+0.00 [ b4_32] @Ben            saw: Brian Bob Carol Chris Brad Max   -> Bob
+b080 L th=+0.60 ax=+0.00 [ b4_32] @Bob            saw: Dave Mike doc mom dad Doc
+b081 R th=-0.60 ax=+0.00 [ b4_32] @Bob            saw: Greg Alex Steve Tony Josh George   -> Mike
+b082 L th=+0.60 ax=+0.00 [ b4_32] @Mike           saw: Nick Jose Joe like likes Like
+b083 R th=-0.60 ax=+0.00 [ b4_32] @Mike           saw: Eric Peter Kevin Richard Ryan Michael   -> Peter
+b084 L th=+0.60 ax=+0.00 [ b4_32] @Peter          saw: Thomas Matthew Stephen Patrick Anthony Elizabeth
+b085 R th=-0.60 ax=+0.00 [ b4_32] @Peter          saw: Simon Robert Taylor Edward William Joseph   -> Thomas
+b086 L th=+0.60 ax=+0.00 [ top16] @Thomas         saw: Charles Howard James Williams Louis Lewis
+b087 R th=-0.60 ax=+0.00 [ top16] @Thomas         saw: Andrew Alexander Francisco Georgia Pennsylvania Philadelphia   -> Charles
+b088 L th=+0.60 ax=+0.00 [  top8] @Charles        saw: Johnson Sanders Anderson World Moore Senior
+b089 R th=-0.60 ax=+0.00 [  top8] @Charles        saw: April Austin Indiana Getty Premier Wisconsin   -> Johnson
+b090 L th=+0.60 ax=+0.00 [ top16] @Johnson        saw: Donald Apache Franklin Manchester Canadian Australian
+b091 R th=-0.60 ax=+0.00 [ top16] @Johnson        saw: Albert Jackson Dallas Jordan Amazon Diego   -> Jackson
+b092 L th=+0.60 ax=+0.00 [ b4_32] @Jackson        saw: Harris Clark Washington Jack mapping checking
+b093 R th=-0.60 ax=+0.00 [ b4_32] @Jackson        saw: Allen Carolina Boston Columbia California indicating   -> Jack
+b094 L th=+0.60 ax=+0.00 [ top64] @Jack           saw: Frank Mark Jac Harry Job Hal
+b095 R th=-0.60 ax=+0.00 [ top64] @Jack           saw: Nick Bill David Dave John Matt   -> Frank
+b096 L th=+0.60 ax=+0.00 [ top64] @Frank          saw: Marc Franc Norm Dark fran
+b097 R th=-0.60 ax=+0.00 [ top64] @Frank          saw: Paul Dan Ron Greg Rob Brian   -> Paul
+b098 L th=+0.60 ax=+0.00 [ top64] @Paul           saw: Sarah Carl Sol Pol Sal Russ
+b099 R th=-0.60 ax=+0.00 [ top64] @Paul           saw: Mary Taylor Daniel Ryan Kevin Sarah   -> Sarah
+b100 L th=+0.60 ax=+0.00 [ top64] @Sarah          saw: Carol Jason Syria Sam Russia Sar
+b101 R th=-0.60 ax=+0.00 [ top64] @Sarah          saw: Mary Sydney Steve Chris Alex Atlanta   -> Sam
+b102 L th=+0.60 ax=+0.00 [ b4_32] @Sam            saw: sam simp sim Sim nam
+b103 R th=-0.60 ax=+0.00 [ b4_32] @Sam            saw: Tom Tim mem Pat ham pat   -> sam
+b104 L th=+0.60 ax=+0.00 [ b4_32] @sam            saw: tom min sim tim prim nan
+b105 R th=-0.60 ax=+0.00 [ b4_32] @sam            saw: bab par ban cam mar sal   -> tom
+b106 L th=+0.60 ax=+0.00 [ b4_32] @tom            saw: kom Tom max Jon tot doc
+b107 R th=-0.60 ax=+0.00 [ b4_32] @tom            saw: Simon tod dom runner kon got   -> tod
+b108 L th=+0.60 ax=+0.00 [ b4_32] @tod            saw: fut Today today topics todo featured
+b109 R th=-0.60 ax=+0.00 [ b4_32] @tod            saw: dit locations footage tid jour Route   -> tid
+b110 L th=+0.60 ax=+0.00 [ top64] @tid            saw: til wid rid traff wed stead
+b111 R th=-0.60 ax=+0.00 [ top64] @tid            saw: sid vid rit pid vit pil   -> wid
+b112 L th=+0.60 ax=+0.00 [  full] @wid            saw: wis guid wide mid wider widely
+b113 R th=-0.60 ax=+0.00 [  full] @wid            saw: dil wir fri vir viv vill   -> wis
+b114 L th=+0.60 ax=+0.00 [  full] @wis            saw: Wis vis mis ris win
+b115 R th=-0.60 ax=+0.00 [  full] @wis            saw: mus bes bis cas mes sus   -> Wis
+b116 L th=+0.60 ax=+0.00 [  full] @Wis            saw: Vis Cas Win Bes Vin Mas
+b117 R th=-0.60 ax=+0.00 [  full] @Wis            saw: Mus Mos Mor Des Ger Ber   -> Vis
+b118 L th=+0.60 ax=+0.00 [ top64] @Vis            saw: Ver Trans Inv Fac Exec Visit
+b119 R th=-0.60 ax=+0.00 [ top64] @Vis            saw: Sur Res Cur Rel Ret Rep   -> Ver
+b120 L th=+0.60 ax=+0.00 [ top64] @Ver            saw: Der Per ver Vert Cert Rev
+b121 R th=-0.60 ax=+0.00 [ top64] @Ver            saw: Ter Mer Her Ser Col Ger   -> Ter
+b122 L th=+0.60 ax=+0.00 [ b4_32] @Ter            saw: ter Tem mer tem iter
+b123 R th=-0.60 ax=+0.00 [ b4_32] @Ter            saw: Rem Dem trem stre territory deeper   -> ter
+b124 L th=+0.60 ax=+0.00 [ top16] @ter            saw: tor tro tit ton gen kil
+b125 R th=-0.60 ax=+0.00 [ top16] @ter            saw: per jun nin mul pel hier   -> per
+b126 L th=+0.60 ax=+0.00 [ b4_32] @per            saw: ber pre Per temperature rem period
+b127 R th=-0.60 ax=+0.00 [ b4_32] @per            saw: ger par por cor pos col   -> ber
+b128 L th=+0.60 ax=+0.00 [ b4_32] @ber            saw: cer bre aver Ber are gar
+b129 R th=-0.60 ax=+0.00 [ b4_32] @ber            saw: dar bel bal cal bol   -> cer
+b130 L th=+0.60 ax=+0.00 [ top16] @cer            saw: mur coc ther mir ser cro
+b131 R th=-0.60 ax=+0.00 [ top16] @cer            saw: ven pand dol vul dipl jav   -> ser
+b132 L th=+0.60 ax=+0.00 [  top8] @ser            saw: hor sou ele civ wer mais
+b133 R th=-0.60 ax=+0.00 [  top8] @ser            saw: hus cel tort las sty rac   -> ele
+b134 L th=+0.60 ax=+0.00 [  top8] @ele            saw: tok pri sha jak ich jer
+b135 R th=-0.60 ax=+0.00 [  top8] @ele            saw: sel tou haz slo fle rais   -> fle
+b136 L th=+0.60 ax=+0.00 [ top16] @fle            saw: fro glo whe ble och blo
+b137 R th=-0.60 ax=+0.00 [ top16] @fle            saw: spr sne kne dro scre slee   -> ble
+b138 L th=+0.60 ax=+0.00 [ top16] @ble            saw: thr pow cum spl rub beg
+b139 R th=-0.60 ax=+0.00 [ top16] @ble            saw: squ hon reb cant doub aff   -> spl
+b140 L th=+0.60 ax=+0.00 [ top16] @spl            saw: str inc cle emb dec enc
+b141 R th=-0.60 ax=+0.00 [ top16] @spl            saw: scr mach magn succ susp circ   -> scr
+b142 L th=+0.60 ax=+0.00 [ b4_32] @scr            saw: scratch searching scrap buff processing shopping
+b143 R th=-0.60 ax=+0.00 [ b4_32] @scr            saw: shr thr crit cur research pros   -> shr
+b144 L th=+0.60 ax=+0.00 [ top64] @shr            saw: har apr stom chall shirt trim
+b145 R th=-0.60 ax=+0.00 [ top64] @shr            saw: cher bur bir guar gard gar   -> bur
+b146 L th=+0.60 ax=+0.00 [  full] @bur            saw: bul Bur tur bund dur
+b147 R th=-0.60 ax=+0.00 [  full] @bur            saw: pul pur wur mor por bon   -> bul
+b148 L th=+0.60 ax=+0.00 [ top64] @bul            saw: ful Bul cul bil clo bol
+b149 R th=-0.60 ax=+0.00 [ top64] @bul            saw: dil til pal fel wel bel   -> Bul
+b150 L th=+0.60 ax=+0.00 [ b4_32] @Bul            saw: Bowl bowl Wal Cup overwhel
+b151 R th=-0.60 ax=+0.00 [ b4_32] @Bul            saw: Clo Sil Fil Flo satisfied easily   -> Sil
+b152 L th=+0.60 ax=+0.00 [ top64] @Sil            saw: Mil sil Vir Silver Still
+b153 R th=-0.60 ax=+0.00 [ top64] @Sil            saw: Sal Mal Mel Mir Val Min   -> sil
+b154 L th=+0.60 ax=+0.00 [ top64] @sil            saw: mil fil pil vir spir sie
+b155 R th=-0.60 ax=+0.00 [ top64] @sil            saw: sal mel mol pol mal sab   -> fil
+b156 L th=+0.60 ax=+0.00 [ b4_32] @fil            saw: Fil fol leaf gel fin
+b157 R th=-0.60 ax=+0.00 [ b4_32] @fil            saw: pel div del col lib gen   -> fol
+b158 L th=+0.60 ax=+0.00 [ b4_32] @fol            saw: flo colour Figure letter Title figure
+b159 R th=-0.60 ax=+0.00 [ b4_32] @fol            saw: Col role Role rol logo cho   -> flo
+b160 L th=+0.60 ax=+0.00 [ top64] @flo            saw: blo fro Flo glo lif Flor
+b161 R th=-0.60 ax=+0.00 [ top64] @flo            saw: gro fre cro bro tro slo   -> gro
+b162 L th=+0.60 ax=+0.00 [ top64] @gro            saw: Gro gre dro grow low
+b163 R th=-0.60 ax=+0.00 [ top64] @gro            saw: cre bro stre tre bre swe   -> Gro
+b164 L th=+0.60 ax=+0.00 [ b4_32] @Gro            saw: Bro Lou Dou Bru Tro Ros
+b165 R th=-0.60 ax=+0.00 [ b4_32] @Gro            saw: Gre Hor Bru Cor Walker Sher   -> Bro
+b166 L th=+0.60 ax=+0.00 [ top16] @Bro            saw: Che Ste Pur Rob Sup Rub
+b167 R th=-0.60 ax=+0.00 [ top16] @Bro            saw: Bre Mur Ass Cur Prom Mort   -> Bre
+b168 L th=+0.60 ax=+0.00 [  top8] @Bre            saw: Tre Cour Aud Kenn Cru Imm
+b169 R th=-0.60 ax=+0.00 [  top8] @Bre            saw: Tal Cong Eng Sur Cons Prof   -> Tre
+b170 L th=+0.60 ax=+0.00 [  top8] @Tre            saw: Spr Por Cou Spe Mot Cath
+b171 R th=-0.60 ax=+0.00 [  top8] @Tre            saw: Cos Med Equ Amb Met Magn   -> Spe
+b172 L th=+0.60 ax=+0.00 [  top8] @Spe            saw: Ent Spi Rog Ges Budd kann
+b173 R th=-0.60 ax=+0.00 [  top8] @Spe            saw: Cit Loc Pos Pres Seg Inst   -> Spi
+b174 L th=+0.60 ax=+0.00 [ top16] @Spi            saw: Nik Api Bry prz ske prote
+b175 R th=-0.60 ax=+0.00 [ top16] @Spi            saw: Tra Tok Vin Rom Lin Tai   -> Tra
+b176 L th=+0.60 ax=+0.00 [ top16] @Tra            saw: Sem Mer Tri Sie Sar Rap
+b177 R th=-0.60 ax=+0.00 [ top16] @Tra            saw: Sch Ven Dur Mar Fair Grand   -> Tri
+b178 L th=+0.60 ax=+0.00 [ top16] @Tri            saw: Poly Multi Micro Pale Mini Prime
+b179 R th=-0.60 ax=+0.00 [ top16] @Tri            saw: Tur Pro Sub Base Double Standard   -> Tur
+b180 L th=+0.60 ax=+0.00 [ top16] @Tur            saw: Pers Terr Vol Phys Tele Mus
+b181 R th=-0.60 ax=+0.00 [ top16] @Tur            saw: Sou Squ Cam Hol Hom Mon   -> Terr
+b182 L th=+0.60 ax=+0.00 [ top16] @Terr           saw: Cent Trib Vill Indust Aust Advent
+b183 R th=-0.60 ax=+0.00 [ top16] @Terr           saw: Sat Ath Occ Mont Acad Bel   -> Trib
+b184 L th=+0.60 ax=+0.00 [ top16] @Trib           saw: Mit Franc Feder Scient Provid Palest
+b185 R th=-0.60 ax=+0.00 [ top16] @Trib           saw: Corp Fant Guid Nob Vict Pak   -> Nob
+b186 L th=+0.60 ax=+0.00 [ b4_32] @Nob            saw: nob oblig proud polic alone
+b187 R th=-0.60 ax=+0.00 [ b4_32] @Nob            saw: Moh lik liked Nic Nick nic   -> nob
+b188 L th=+0.60 ax=+0.00 [ top64] @nob            saw: nov dub jed opp glob mob
+b189 R th=-0.60 ax=+0.00 [ top64] @nob            saw: hab soc nom cov cop lag   -> nov
+b190 L th=+0.60 ax=+0.00 [  full] @nov            saw: Nov viv nav novel
+b191 R th=-0.60 ax=+0.00 [  full] @nov            saw: liv prov sav conv div ver   -> Nov
+b192 L th=+0.60 ax=+0.00 [  full] @Nov            saw: Jul Dec Div New November May
+b193 R th=-0.60 ax=+0.00 [  full] @Nov            saw: Jun Oct Pol Del Col Aug   -> Jul
+b194 L th=+0.60 ax=+0.00 [  full] @Jul            saw: Jud Jer Jan Sep July Feb
+b195 R th=-0.60 ax=+0.00 [  full] @Jul            saw: Wil Gil Hal Hur Der Ger   -> Jud
+b196 L th=+0.60 ax=+0.00 [ top64] @Jud            saw: jud Ind Just Stud Judge
+b197 R th=-0.60 ax=+0.00 [ top64] @Jud            saw: Jac Beh Bet Mad Est Ste   -> jud
+b198 L th=+0.60 ax=+0.00 [ top64] @jud            saw: jur indu aud jav guid jed
+b199 R th=-0.60 ax=+0.00 [ top64] @jud            saw: tut jun wed dut que gui   -> jur
+b200 L th=+0.60 ax=+0.00 [ top64] @jur            saw: zur jer jour jew jury jak
+b201 R th=-0.60 ax=+0.00 [ top64] @jur            saw: hur mur mor vor tor hor   -> zur
+b202 L th=+0.60 ax=+0.00 [ top64] @zur            saw: zum wur sua voor votre
+b203 R th=-0.60 ax=+0.00 [ top64] @zur            saw: wie vez wir wor meng una   -> zum
+b204 L th=+0.60 ax=+0.00 [ top64] @zum            saw: bom tum vom wenn sont untuk
+b205 R th=-0.60 ax=+0.00 [ top64] @zum            saw: hun som tak tog cum tom   -> hun
+b206 L th=+0.60 ax=+0.00 [ top64] @hun            saw: Hun hum han hon nue
+b207 R th=-0.60 ax=+0.00 [ top64] @hun            saw: hus coun cou tun pul don   -> Hun
+b208 L th=+0.60 ax=+0.00 [ top64] @Hun            saw: Hon Han Hum Hind Lyn Fun
+b209 R th=-0.60 ax=+0.00 [ top64] @Hun            saw: Har Ham Bon Bron Dam Sab   -> Han
+b210 L th=+0.60 ax=+0.00 [ top64] @Han            saw: Dan San han Hong Ken ham
+b211 R th=-0.60 ax=+0.00 [ top64] @Han            saw: Gal Van Pan Mac Ben Mag   -> Dan
+b212 L th=+0.60 ax=+0.00 [ top64] @Dan            saw: Daniel Brian dan Tom Frank
+b213 R th=-0.60 ax=+0.00 [ top64] @Dan            saw: Sam Ryan Carol Eric David Bob   -> dan
+b214 L th=+0.60 ax=+0.00 [ b4_32] @dan            saw: ben san kan Stan ini fran
+b215 R th=-0.60 ax=+0.00 [ b4_32] @dan            saw: ben sam lang ban nam same   -> ben
+b216 L th=+0.60 ax=+0.00 [ top16] @ben            saw: dar val ann ali conn mad
+b217 R th=-0.60 ax=+0.00 [ top16] @ben            saw: arg dem bil mand reb marg   -> dem
+b218 L th=+0.60 ax=+0.00 [ top16] @dem            saw: sen cos simp imm dev est
+b219 R th=-0.60 ax=+0.00 [ top16] @dem            saw: der sch vis sym inf intr   -> der
+b220 L th=+0.60 ax=+0.00 [ top16] @der            saw: ther tem var rom kom mir
+b221 R th=-0.60 ax=+0.00 [ top16] @der            saw: sim por per sou sequ nur   -> ther
+b222 L th=+0.60 ax=+0.00 [ top16] @ther           saw: pou tur tou requ oper gener
+b223 R th=-0.60 ax=+0.00 [ top16] @ther           saw: fer mus spe spr spect sie   -> fer
+b224 L th=+0.60 ax=+0.00 [ b4_32] @fer            saw: ger mer Ger deter fire Fire
+b225 R th=-0.60 ax=+0.00 [ b4_32] @fer            saw: ter ele Mer equ mar Fre   -> mer
+b226 L th=+0.60 ax=+0.00 [ b4_32] @mer            saw: rem ser her Her Mer Ter
+b227 R th=-0.60 ax=+0.00 [ b4_32] @mer            saw: ver par mel pos min Par   -> rem
+b228 L th=+0.60 ax=+0.00 [ top16] @rem            saw: reg sig com proc ref rep
+b229 R th=-0.60 ax=+0.00 [ top16] @rem            saw: mul perm seg rel seq def   -> reg
+b230 L th=+0.60 ax=+0.00 [  top8] @reg            saw: orig prot pro param prim deg
+b231 R th=-0.60 ax=+0.00 [  top8] @reg            saw: met dist conc rect repl accum   -> deg
+b232 L th=+0.60 ax=+0.00 [  top8] @deg            saw: prem redu aux flav obt imper
+b233 R th=-0.60 ax=+0.00 [  top8] @deg            saw: hyp prox enh impro qual distr   -> enh
+b234 L th=+0.60 ax=+0.00 [ top16] @enh            saw: inde disap emph appro disag anno
+b235 R th=-0.60 ax=+0.00 [ top16] @enh            saw: appe defe includ acknow occas inev   -> emph
+b236 L th=+0.60 ax=+0.00 [ b4_32] @emph           saw: emphas embarrass Err explicit regret eye
+b237 R th=-0.60 ax=+0.00 [ b4_32] @emph           saw: emphas enthusi enthus sympt anticip cigaret   -> emphas
+b238 L th=+0.60 ax=+0.00 [ top64] @emphas         saw: estim distingu analys compens demonstr philosoph
+b239 R th=-0.60 ax=+0.00 [ top64] @emphas         saw: enthus evalu deliber encour associ concentr   -> estim
+b240 L th=+0.60 ax=+0.00 [  full] @estim          saw: optim est estimated estimate estimates Est
+b241 R th=-0.60 ax=+0.00 [  full] @estim          saw: determin integr termin stim intim calcul   -> optim
+b242 L th=+0.60 ax=+0.00 [  full] @optim          saw: opt minim Opt autom polit
+b243 R th=-0.60 ax=+0.00 [  full] @optim          saw: tim prim pol lim mon oct   -> opt
+b244 L th=+0.60 ax=+0.00 [  full] @opt            saw: Opt opts apt option phot edit
+b245 R th=-0.60 ax=+0.00 [  full] @opt            saw: int alt port bot acc tab   -> apt
+b246 L th=+0.60 ax=+0.00 [  full] @apt            saw: ath ack able apart cheap aid
+b247 R th=-0.60 ax=+0.00 [  full] @apt            saw: pert ade unt cab cant att   -> pert
+b248 L th=+0.60 ax=+0.00 [  full] @pert           saw: pers cert gent certain vert pretty
+b249 R th=-0.60 ax=+0.00 [  full] @pert           saw: ret prec trem per pur pel   -> pers
+b250 L th=+0.60 ax=+0.00 [  full] @pers           saw: Pers pres pars vers
+b251 R th=-0.60 ax=+0.00 [  full] @pers           saw: ses ber mor bir cor des   -> Pers
+b252 L th=+0.60 ax=+0.00 [ top64] @Pers           saw: Pres Per Ser Sar Por Sav
+b253 R th=-0.60 ax=+0.00 [ top64] @Pers           saw: Ber Pos Sur Mar Mos Des   -> Pres
+b254 L th=+0.60 ax=+0.00 [ b4_32] @Pres           saw: pres Ref perf purs restr rece
+b255 R th=-0.60 ax=+0.00 [ b4_32] @Pres           saw: Pre Rep Rec Sup Rel Bed   -> Pre
+b256 L th=+0.60 ax=+0.00 [ b4_32] @Pre            saw: pre repe spo pref provide
+b257 R th=-0.60 ax=+0.00 [ b4_32] @Pre            saw: Pro Cre Produ Bro drive Drive   -> pre
+b258 L th=+0.60 ax=+0.00 [ b4_32] @pre            saw: pro sub free prime true tri
+b259 R th=-0.60 ax=+0.00 [ b4_32] @pre            saw: ste price bre poly fre pro   -> fre
+b260 L th=+0.60 ax=+0.00 [ top64] @fre            saw: fri gre fra Fre far fare
+b261 R th=-0.60 ax=+0.00 [ top64] @fre            saw: tre fro fle flo dol tro   -> fri
+b262 L th=+0.60 ax=+0.00 [ top64] @fri            saw: pri mari dif lif nie dir
+b263 R th=-0.60 ax=+0.00 [ top64] @fri            saw: cru viv dia cli dub din   -> pri
+b264 L th=+0.60 ax=+0.00 [ top64] @pri            saw: priv sur mai pier propri qui
+b265 R th=-0.60 ax=+0.00 [ top64] @pri            saw: vir pil pul tur cur por   -> priv
+b266 L th=+0.60 ax=+0.00 [ top64] @priv           saw: prov provid crit privile Priv imp
+b267 R th=-0.60 ax=+0.00 [ top64] @priv           saw: civ prob prop cond impl conserv   -> prov
+b268 L th=+0.60 ax=+0.00 [ top64] @prov           saw: proven conf prof trav Provid orig
+b269 R th=-0.60 ax=+0.00 [ top64] @prov           saw: reb proc proced pros conj obs   -> proven
+b270 L th=+0.60 ax=+0.00 [ top64] @proven         saw: phen proved reven proposed performed planned
+b271 R th=-0.60 ax=+0.00 [ top64] @proven         saw: prest coron been weren grown prepared   -> reven
+b272 L th=+0.60 ax=+0.00 [  full] @reven          saw: reve conven ven vend revel een
+b273 R th=-0.60 ax=+0.00 [  full] @reven          saw: rend revis conver revers rev rele   -> reve
+b274 L th=+0.60 ax=+0.00 [  full] @reve           saw: surve deb vie reveal reveals revel
+b275 R th=-0.60 ax=+0.00 [  full] @reve           saw: belie rele defe ade colle appe   -> surve
+b276 L th=+0.60 ax=+0.00 [  full] @surve          saw: surv surpr surveillance overse situ survey
+b277 R th=-0.60 ax=+0.00 [  full] @surve          saw: surv guarante disappe encour recru frequ   -> surv
+b278 L th=+0.60 ax=+0.00 [  full] @surv           saw: surg superv resc survival survive
+b279 R th=-0.60 ax=+0.00 [  full] @surv           saw: susp capt inv transf serv hosp   -> surg
+b280 L th=+0.60 ax=+0.00 [  full] @surg           saw: nurs emerg sacr surge surgery psych
+b281 R th=-0.60 ax=+0.00 [  full] @surg           saw: prosec pharm vacc forg municip cig   -> emerg
+b282 L th=+0.60 ax=+0.00 [  full] @emerg          saw: Emer emb emergency emerged merg
+b283 R th=-0.60 ax=+0.00 [  full] @emerg          saw: eleg embr elim extrem imper emot   -> Emer
+b284 L th=+0.60 ax=+0.00 [  full] @Emer           saw: Mer Dem Ever Mel Rem Jer
+b285 R th=-0.60 ax=+0.00 [  full] @Emer           saw: Ger Del Ber Ter Her Par   -> Dem
+b286 L th=+0.60 ax=+0.00 [  full] @Dem            saw: Tem Sem dem Dom Tim Ben
+b287 R th=-0.60 ax=+0.00 [  full] @Dem            saw: Sim Dev Pol Mor Mar Mon   -> Tem
+b288 L th=+0.60 ax=+0.00 [ top64] @Tem            saw: Ven tem Som Prem Bes
+b289 R th=-0.60 ax=+0.00 [ top64] @Tem            saw: Sen Tra Tur Tal Tre Por   -> tem
+b290 L th=+0.60 ax=+0.00 [ b4_32] @tem            saw: ter theme site themes then website
+b291 R th=-0.60 ax=+0.00 [ b4_32] @tem            saw: per mes sen the description definition   -> ter
+b292 L th=+0.60 ax=+0.00 [ top64] @ter            saw: ser fer terr ster tor ver
+b293 R th=-0.60 ax=+0.00 [ top64] @ter            saw: ger ber mer gar har cer   -> terr
+b294 L th=+0.60 ax=+0.00 [ top64] @terr           saw: Terr tort traff sett outr
+b295 R th=-0.60 ax=+0.00 [ top64] @terr           saw: ret scr thr shr rac purs   -> Terr
+b296 L th=+0.60 ax=+0.00 [ b4_32] @Terr           saw: Street Vert streets street underst
+b297 R th=-0.60 ax=+0.00 [ b4_32] @Terr           saw: Under Mort Fort suffered frustr toler   -> Mort
+b298 L th=+0.60 ax=+0.00 [ top64] @Mort           saw: Mot Mur mort Magn Must
+b299 R th=-0.60 ax=+0.00 [ top64] @Mort           saw: Bur Met Mit Mos Vol Mir   -> mort

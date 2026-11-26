@@ -73,6 +73,7 @@ class Bank:
         srt = -np.sort(-sims, axis=1)
         k = min(20, n - 1)
         self.coh_ref = float(np.median(srt[:, k]))        # typical cosine to the 20th neighbour
+        self.coh_near = float(np.median(srt[:, min(3, n - 1)]))   # typical cosine to the 3rd neighbour
         nb20 = np.argsort(-sims, axis=1)[:, k]
         self.reach = float(np.median(np.linalg.norm(self.Z[sample] - self.Z[nb20], axis=1)))
 
@@ -264,8 +265,6 @@ class Sweep:
             self.b = 0.0
             self.warm_side = {1: None, -1: None}
         self.dwell, self.stall, self.cands = 0, 0, []
-        if self.regulate and self.gi < len(self.B.grains) - 1:
-            self.gi += 1                                 # arrived: sharpen to look at the new place
         self.anchors.append(self.a)
         rec["commit"] = self.B.words[self.a]
         return True
@@ -279,15 +278,15 @@ class Sweep:
         self.b = (self.b + math.pi) % (2 * math.pi) - math.pi
 
     def _regulate(self):
-        """Edge-of-chaos rule on grain: bored -> coarser (opens doors); noisy -> sharper.
-        A commit also sharpens one step, so grain breathes: blur to find a door, go through,
-        focus on the new place."""
+        """Homeostat on what the reads look like, measured in the full space for every grain
+        (so a narrow band cannot win by inflating its own cosines):
+        reads nearly the same as the anchor (case twins, plurals) -> blur one step;
+        reads unrelated to the anchor -> sharpen one step. In between: leave the lens alone."""
         recent = self.log[-2:]
         if len(recent) < 2:
             return
-        nov = np.mean([r["novelty"] for r in recent])
         coh = np.mean([r["coherence"] for r in recent])
-        if nov < 0.35 and self.gi > 0:
+        if coh > self.B.coh_near and self.gi > 0:
             self.gi -= 1
         elif coh < self.B.coh_ref and self.gi < len(self.B.grains) - 1:
             self.gi += 1
